@@ -1,0 +1,51 @@
+seed = 1313164495
+Physical Graph: 153
+Calculating shortest paths on switch fabric.
+Virtual Graph: 5
+Generating physical equivalence classes:80
+Type precheck:
+Type precheck passed.
+Node mapping precheck:
+Node mapping precheck succeeded
+Pruning pclasses.
+pclass pruning complete: removed 51 pclasses, 29 remain.
+Type precheck:
+Type precheck passed.
+Policy precheck:
+Policy precheck succeeded
+Annealing.
+Doing melting run
+Reverting: forced
+Reverting to best solution
+Done
+   BEST SCORE:  4.2 in 36000 iters and 1.31033 seconds
+With 0 violations
+Iters to find best score:  34038
+Violations: 0
+  unassigned:  0
+  pnode_load:  0
+  no_connect:  0
+  link_users:  0
+  bandwidth:   0
+  desires:     0
+  vclass:      0
+  delay:       0
+  trivial mix: 0
+  subnodes:    0
+  max_types:   0
+  endpoints:   0
+Nodes:
+node0 pc517
+node1 pc487
+node2 pc508
+node3 pc548
+node4 pc531
+End Nodes
+Edges:
+linksimple/link0/node0:0,node1:0 intraswitch link-pc517:eth4-procurve3:(null) (pc517/eth4,(null)) link-pc487:eth2-procurve3:(null) (pc487/eth2,(null))
+linksimple/link1/node1:1,node3:0 intraswitch link-pc487:eth3-procurve5:(null) (pc487/eth3,(null)) link-pc548:eth3-procurve5:(null) (pc548/eth3,(null))
+linksimple/link2/node2:0,node4:0 intraswitch link-pc508:eth2-procurve3:(null) (pc508/eth2,(null)) link-pc531:eth2-procurve3:(null) (pc531/eth2,(null))
+linksimple/link3/node0:1,node2:1 intraswitch link-pc517:eth3-procurve5:(null) (pc517/eth3,(null)) link-pc508:eth3-procurve5:(null) (pc508/eth3,(null))
+linksimple/link4/node1:2,node2:2 intraswitch link-pc487:eth4-procurve3:(null) (pc487/eth4,(null)) link-pc508:eth4-procurve3:(null) (pc508/eth4,(null))
+End Edges
+End solution

@@ -1,0 +1,394 @@
+Experiment: FCT/QG
+State: active
+
+Virtual Node Info:
+ID              Type         OS              Qualified Name
+--------------- ------------ --------------- --------------------
+node0           pc           Ubuntu10.04_Mod_4Feb node0.QG.FCT.emulab.net
+node1           pc           Ubuntu10.04_Mod_4Feb node1.QG.FCT.emulab.net
+node10          pc           Ubuntu10.04_Mod_4Feb node10.QG.FCT.emulab.net
+node11          pc           Ubuntu10.04_Mod_4Feb node11.QG.FCT.emulab.net
+node12          pc           Ubuntu10.04_Mod_4Feb node12.QG.FCT.emulab.net
+node13          pc           Ubuntu10.04_Mod_4Feb node13.QG.FCT.emulab.net
+node14          pc           Ubuntu10.04_Mod_4Feb node14.QG.FCT.emulab.net
+node15          pc           Ubuntu10.04_Mod_4Feb node15.QG.FCT.emulab.net
+node16          pc           Ubuntu10.04_Mod_4Feb node16.QG.FCT.emulab.net
+node17          pc           Ubuntu10.04_Mod_4Feb node17.QG.FCT.emulab.net
+node18          pc           Ubuntu10.04_Mod_4Feb node18.QG.FCT.emulab.net
+node19          pc           Ubuntu10.04_Mod_4Feb node19.QG.FCT.emulab.net
+node2           pc           Ubuntu10.04_Mod_4Feb node2.QG.FCT.emulab.net
+node20          pc           Ubuntu10.04_Mod_4Feb node20.QG.FCT.emulab.net
+node21          pc           Ubuntu10.04_Mod_4Feb node21.QG.FCT.emulab.net
+node22          pc           Ubuntu10.04_Mod_4Feb node22.QG.FCT.emulab.net
+node23          pc           Ubuntu10.04_Mod_4Feb node23.QG.FCT.emulab.net
+node3           pc           Ubuntu10.04_Mod_4Feb node3.QG.FCT.emulab.net
+node4           pc           Ubuntu10.04_Mod_4Feb node4.QG.FCT.emulab.net
+node5           pc           Ubuntu10.04_Mod_4Feb node5.QG.FCT.emulab.net
+node6           pc           Ubuntu10.04_Mod_4Feb node6.QG.FCT.emulab.net
+node7           pc           Ubuntu10.04_Mod_4Feb node7.QG.FCT.emulab.net
+node8           pc           Ubuntu10.04_Mod_4Feb node8.QG.FCT.emulab.net
+node9           pc           Ubuntu10.04_Mod_4Feb node9.QG.FCT.emulab.net
+
+Physical Node Mapping:
+ID              Type         OS              Physical    
+--------------- ------------ --------------- ------------
+node0           d710         Ubuntu10.04_Mod_4Feb pc423
+node1           d710         Ubuntu10.04_Mod_4Feb pc531
+node10          d710         Ubuntu10.04_Mod_4Feb pc501
+node11          d710         Ubuntu10.04_Mod_4Feb pc456
+node12          d710         Ubuntu10.04_Mod_4Feb pc429
+node13          d710         Ubuntu10.04_Mod_4Feb pc505
+node14          d710         Ubuntu10.04_Mod_4Feb pc529
+node15          d710         Ubuntu10.04_Mod_4Feb pc547
+node16          d710         Ubuntu10.04_Mod_4Feb pc508
+node17          d710         Ubuntu10.04_Mod_4Feb pc421
+node18          d710         Ubuntu10.04_Mod_4Feb pc512
+node19          d710         Ubuntu10.04_Mod_4Feb pc430
+node2           d710         Ubuntu10.04_Mod_4Feb pc534
+node20          pc3000       Ubuntu10.04_Mod_4Feb pc249
+node21          d710         Ubuntu10.04_Mod_4Feb pc511
+node22          pc3000       Ubuntu10.04_Mod_4Feb pc319
+node23          d710         Ubuntu10.04_Mod_4Feb pc440
+node3           pc3000       Ubuntu10.04_Mod_4Feb pc348
+node4           pc3000       Ubuntu10.04_Mod_4Feb pc234
+node5           pc3000       Ubuntu10.04_Mod_4Feb pc208
+node6           d710         Ubuntu10.04_Mod_4Feb pc550
+node7           d710         Ubuntu10.04_Mod_4Feb pc490
+node8           d710         Ubuntu10.04_Mod_4Feb pc537
+node9           d710         Ubuntu10.04_Mod_4Feb pc521
+tbdelay0        d710         FBSD72-STD      pc538
+tbdelay2        d710         FBSD72-STD      pc554
+tbdelay4        pc3000       FBSD410-STD     pc254
+tbdelay5        d710         FBSD72-STD      pc487
+tbdelay6        d710         FBSD72-STD      pc486
+
+Virtual Lan/Link Info:
+ID              Member/Proto    IP/Mask         Delay     BW (Kbs)  Loss Rate
+--------------- --------------- --------------- --------- --------- ---------
+link0           node0:0         10.1.23.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link0           node2:0         10.1.23.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link1           node2:1         10.1.25.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link1           node6:0         10.1.25.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link10          node14:0        10.1.16.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link10          node7:2         10.1.16.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link11          node15:0        10.1.17.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link11          node8:0         10.1.17.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link12          node16:0        10.1.18.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link12          node8:1         10.1.18.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link13          node7:3         10.1.19.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link13          node8:2         10.1.19.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link14          node11:1        10.1.20.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link14          node14:1        10.1.20.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link16          node11:2        10.1.21.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link16          node9:0         10.1.21.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link17          node10:0        10.1.22.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link17          node11:3        10.1.22.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link18          node12:0        10.1.24.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link18          node14:2        10.1.24.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link19          node13:0        10.1.2.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link19          node14:3        10.1.2.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link2           node1:0         10.1.3.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link2           node2:2         10.1.3.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link20          node15:1        10.1.1.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link20          node17:0        10.1.1.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link21          node15:2        10.1.4.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link21          node18:0        10.1.4.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link22          node16:1        10.1.6.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link22          node19:0        10.1.6.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link23          node19:1        10.1.8.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link23          node20:0        10.1.8.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link24          node16:2        10.1.10.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link24          node6:2         10.1.10.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link25          node21:0        10.1.11.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link25          node9:1         10.1.11.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link26          node21:1        10.1.13.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link26          node22:0        10.1.13.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link27          node22:1        10.1.14.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link27          node23:0        10.1.14.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link3           node2:3         10.1.5.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link3           node5:0         10.1.5.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link4           node3:0         10.1.7.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link4           node5:1         10.1.7.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link5           node4:0         10.1.9.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link5           node5:2         10.1.9.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link7           node6:1         10.1.12.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link7           node7:0         10.1.12.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link9           node11:0        10.1.15.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link9           node7:1         10.1.15.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+
+Physical Lan/Link Mapping:
+ID              Member          IP              MAC                  NodeID   
+--------------- --------------- --------------- -------------------- ---------
+link0           node0:0         10.1.23.2       00:24:e8:79:28:bc    pc423    
+                                                1/1 <-> 6/19         procurve4
+link0           node2:0         10.1.23.3       00:24:e8:77:a4:89    pc534    
+                                                3/1 <-> 5/10         procurve5
+link1           node2:1         10.1.25.2       00:10:18:56:ab:62    pc534    
+                                                5/1 <-> 11/18        procurve5
+link1           node6:0         10.1.25.3       00:10:18:56:b0:24    pc550    
+                                                4/1 <-> 9/18         procurve4
+link10          node14:0        10.1.16.3       00:24:e8:79:14:30    pc529    
+                                                2/1 <-> 5/5          procurve3
+link10          node7:2         10.1.16.2       00:10:18:56:ab:40    pc490    
+                                                4/1 <-> 10/18        procurve3
+link11          node15:0        10.1.17.3       00:24:e8:7a:3e:66    pc547    
+                                                2/1 <-> 3/7          procurve3
+link11          node8:0         10.1.17.2       00:24:e8:7a:3e:d2    pc537    
+                                                2/1 <-> 5/13         procurve3
+link12          node16:0        10.1.18.3       00:24:e8:79:06:9f    pc508    
+                                                3/1 <-> 6/4          procurve5
+link12          node8:1         10.1.18.2       00:10:18:56:ab:b6    pc537    
+                                                5/1 <-> 11/21        procurve5
+link13          node7:3         10.1.19.2       00:24:e8:77:a8:22    pc490    
+                                                3/1 <-> 4/10         procurve5
+link13          node8:2         10.1.19.3       00:24:e8:7a:3e:d4    pc537    
+                                                3/1 <-> 5/13         procurve5
+link14          node11:1        10.1.20.2       00:24:e8:78:dd:01    pc456    
+                                                2/1 <-> 7/8          procurve3
+link14          node14:1        10.1.20.3       00:10:18:56:90:94    pc529    
+                                                4/1 <-> 11/13        procurve4
+link16          node11:2        10.1.21.3       00:24:e8:78:dd:03    pc456    
+                                                3/1 <-> 7/8          procurve5
+link16          node9:0         10.1.21.2       00:24:e8:78:fa:b8    pc521    
+                                                3/1 <-> 3/21         procurve5
+link17          node10:0        10.1.22.2       00:24:e8:78:d7:da    pc501    
+                                                3/1 <-> 4/21         procurve5
+link17          node11:3        10.1.22.3       00:10:18:56:90:e4    pc456    
+                                                4/1 <-> 10/24        procurve4
+link18          node12:0        10.1.24.2       00:24:e8:7a:3d:71    pc429    
+                                                1/1 <-> 8/1          procurve4
+link18          node14:2        10.1.24.3       00:24:e8:79:14:2e    pc529    
+                                                1/1 <-> 5/5          procurve4
+link19          node13:0        10.1.2.2        00:24:e8:79:06:7b    pc505    
+                                                3/1 <-> 6/1          procurve5
+link19          node14:3        10.1.2.3        00:24:e8:79:14:32    pc529    
+                                                3/1 <-> 5/5          procurve5
+link2           node1:0         10.1.3.2        00:24:e8:78:fe:d1    pc531    
+                                                2/1 <-> 5/7          procurve3
+link2           node2:2         10.1.3.3        00:24:e8:77:a4:87    pc534    
+                                                2/1 <-> 5/10         procurve3
+link20          node15:1        10.1.1.2        00:24:e8:7a:3e:68    pc547    
+                                                3/1 <-> 3/7          procurve5
+link20          node17:0        10.1.1.3        00:24:e8:79:0c:5b    pc421    
+                                                3/1 <-> 6/17         procurve5
+link21          node15:2        10.1.4.2        00:10:18:56:ab:c2    pc547    
+                                                5/1 <-> 9/15         procurve5
+link21          node18:0        10.1.4.3        00:24:e8:78:2a:5f    pc512    
+                                                3/1 <-> 6/8          procurve5
+link22          node16:1        10.1.6.2        00:10:18:56:b0:44    pc508    
+                                                4/1 <-> 12/12        procurve3
+link22          node19:0        10.1.6.3        00:10:18:56:b0:b0    pc430    
+                                                4/1 <-> 9/18         procurve3
+link23          node19:1        10.1.8.3        00:24:e8:7a:29:30    pc430    
+                                                3/1 <-> 8/2          procurve5
+link23          node20:0        10.1.8.2        00:04:23:b7:15:58    pc249    
+                                                2/1 <-> 9/19         cisco8   
+link24          node16:2        10.1.10.3       00:24:e8:79:06:9b    pc508    
+                                                1/1 <-> 6/4          procurve4
+link24          node6:2         10.1.10.2       00:24:e8:7a:3d:b2    pc550    
+                                                2/1 <-> 3/10         procurve3
+link25          node21:0        10.1.11.3       00:24:e8:79:08:a5    pc511    
+                                                1/1 <-> 6/7          procurve4
+link25          node9:1         10.1.11.2       00:10:18:56:ab:72    pc521    
+                                                5/1 <-> 11/5         procurve5
+link26          node21:1        10.1.13.2       00:24:e8:79:08:a9    pc511    
+                                                3/1 <-> 6/7          procurve5
+link26          node22:0        10.1.13.3       00:04:23:b7:15:fc    pc319    
+                                                4/1 <-> 8/29         cisco8   
+link27          node22:1        10.1.14.2       00:04:23:b7:15:fd    pc319    
+                                                5/1 <-> 8/30         cisco8   
+link27          node23:0        10.1.14.3       00:24:e8:79:01:93    pc440    
+                                                1/1 <-> 8/12         procurve4
+link3           node2:3         10.1.5.2        00:10:18:56:ab:60    pc534    
+                                                4/1 <-> 11/18        procurve4
+link3           node5:0         10.1.5.3        00:04:23:b7:21:0b    pc208    
+                                                3/1 <-> 9/21         cisco5   
+link4           node3:0         10.1.7.2        00:04:23:b7:42:58    pc348    
+                                                4/1 <-> 9/36         cisco8   
+link4           node5:1         10.1.7.3        00:04:23:b7:21:0a    pc208    
+                                                2/1 <-> 2/7          cisco8   
+link5           node4:0         10.1.9.2        00:04:23:b7:1e:04    pc234    
+                                                2/1 <-> 7/15         cisco8   
+link5           node5:2         10.1.9.3        00:04:23:b7:21:08    pc208    
+                                                4/1 <-> 2/5          cisco8   
+link7           node6:1         10.1.12.2       00:24:e8:7a:3d:b0    pc550    
+                                                1/1 <-> 3/10         procurve4
+link7           node7:0         10.1.12.3       00:24:e8:77:a8:20    pc490    
+                                                2/1 <-> 4/10         procurve3
+link9           node11:0        10.1.15.3       00:24:e8:78:dc:ff    pc456    
+                                                1/1 <-> 7/8          procurve4
+link9           node7:1         10.1.15.2       00:24:e8:77:a8:1e    pc490    
+                                                1/1 <-> 4/10         procurve4
+
+Virtual Queue Info:
+ID              Member          Q Limit    Type    weight/min_th/max_th/linterm
+--------------- --------------- ---------- ------- ----------------------------
+link0           node0:0         50 slots   Tail    0/0/0/0
+link0           node2:0         50 slots   Tail    0/0/0/0
+link1           node2:1         50 slots   Tail    0/0/0/0
+link1           node6:0         50 slots   Tail    0/0/0/0
+link10          node14:0        50 slots   Tail    0/0/0/0
+link10          node7:2         50 slots   Tail    0/0/0/0
+link11          node15:0        50 slots   Tail    0/0/0/0
+link11          node8:0         50 slots   Tail    0/0/0/0
+link12          node16:0        50 slots   Tail    0/0/0/0
+link12          node8:1         50 slots   Tail    0/0/0/0
+link13          node7:3         50 slots   Tail    0/0/0/0
+link13          node8:2         50 slots   Tail    0/0/0/0
+link14          node11:1        50 slots   Tail    0/0/0/0
+link14          node14:1        50 slots   Tail    0/0/0/0
+link16          node11:2        50 slots   Tail    0/0/0/0
+link16          node9:0         50 slots   Tail    0/0/0/0
+link17          node10:0        50 slots   Tail    0/0/0/0
+link17          node11:3        50 slots   Tail    0/0/0/0
+link18          node12:0        50 slots   Tail    0/0/0/0
+link18          node14:2        50 slots   Tail    0/0/0/0
+link19          node13:0        50 slots   Tail    0/0/0/0
+link19          node14:3        50 slots   Tail    0/0/0/0
+link2           node1:0         50 slots   Tail    0/0/0/0
+link2           node2:2         50 slots   Tail    0/0/0/0
+link20          node15:1        50 slots   Tail    0/0/0/0
+link20          node17:0        50 slots   Tail    0/0/0/0
+link21          node15:2        50 slots   Tail    0/0/0/0
+link21          node18:0        50 slots   Tail    0/0/0/0
+link22          node16:1        50 slots   Tail    0/0/0/0
+link22          node19:0        50 slots   Tail    0/0/0/0
+link23          node19:1        50 slots   Tail    0/0/0/0
+link23          node20:0        50 slots   Tail    0/0/0/0
+link24          node16:2        50 slots   Tail    0/0/0/0
+link24          node6:2         50 slots   Tail    0/0/0/0
+link25          node21:0        50 slots   Tail    0/0/0/0
+link25          node9:1         50 slots   Tail    0/0/0/0
+link26          node21:1        50 slots   Tail    0/0/0/0
+link26          node22:0        50 slots   Tail    0/0/0/0
+link27          node22:1        50 slots   Tail    0/0/0/0
+link27          node23:0        50 slots   Tail    0/0/0/0
+link3           node2:3         50 slots   Tail    0/0/0/0
+link3           node5:0         50 slots   Tail    0/0/0/0
+link4           node3:0         50 slots   Tail    0/0/0/0
+link4           node5:1         50 slots   Tail    0/0/0/0
+link5           node4:0         50 slots   Tail    0/0/0/0
+link5           node5:2         50 slots   Tail    0/0/0/0
+link7           node6:1         50 slots   Tail    0/0/0/0
+link7           node7:0         50 slots   Tail    0/0/0/0
+link9           node11:0        50 slots   Tail    0/0/0/0
+link9           node7:1         50 slots   Tail    0/0/0/0
+
+Physical Delay Info:
+ID              Member          Delay Node   Delay    BW (Kbs) PLR    Pipe     
+--------------- --------------- ------------ -------- -------- ------ ---------
+link0           node0           tbdelay0     0.00     100000   0.00000000 110      
+link0           node2           tbdelay0     0.00     100000   0.00000000 120      
+link1           node2           tbdelay0     0.00     100000   0.00000000 130      
+link1           node6           tbdelay0     0.00     100000   0.00000000 140      
+link12          node8           tbdelay2     0.00     100000   0.00000000 110      
+link12          node16          tbdelay2     0.00     100000   0.00000000 120      
+link24          node6           tbdelay2     0.00     100000   0.00000000 130      
+link24          node16          tbdelay2     0.00     100000   0.00000000 140      
+link5           node4           tbdelay4     0.00     100000   0.00000000 110      
+link5           node5           tbdelay4     0.00     100000   0.00000000 120      
+link7           node6           tbdelay5     0.00     100000   0.00000000 110      
+link7           node7           tbdelay5     0.00     100000   0.00000000 120      
+link9           node7           tbdelay6     0.00     100000   0.00000000 110      
+link9           node11          tbdelay6     0.00     100000   0.00000000 120      
+
+Physical Queue Info:
+ID              Member          Q Limit         Type    weight/min_th/max_th/linterm
+--------------- --------------- ---------- ------- ----------------------------
+link0           node0           50 slots        Tail    0/0/0/0
+link0           node2           50 slots        Tail    0/0/0/0
+link0           node0           50 slots        Tail    0/0/0/0
+link0           node2           50 slots        Tail    0/0/0/0
+link1           node2           50 slots        Tail    0/0/0/0
+link1           node6           50 slots        Tail    0/0/0/0
+link1           node2           50 slots        Tail    0/0/0/0
+link1           node6           50 slots        Tail    0/0/0/0
+link12          node8           50 slots        Tail    0/0/0/0
+link12          node16          50 slots        Tail    0/0/0/0
+link12          node8           50 slots        Tail    0/0/0/0
+link12          node16          50 slots        Tail    0/0/0/0
+link24          node6           50 slots        Tail    0/0/0/0
+link24          node16          50 slots        Tail    0/0/0/0
+link24          node6           50 slots        Tail    0/0/0/0
+link24          node16          50 slots        Tail    0/0/0/0
+link5           node4           50 slots        Tail    0/0/0/0
+link5           node5           50 slots        Tail    0/0/0/0
+link5           node4           50 slots        Tail    0/0/0/0
+link5           node5           50 slots        Tail    0/0/0/0
+link7           node6           50 slots        Tail    0/0/0/0
+link7           node7           50 slots        Tail    0/0/0/0
+link7           node6           50 slots        Tail    0/0/0/0
+link7           node7           50 slots        Tail    0/0/0/0
+link9           node7           50 slots        Tail    0/0/0/0
+link9           node11          50 slots        Tail    0/0/0/0
+link9           node7           50 slots        Tail    0/0/0/0
+link9           node11          50 slots        Tail    0/0/0/0
+
+Delay Node Switch Info:
+ID              Member          Delay Node   Card/Port Switch    Card/Port
+--------------- --------------- ------------ --------- --------- --------
+link0           node0           tbdelay0     1/1 eth1  procurve4 5/14     
+link0           node2           tbdelay0     3/1 eth3  procurve5 5/14     
+link1           node6           tbdelay0     4/1 eth4  procurve4 11/22    
+link1           node2           tbdelay0     5/1 eth5  procurve5 11/22    
+link12          node8           tbdelay2     3/1 eth3  procurve5 3/14     
+link12          node16          tbdelay2     5/1 eth5  procurve5 9/22     
+link24          node6           tbdelay2     2/1 eth2  procurve3 3/14     
+link24          node16          tbdelay2     4/1 eth4  procurve4 9/22     
+link5           node5           tbdelay4     2/1 eth2  cisco8    2/34     
+link5           node4           tbdelay4     3/1 eth3  cisco5    9/10     
+link7           node6           tbdelay5     3/1 eth3  procurve5 4/7      
+link7           node7           tbdelay5     4/1 eth4  procurve3 10/15    
+link9           node7           tbdelay6     1/1 eth1  procurve4 4/6      
+link9           node11          tbdelay6     4/1 eth4  procurve3 10/14    
+

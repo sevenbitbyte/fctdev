@@ -1,0 +1,621 @@
+Running 'tbswap in  FCT EXPTRUNK'
+Beginning swap-in for FCT/EXPTRUNK (63507). 05/02/2011 10:47:34
+TIMESTAMP: 10:47:34:628643 tbswap in started
+Checking for feature SyncVlans.
+Checking with Admission Control ...
+Mapping to physical reality ...
+TIMESTAMP: 10:47:34:784287 mapper wrapper started
+Checking for feature NewMapper.
+Checking for feature NewAssign.
+Checking for feature LibVtopTest.
+  Feature is enabled
+Using test version of libvtop ...
+Starting the new and improved mapper wrapper.
+*** WARNING: mapper:
+***   link1: changing node1:1 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: mapper:
+***   link11: changing node11:0 to non-encapsulating since physical host
+***   does not support veth-ne 
+*** WARNING: mapper:
+***   link12: changing node12:0 to non-encapsulating since physical host
+***   does not support veth-ne 
+*** WARNING: mapper:
+***   link2: changing node4:0 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: mapper:
+***   link3: changing node1:2 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: mapper:
+***   link4: changing node0:1 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: mapper:
+***   link6: changing node6:0 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: mapper:
+***   link7: changing node7:0 to non-encapsulating since physical host does
+***   not support veth-ne 
+Minimum nodes   = 11
+Maximum nodes   = 11
+Virtual nodes     = 2
+Clearing physical state before updating.
+Mapper loop 1
+ptopargs: '-p FCT -e EXPTRUNK -v -l FCT-EXPTRUNK-9338.limits'
+assign command: 'assign -uod -c .75 -P -f text FCT-EXPTRUNK-9338.ptop FCT-EXPTRUNK-9338.vtop'
+Reading assign results.
+TIMESTAMP: 10:47:54:984271 mapper wrapper finished
+Mapped to physical reality!
+Fetching tarballs and RPMs (if any) ...
+TIMESTAMP: 10:47:54:989496 tarfiles_setup started
+TIMESTAMP: 10:47:55:542126 tarfiles_setup finished
+Creating dynamic blobs.
+Setting up mountpoints.
+TIMESTAMP: 10:47:55:702297 mountpoints started
+TIMESTAMP: 10:48:00:295326 mountpoints finished
+TIMESTAMP: 10:48:00:297450 named started
+Setting up named maps.
+TIMESTAMP: 10:48:02:513645 named finished
+Cleaning NFS traces.
+TIMESTAMP: 10:48:02:516857 nfstrace gc started
+/usr/local/lib/python2.6/site-packages/MySQLdb/__init__.py:34: DeprecationWarning: the sets module is deprecated
+  from sets import ImmutableSet
+TIMESTAMP: 10:48:04:792330 nfstrace gc finished
+TIMESTAMP: 10:48:04:795097 gentopofile started
+Generating ltmap (again) ...
+TIMESTAMP: 10:48:05:791626 gentopofile finished
+Resetting OS and rebooting.
+TIMESTAMP: 10:48:05:794775 launching os_setup
+Setting up VLANs.
+TIMESTAMP: 10:48:05:800184 snmpit started
+Checking for feature NewOsSetup.
+  Feature is disabled
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+TIMESTAMP: 10:48:07:680147 os_setup started
+TIMESTAMP: 10:48:07:891987 rebooting/reloading nodes started
+osload (pc299): Changing default OS to [OS 2572: FCT,Ubuntu10.04_Mod_4Feb]
+mapVlansToSwitches: cisco5 cisco8
+pc299: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc299 (mode: Frisbee)
+osload (pc321): Changing default OS to [OS 2572: FCT,Ubuntu10.04_Mod_4Feb]
+Creating VLAN 1060455 as VLAN #270 on stack Experiment ... 
+  Creating VLAN 1060455 as VLAN #270 on cisco5 ... pc321: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc321 (mode: Frisbee)
+Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+osload (pc341): Changing default OS to [OS 2572: FCT,Ubuntu10.04_Mod_4Feb]
+pc341: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc341 (mode: Frisbee)
+Succeeded
+osload: Issuing reboot for pc299 pc321 pc341 and then waiting ...
+Creating VLAN 1060463 as VLAN #272 on stack Experiment ... 
+  Creating VLAN 1060463 as VLAN #272 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+osload (pc279): Changing default OS to [OS 1761: emulab-ops,FEDORA8-OVZ-STD]
+reboot (pc299): Attempting to reboot ...
+reboot (pc321): Attempting to reboot ...
+reboot (pc341): Attempting to reboot ...
+reboot (pc299): Successful!
+reboot (pc321): Successful!
+reboot (pc341): Successful!
+reboot: Done. There were 0 failures.
+reboot (pc341): child returned 0 status.
+reboot (pc299): child returned 0 status.
+reboot (pc321): child returned 0 status.
+Setting up reload for pc279 (mode: Frisbee)
+Succeeded
+osload (pc357): Changing default OS to [OS 1761: emulab-ops,FEDORA8-OVZ-STD]
+Creating VLAN 1060460 as VLAN #290 on stack Experiment ... 
+  Creating VLAN 1060460 as VLAN #290 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+Setting up reload for pc357 (mode: Frisbee)
+osload: Issuing reboot for pc279 pc357 and then waiting ...
+Succeeded
+Creating VLAN 1060466 as VLAN #359 on stack Experiment ... 
+  Creating VLAN 1060466 as VLAN #359 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+reboot (pc279): Attempting to reboot ...
+reboot (pc357): Attempting to reboot ...
+reboot (pc279): Successful!
+reboot (pc357): Successful!
+reboot: Done. There were 0 failures.
+reboot (pc279): child returned 0 status.
+reboot (pc357): child returned 0 status.
+Succeeded
+Creating VLAN 1060465 as VLAN #360 on stack Experiment ... 
+  Creating VLAN 1060465 as VLAN #360 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+Succeeded
+Creating VLAN 1060461 as VLAN #388 on stack Experiment ... 
+  Creating VLAN 1060461 as VLAN #388 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+reboot (pc242): Attempting to reboot ...
+reboot (pc278): Attempting to reboot ...
+reboot (pc284): Attempting to reboot ...
+reboot (pc307): Attempting to reboot ...
+reboot (pc313): Attempting to reboot ...
+reboot (pc315): Attempting to reboot ...
+reboot (pc60): Attempting to reboot ...
+reboot (pc68): Attempting to reboot ...
+reboot (pc242): Successful!
+reboot (pc278): Successful!
+reboot (pc284): Successful!
+reboot (pc307): Successful!
+reboot (pc313): Successful!
+reboot (pc315): Successful!
+reboot (pc60): Successful!
+reboot (pc68): Successful!
+reboot: Done. There were 0 failures.
+reboot (pc315): child returned 0 status.
+reboot (pc242): child returned 0 status.
+reboot (pc68): child returned 0 status.
+reboot (pc307): child returned 0 status.
+reboot (pc284): child returned 0 status.
+reboot (pc278): child returned 0 status.
+reboot (pc60): child returned 0 status.
+reboot (pc313): child returned 0 status.
+Succeeded
+Creating VLAN 1060456 as VLAN #389 on stack Experiment ... 
+  Creating VLAN 1060456 as VLAN #389 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+Succeeded
+Creating VLAN 1060453 as VLAN #390 on stack Experiment ... 
+  Creating VLAN 1060453 as VLAN #390 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+Succeeded
+Creating VLAN 1060454 as VLAN #391 on stack Experiment ... 
+  Creating VLAN 1060454 as VLAN #391 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+Succeeded
+Creating VLAN 1060458 as VLAN #395 on stack Experiment ... 
+  Creating VLAN 1060458 as VLAN #395 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+Succeeded
+TIMESTAMP: 10:48:28:869214 snmpit finished
+Setting up email lists.
+TIMESTAMP: 10:48:28:877531 genelists started
+TIMESTAMP: 10:48:31:67773 genelists finished
+Clearing port counters.
+TIMESTAMP: 10:48:31:71337 portstats started
+TIMESTAMP: 10:48:32:587812 portstats finished
+osload (pc299): still waiting; it has been 1 minute(s)
+osload (pc279): still waiting; it has been 1 minute(s)
+osload (pc299): still waiting; it has been 2 minute(s)
+osload (pc279): still waiting; it has been 2 minute(s)
+osload: Done! There were 0 failures.
+reload (pc279): child returned 0 status.
+reload (pc357): child returned 0 status.
+osload (pc299): still waiting; it has been 3 minute(s)
+osload (pc299): still waiting; it has been 4 minute(s)
+osload (pc299): still waiting; it has been 5 minute(s)
+osload (pc299): still waiting; it has been 6 minute(s)
+osload (pc299): still waiting; it has been 7 minute(s)
+osload (pc299): still waiting; it has been 8 minute(s)
+osload (pc299): still waiting; it has been 9 minute(s)
+osload (pc299): still waiting; it has been 10 minute(s)
+osload (pc299): still waiting; it has been 11 minute(s)
+osload (pc299): still waiting; it has been 12 minute(s)
+osload (pc299): still waiting; it has been 13 minute(s)
+osload (pc299): still waiting; it has been 14 minute(s)
+*** os_setup-osload:
+***   pc299 appears wedged; it has been 14 minutes since it was rebooted. 
+Tail of pc299 console:
+pc299: Initial i386 initialization:..
+pc299: Additional ABI support:..
+pc299: Local package initialization:..
+pc299: Additional TCP options:..
+pc299: .
+pc299: Mon May  2 10:49:45 MDT 2011.
+pc299: ..
+pc299: FreeBSD/i386 (pc299) (console)..
+pc299: ..
+pc299: login: 
+osload (pc341): still waiting; it has been 15 minute(s)
+osload (pc341): still waiting; it has been 16 minute(s)
+osload (pc341): still waiting; it has been 17 minute(s)
+osload (pc341): still waiting; it has been 18 minute(s)
+osload (pc341): still waiting; it has been 19 minute(s)
+osload (pc341): still waiting; it has been 20 minute(s)
+osload (pc341): still waiting; it has been 21 minute(s)
+osload (pc341): still waiting; it has been 22 minute(s)
+*** os_setup-osload:
+***   pc341 appears wedged; it has been 22 minutes since it was rebooted. 
+Tail of pc341 console:
+pc341: Initial i386 initialization:..
+pc341: Additional ABI support:..
+pc341: Local package initialization:..
+pc341: Additional TCP options:..
+pc341: .
+pc341: Mon May  2 10:49:55 MDT 2011.
+pc341: ..
+pc341: FreeBSD/i386 (pc341) (console)..
+pc341: ..
+pc341: login: 
+*** os_setup-osload: pc299: Trying again ...
+*** os_setup-osload: pc341: Trying again ...
+osload: Issuing reboot for pc299 pc341 and then waiting ...
+reboot (pc299): Attempting to reboot ...
+reboot (pc341): Attempting to reboot ...
+reboot (pc299): Successful!
+pc341 now rebooting
+reboot: Done. There were 0 failures.
+reboot (pc341): child returned 0 status.
+reboot (pc299): child returned 0 status.
+osload (pc299): still waiting; it has been 1 minute(s)
+osload (pc299): still waiting; it has been 2 minute(s)
+osload (pc341): still waiting; it has been 3 minute(s)
+osload: Done! There were 0 failures.
+reload (pc341): child returned 0 status.
+reload (pc299): child returned 0 status.
+reload (pc321): child returned 0 status.
+TIMESTAMP: 11:15:45:925987 rebooting/reloading finished
+Waiting for local testbed nodes to finish rebooting ...
+TIMESTAMP: 11:15:45:928790 Local node waiting started
+pc315 is alive and well
+pc299 is alive and well
+pc242 is alive and well
+pc321 is alive and well
+pc279 is alive and well
+*** WARNING: os_setup: pc68 reported a TBFAILED event; not retrying
+Still waiting for pc341 (BOOTING) - it's been 1 minute(s).
+Still waiting for pc341 (TBSETUP) - it's been 2 minute(s).
+pc341 is alive and well
+pc307 is alive and well
+pc284 is alive and well
+pc278 is alive and well
+pc357 is alive and well
+pc60 is alive and well
+pc313 is alive and well
+TIMESTAMP: 11:18:17:120580 Local node waiting finished
+*** os_setup:
+***   Skipping virtual node setup since there were previous failures! 
+OS Setup Done. 
+*** ERROR: os_setup:
+***   There were 1 failed nodes.
+***   
+***   1/8 pc850's with a system osid of "RHL90-STD" failed to boot: node9(pc68)
+TIMESTAMP: 11:18:17:146233 os_setup finished
+*** ERROR: tbswap: Failed to reset OS and reboot nodes.
+Cleaning up after errors; will try again.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 11:18:18:614175 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+mapVlansToSwitches: cisco5 cisco8
+  Removing VLAN #388 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 .... Succeeded
+  Removing VLAN #272 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 .... Succeeded
+  Removing VLAN #290 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #395 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #270 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #389 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #359 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #360 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #391 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #390 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+TIMESTAMP: 11:18:33:145162 snmpit finished
+Removing dynamic blobs.
+Freeing failed nodes.
+TIMESTAMP: 11:18:33:986054 nfree started
+Moving [Node: pc68] to [Experiment: emulab-ops/hwcheckup]
+TIMESTAMP: 11:18:44:350387 nfree finished
+Trying again...
+Mapping to physical reality ...
+TIMESTAMP: 11:18:44:367534 mapper wrapper started
+Checking for feature NewMapper.
+Checking for feature NewAssign.
+Checking for feature LibVtopTest.
+  Feature is enabled
+Using test version of libvtop ...
+Starting the new and improved mapper wrapper.
+*** WARNING: mapper:
+***   link1: changing node1:1 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: mapper:
+***   link11: changing node11:0 to non-encapsulating since physical host
+***   does not support veth-ne 
+*** WARNING: mapper:
+***   link12: changing node12:0 to non-encapsulating since physical host
+***   does not support veth-ne 
+*** WARNING: mapper:
+***   link2: changing node4:0 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: mapper:
+***   link3: changing node1:2 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: mapper:
+***   link4: changing node0:1 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: mapper:
+***   link6: changing node6:0 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: mapper:
+***   link7: changing node7:0 to non-encapsulating since physical host does
+***   not support veth-ne 
+GenFixNodes: No vnode for vhost-0 
+GenFixNodes: No vnode for vhost-1 
+Minimum nodes   = 11
+Maximum nodes   = 11
+Virtual nodes     = 2
+Reserved vnodes   = 2
+Reserved pnodes   = 12
+Clearing physical state before updating.
+Mapper loop 1
+ptopargs: '-p FCT -e EXPTRUNK -v -l FCT-EXPTRUNK-17214.limits'
+assign command: 'assign -uod -c .75 -P -f text FCT-EXPTRUNK-17214.ptop FCT-EXPTRUNK-17214.vtop'
+Reading assign results.
+[Node: pcvm279-1] already reserved in holding reservation.
+[Node: pc315] already reserved in holding reservation.
+[Node: pc299] already reserved in holding reservation.
+[Node: pc242] already reserved in holding reservation.
+[Node: pc321] already reserved in holding reservation.
+[Node: pc279] already reserved in holding reservation.
+[Node: pc341] already reserved in holding reservation.
+[Node: pc307] already reserved in holding reservation.
+[Node: pc284] already reserved in holding reservation.
+[Node: pc278] already reserved in holding reservation.
+[Node: pc357] already reserved in holding reservation.
+[Node: pc60] already reserved in holding reservation.
+[Node: pc313] already reserved in holding reservation.
+[Node: pcvm357-1] already reserved in holding reservation.
+TIMESTAMP: 11:18:55:627287 mapper wrapper finished
+Mapped to physical reality!
+Fetching tarballs and RPMs (if any) ...
+TIMESTAMP: 11:18:55:633067 tarfiles_setup started
+TIMESTAMP: 11:18:56:314477 tarfiles_setup finished
+Creating dynamic blobs.
+Setting up mountpoints.
+TIMESTAMP: 11:18:56:322966 mountpoints started
+TIMESTAMP: 11:19:06:728147 mountpoints finished
+TIMESTAMP: 11:19:06:730817 named started
+Setting up named maps.
+TIMESTAMP: 11:19:09:743983 named finished
+Cleaning NFS traces.
+TIMESTAMP: 11:19:09:747371 nfstrace gc started
+/usr/local/lib/python2.6/site-packages/MySQLdb/__init__.py:34: DeprecationWarning: the sets module is deprecated
+  from sets import ImmutableSet
+TIMESTAMP: 11:19:11:808907 nfstrace gc finished
+Marking nodes for reboot.
+A: pc299, RES_READY
+A: pc321, RES_READY
+A: pc60, RES_READY
+A: pc313, RES_READY
+A: pc315, RES_READY
+A: pcvm357-1, RES_READY
+A: pcvm279-1, RES_READY
+A: pc341, RES_READY
+A: pc278, RES_READY
+A: pc284, RES_READY
+A: pc307, RES_READY
+A: pc242, RES_READY
+A: pc335, RES_INIT_DIRTY
+A: pc279, RES_READY
+A: pc357, RES_READY
+TIMESTAMP: 11:19:11:833164 gentopofile started
+Generating ltmap (again) ...
+TIMESTAMP: 11:19:12:162112 gentopofile finished
+Resetting OS and rebooting.
+TIMESTAMP: 11:19:12:165138 launching os_setup
+Checking for feature NewOsSetup.
+Setting up VLANs.
+TIMESTAMP: 11:19:12:171415 snmpit started
+  Feature is disabled
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+TIMESTAMP: 11:19:14:340143 os_setup started
+TIMESTAMP: 11:19:14:685761 rebooting/reloading nodes started
+mapVlansToSwitches: cisco5 cisco8
+reboot (pc242): Attempting to reboot ...
+reboot (pc278): Attempting to reboot ...
+reboot (pc279): Attempting to reboot ...
+reboot (pc284): Attempting to reboot ...
+Creating VLAN 1060476 as VLAN #270 on stack Experiment ... 
+  Creating VLAN 1060476 as VLAN #270 on cisco5 ... reboot (pc299): Attempting to reboot ...
+reboot (pc307): Attempting to reboot ...
+reboot (pc313): Attempting to reboot ...
+reboot (pc315): Attempting to reboot ...
+reboot (pc321): Attempting to reboot ...
+reboot (pc335): Attempting to reboot ...
+Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+reboot (pc341): Attempting to reboot ...
+reboot (pc357): Attempting to reboot ...
+Succeeded
+Creating VLAN 1060478 as VLAN #272 on stack Experiment ... 
+  Creating VLAN 1060478 as VLAN #272 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+Succeeded
+Creating VLAN 1060479 as VLAN #290 on stack Experiment ... 
+  Creating VLAN 1060479 as VLAN #290 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+Succeeded
+Creating VLAN 1060488 as VLAN #359 on stack Experiment ... 
+  Creating VLAN 1060488 as VLAN #359 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Creating VLAN 1060488 as VLAN #359 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+reboot (pc60): Attempting to reboot ...
+Succeeded
+Creating VLAN 1060483 as VLAN #360 on stack Experiment ... 
+  Creating VLAN 1060483 as VLAN #360 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+Succeeded
+Creating VLAN 1060481 as VLAN #388 on stack Experiment ... 
+  Creating VLAN 1060481 as VLAN #388 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+Succeeded
+Creating VLAN 1060477 as VLAN #389 on stack Experiment ... 
+  Creating VLAN 1060477 as VLAN #389 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+Succeeded
+Creating VLAN 1060484 as VLAN #390 on stack Experiment ... 
+  Creating VLAN 1060484 as VLAN #390 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+Succeeded
+reboot (pc242): Successful!
+reboot (pc278): Successful!
+Creating VLAN 1060489 as VLAN #391 on stack Experiment ... 
+  Creating VLAN 1060489 as VLAN #391 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Creating VLAN 1060489 as VLAN #391 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+Succeeded
+Creating VLAN 1060486 as VLAN #395 on stack Experiment ... 
+  Creating VLAN 1060486 as VLAN #395 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Creating VLAN 1060486 as VLAN #395 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+Succeeded
+TIMESTAMP: 11:19:40:46952 snmpit finished
+Clearing port counters.
+TIMESTAMP: 11:19:40:84886 portstats started
+TIMESTAMP: 11:19:41:783038 portstats finished
+reboot (pc279): Successful!
+reboot (pc284): Successful!
+reboot (pc299): Successful!
+reboot (pc307): Successful!
+reboot (pc313): Successful!
+reboot (pc315): Successful!
+reboot (pc321): Successful!
+reboot (pc335): Successful!
+reboot (pc341): Successful!
+reboot (pc357): Successful!
+reboot (pc60): Successful!
+reboot: Done. There were 0 failures.
+reboot (pc299): child returned 0 status.
+reboot (pc315): child returned 0 status.
+reboot (pc242): child returned 0 status.
+reboot (pc335): child returned 0 status.
+reboot (pc321): child returned 0 status.
+reboot (pc279): child returned 0 status.
+reboot (pc341): child returned 0 status.
+reboot (pc307): child returned 0 status.
+reboot (pc284): child returned 0 status.
+reboot (pc278): child returned 0 status.
+reboot (pc313): child returned 0 status.
+reboot (pc60): child returned 0 status.
+reboot (pc357): child returned 0 status.
+TIMESTAMP: 11:19:46:592339 rebooting/reloading finished
+Waiting for local testbed nodes to finish rebooting ...
+TIMESTAMP: 11:19:46:595377 Local node waiting started
+Still waiting for pc315 (BOOTING) - it's been 1 minute(s).
+pc315 is alive and well
+pc299 is alive and well
+pc335 is alive and well
+pc242 is alive and well
+pc321 is alive and well
+pc279 is alive and well
+pc341 is alive and well
+pc307 is alive and well
+pc284 is alive and well
+pc278 is alive and well
+Still waiting for pc357 (BOOTING) - it's been 1 minute(s).
+Still waiting for pc357 (BOOTING) - it's been 2 minute(s).
+Still waiting for pc357 (BOOTING) - it's been 3 minute(s).
+Still waiting for pc357 (BOOTING) - it's been 4 minute(s).
+pc357 is alive and well
+pc60 is alive and well
+pc313 is alive and well
+TIMESTAMP: 11:24:44:578426 Local node waiting finished
+TIMESTAMP: 11:24:44:582447 Setting up virtual nodes
+Setting up virtual testbed nodes ...
+TIMESTAMP: 11:24:44:584897 Setting up virtual nodes
+pcvm357-1 is already setting up on local node pc357
+pcvm279-1 is already setting up on local node pc279
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode setup initiated on all nodes ...
+Waiting for virtual testbed nodes to finish setting up ...
+TIMESTAMP: 11:24:46:76663 Virtual node waiting started
+*** WARNING: os_setup: pcvm279-1 reported a TBFAILED event.
+TIMESTAMP: 11:24:46:80622 Virtual node pcvm279-1 setup FAILED
+*** WARNING: os_setup: pcvm279-1 did not boot!
+*** WARNING: os_setup: pcvm357-1 reported a TBFAILED event.
+TIMESTAMP: 11:24:46:87517 Virtual node pcvm357-1 setup FAILED
+*** WARNING: os_setup: pcvm357-1 did not boot!
+TIMESTAMP: 11:24:46:91862 Virtual node waiting finished
+OS Setup Done. 
+*** ERROR: os_setup:
+***   There were 2 failed virtual nodes.
+***   
+***   2/2 pcvm's with a system osid of "OPENVZ-STD" failed to boot:
+***     node2(pcvm357-1) node3(pcvm279-1)
+TIMESTAMP: 11:24:46:98865 os_setup finished
+*** ERROR: tbswap: Failed to reset OS and reboot nodes.
+Not retrying due to error type.
+Cleaning up after errors.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 11:24:47:226136 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+mapVlansToSwitches: cisco5 cisco8
+  Removing VLAN #391 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #359 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #395 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #360 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #388 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #391 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #359 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #395 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #390 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #272 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #290 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #389 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #270 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+TIMESTAMP: 11:25:05:558811 snmpit finished
+Removing dynamic blobs.
+Tearing down virtual nodes.
+TIMESTAMP: 11:25:05:578705 vnode_setup -k started
+pcvm357-1 failed to boot; skipping teardown.
+pcvm279-1 failed to boot; skipping teardown.
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 11:25:07:64823 vnode_setup finished
+Freeing nodes.
+TIMESTAMP: 11:25:07:422226 nfree started
+Releasing all nodes from experiment [Experiment: FCT/EXPTRUNK].
+Moving [Node: pc299] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc321] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc60] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc313] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc315] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc341] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc278] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc284] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc307] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc242] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc335] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc279] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc357] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 11:25:21:222079 nfree finished
+Resetting DB.
+Failingly finished swap-in for FCT/EXPTRUNK. 11:25:22:104925
+TIMESTAMP: 11:25:22:106305 tbswap in finished (failed)
+*** ERROR: swapexp: tbswap in failed!
+Cleaning up and exiting with status 1 ... 

@@ -1,0 +1,52 @@
+Running 'tbswap out  FCT TB'
+Beginning swap-out for FCT/TB (65379). 09/29/2010 14:49:01
+TIMESTAMP: 14:49:01:223228 tbswap out started
+Stopping the event system
+Stopping the location piper
+TIMESTAMP: 14:49:07:556109 snmpit started
+Removing VLANs.
+  Removing VLAN #395 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #460 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #392 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #270 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #286 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 .... Succeeded
+  Removing VLAN #393 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 .... Succeeded
+  Removing VLAN #394 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 .... Succeeded
+TIMESTAMP: 14:49:30:706063 snmpit finished
+Tearing down virtual nodes.
+TIMESTAMP: 14:49:30:727546 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 14:49:33:933501 vnode_setup finished
+Freeing nodes.
+TIMESTAMP: 14:49:33:941115 nfree started
+Releasing all nodes from experiment [Experiment: FCT/TB].
+Moving [Node: pc328] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc306] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc257] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc323] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc335] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc310] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc316] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 14:49:43:725684 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 14:49:43:732449 exports started
+WARNING: exports_setup: Skipping database row with undefined values
+         pc486
+TIMESTAMP: 14:50:09:120267 exports finished
+Resetting named maps.
+TIMESTAMP: 14:50:09:126983 named started
+TIMESTAMP: 14:50:45:189728 named finished
+Resetting email lists.
+TIMESTAMP: 14:50:45:193489 genelists started
+TIMESTAMP: 14:50:53:854225 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/TB. 14:50:54:63927
+TIMESTAMP: 14:50:54:66704 tbswap out finished (succeeded)

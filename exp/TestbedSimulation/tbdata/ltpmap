@@ -1,0 +1,43 @@
+V 2
+H node0 pc303 pc303 pc3000 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node1 pc170 pc170 pc2000 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node10 pc294 pc294 pc3000 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node11 pc287 pc287 pc3000 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node2 pc3 pc3 pc600 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node3 pc62 pc62 pc850 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node4 pc284 pc284 pc3000 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node5 pc283 pc283 pc3000 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node6 pc176 pc176 pc2000 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node7 pc171 pc171 pc2000 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node8 pc23 pc23 pc600 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+H node9 pc51 pc51 pc850 1232 Linux 7.04 ping,ssh,ipod,isup,linktest
+L node0 node6 link2 000423b71bd8 none dnode
+L node6 node0 link2 0007e91f9628 none dnode
+L node2 node3 link8 00d0b713f425 none dnode
+L node3 node2 link8 00034794c05a none dnode
+L node11 node5 link13 000423b72ba8 none dnode
+L node5 node11 link13 000423b71930 none dnode
+L node10 node4 link12 000423b742ba none dnode
+L node4 node10 link12 000423b72666 none dnode
+L node1 node5 link3 0007e91f9658 none dnode
+L node5 node1 link3 000423b71ff9 none dnode
+L node1 node7 link1 0007e91f9435 none dnode
+L node7 node1 link1 0007e91f9994 none dnode
+L node0 node1 link0 000423b71bd9 none dnode
+L node1 node0 link0 0007e91f9434 none dnode
+L node4 node5 link7 000423b717be none dnode
+L node5 node4 link7 000423b71ff8 none dnode
+L node0 node4 link4 000423b7266e none dnode
+L node4 node0 link4 000423b72667 none dnode
+L node1 node2 link5 0007e91f9659 none dnode
+L node2 node1 link5 00d0b713f5ad none dnode
+L node3 node9 link10 0002b33f7ae5 none dnode
+L node9 node3 link10 0002b365baf7 none dnode
+L node8 node9 link11 00d0b7140f51 none dnode
+L node9 node8 link11 00034794bfa1 none dnode
+L node2 node8 link9 00d0b713f419 none dnode
+L node8 node2 link9 00d0b7140efa none dnode
+L node6 node7 link6 0007e91f9629 none dnode
+L node7 node6 link6 0007e91f9995 none dnode
+L node10 node11 link14 000423b742bb none dnode
+L node11 node10 link14 000423b72ba9 none dnode

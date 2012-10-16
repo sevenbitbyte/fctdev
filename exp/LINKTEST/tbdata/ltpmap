@@ -1,0 +1,24 @@
+V 2
+H node0 pc59 pc59 pc850 2329 Linux 10 ping,ssh,ipod,isup,linktest
+H node1 pc77 pc77 pc850 2329 Linux 10 ping,ssh,ipod,isup,linktest
+H node2 pc71 pc71 pc850 2329 Linux 10 ping,ssh,ipod,isup,linktest
+H node3 pc65 pc65 pc850 2329 Linux 10 ping,ssh,ipod,isup,linktest
+H node4 pc51 pc51 pc850 2329 Linux 10 ping,ssh,ipod,isup,linktest
+H node5 pc60 pc60 pc850 2329 Linux 10 ping,ssh,ipod,isup,linktest
+H node6 pc50 pc50 pc850 2329 Linux 10 ping,ssh,ipod,isup,linktest
+L node0 node1 link2 00034794c478 none dnode
+L node1 node0 link2 00034794c856 none dnode
+L node1 node4 link5 000347739f31 none dnode
+L node4 node1 link5 0002b365baf7 none dnode
+L node0 node3 link1 0002b335e0db none dnode
+L node3 node0 link1 00034794c05d none dnode
+L node0 node2 link3 000347738c07 none dnode
+L node2 node0 link3 0002b33f74bd none dnode
+L node1 node3 link0 0002b33f7a83 none dnode
+L node3 node1 link0 0002b33f74fd none dnode
+L node4 node6 link7 00034794bfa1 none dnode
+L node6 node4 link7 0002b3237915 none dnode
+L node2 node5 link6 000347739503 none dnode
+L node5 node2 link6 0002b33f8413 none dnode
+L node2 node3 link4 00034794cab8 none dnode
+L node3 node2 link4 00034773b8b6 none dnode

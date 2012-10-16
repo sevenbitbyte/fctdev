@@ -1,0 +1,85 @@
+Experiment: FCT/TestExperiment2
+State: active
+
+Virtual Node Info:
+ID              Type         OS              Qualified Name
+--------------- ------------ --------------- --------------------
+node0           pc           mpls21sep       node0.TestExperiment2.FCT.emulab.net
+node1           pc           mpls21sep       node1.TestExperiment2.FCT.emulab.net
+node2           pc           mpls21sep       node2.TestExperiment2.FCT.emulab.net
+node3           pc           mpls21sep       node3.TestExperiment2.FCT.emulab.net
+node4           pc           mpls21sep       node4.TestExperiment2.FCT.emulab.net
+node5           pc           mpls21sep       node5.TestExperiment2.FCT.emulab.net
+
+Physical Node Mapping:
+ID              Type         OS              Physical    
+--------------- ------------ --------------- ------------
+node0           pc850        mpls21sep       pc71
+node1           pc850        mpls21sep       pc46
+node2           pc850        mpls21sep       pc74
+node3           pc850        mpls21sep       pc55
+node4           pc850        mpls21sep       pc54
+node5           pc850        mpls21sep       pc76
+
+Virtual Lan/Link Info:
+ID              Member/Proto    IP/Mask         Delay     BW (Kbs)  Loss Rate
+--------------- --------------- --------------- --------- --------- ---------
+link0           node0:0         10.1.3.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link0           node2:0         10.1.3.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link1           node1:0         10.1.5.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link1           node2:1         10.1.5.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link2           node1:1         10.1.1.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link2           node5:0         10.1.1.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link4           node1:2         10.1.2.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link4           node3:0         10.1.2.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link5           node0:1         10.1.4.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link5           node4:0         10.1.4.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+
+Physical Lan/Link Mapping:
+ID              Member          IP              MAC                  NodeID   
+--------------- --------------- --------------- -------------------- ---------
+link0           node0:0         10.1.3.2        00:02:b3:3f:74:bd    pc71     
+                                                3/1 <-> 5/5          cisco1   
+link0           node2:0         10.1.3.3        00:02:b3:3f:7a:ff    pc74     
+                                                3/1 <-> 4/17         cisco1   
+link1           node1:0         10.1.5.2        00:02:b3:65:b9:a5    pc46     
+                                                3/1 <-> 9/9          cisco1   
+link1           node2:1         10.1.5.3        00:03:47:95:28:5f    pc74     
+                                                4/1 <-> 4/18         cisco1   
+link2           node1:1         10.1.1.2        00:03:47:94:c4:03    pc46     
+                                                4/1 <-> 9/10         cisco1   
+link2           node5:0         10.1.1.3        00:02:b3:3f:75:b7    pc76     
+                                                3/1 <-> 4/9          cisco1   
+link4           node1:2         10.1.2.2        00:03:47:73:8a:1d    pc46     
+                                                0/1 <-> 9/11         cisco1   
+link4           node3:0         10.1.2.3        00:02:b3:3f:74:49    pc55     
+                                                3/1 <-> 7/21         cisco1   
+link5           node0:1         10.1.4.2        00:03:47:94:ca:b8    pc71     
+                                                4/1 <-> 5/6          cisco1   
+link5           node4:0         10.1.4.3        00:02:b3:3f:75:05    pc54     
+                                                3/1 <-> 8/1          cisco1   
+
+Virtual Queue Info:
+ID              Member          Q Limit    Type    weight/min_th/max_th/linterm
+--------------- --------------- ---------- ------- ----------------------------
+link0           node0:0         50 slots   Tail    0/0/0/0
+link0           node2:0         50 slots   Tail    0/0/0/0
+link1           node1:0         50 slots   Tail    0/0/0/0
+link1           node2:1         50 slots   Tail    0/0/0/0
+link2           node1:1         50 slots   Tail    0/0/0/0
+link2           node5:0         50 slots   Tail    0/0/0/0
+link4           node1:2         50 slots   Tail    0/0/0/0
+link4           node3:0         50 slots   Tail    0/0/0/0
+link5           node0:1         50 slots   Tail    0/0/0/0
+link5           node4:0         50 slots   Tail    0/0/0/0
+

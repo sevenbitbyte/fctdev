@@ -1,0 +1,16 @@
+V 2
+H node0 pc517 pc517 d710 2329 Linux 10 ping,ssh,ipod,isup,linktest
+H node1 pc487 pc487 d710 2329 Linux 10 ping,ssh,ipod,isup,linktest
+H node2 pc508 pc508 d710 2329 Linux 10 ping,ssh,ipod,isup,linktest
+H node3 pc548 pc548 d710 2329 Linux 10 ping,ssh,ipod,isup,linktest
+H node4 pc531 pc531 d710 2329 Linux 10 ping,ssh,ipod,isup,linktest
+L node2 node4 link2 0024e879069d none dnode
+L node4 node2 link2 0024e878fed1 none dnode
+L node1 node3 link1 0024e878424c none dnode
+L node3 node1 link1 0024e8791929 none dnode
+L node0 node2 link3 0024e879024b none dnode
+L node2 node0 link3 0024e879069f none dnode
+L node0 node1 link0 001018568f70 none dnode
+L node1 node0 link0 0024e878424a none dnode
+L node1 node2 link4 001018569008 none dnode
+L node2 node1 link4 00101856b044 none dnode

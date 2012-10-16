@@ -1,0 +1,50 @@
+Running 'tbswap out  FCT T3B'
+Beginning swap-out for FCT/T3B (91550). 10/11/2011 01:50:04
+TIMESTAMP: 01:50:04:899027 tbswap out started
+Checking for feature SyncVlans.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 01:50:07:255006 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+mapVlansToSwitches: cisco3
+  Removing VLAN #359 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #332 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #373 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #558 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #298 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+TIMESTAMP: 01:50:14:811951 snmpit finished
+Removing dynamic blobs.
+Tearing down virtual nodes.
+TIMESTAMP: 01:50:14:842469 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 01:50:16:324822 vnode_setup finished
+Removing logical wires.
+Freeing nodes.
+TIMESTAMP: 01:50:16:701762 nfree started
+Releasing all nodes from experiment [Experiment: FCT/T3B].
+Moving [Node: pc150] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc111] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc96] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc98] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc151] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 01:50:22:427153 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 01:50:22:431633 exports started
+TIMESTAMP: 01:50:30:22000 exports finished
+Resetting named maps.
+TIMESTAMP: 01:50:30:24665 named started
+TIMESTAMP: 01:50:31:880231 named finished
+Resetting email lists.
+TIMESTAMP: 01:50:31:883725 genelists started
+TIMESTAMP: 01:50:33:233911 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/T3B. 01:50:33:299070
+TIMESTAMP: 01:50:33:300086 tbswap out finished (succeeded)

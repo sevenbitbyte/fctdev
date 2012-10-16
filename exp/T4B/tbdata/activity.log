@@ -1,0 +1,67 @@
+Running 'tbswap out  FCT T4B'
+Beginning swap-out for FCT/T4B (91654). 01/16/2012 17:49:04
+TIMESTAMP: 17:49:04:892628 tbswap out started
+Checking for feature SyncVlans.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 17:49:06:535786 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+mapVlansToSwitches: cisco3
+  Removing VLAN #328 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #298 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #325 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #312 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #310 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #313 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #320 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #327 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #326 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #324 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #311 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+TIMESTAMP: 17:49:19:893709 snmpit finished
+Removing dynamic blobs.
+Tearing down virtual nodes.
+TIMESTAMP: 17:49:20:85220 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 17:49:21:598438 vnode_setup finished
+Removing logical wires.
+Freeing nodes.
+TIMESTAMP: 17:49:21:999140 nfree started
+Releasing all nodes from experiment [Experiment: FCT/T4B].
+Moving [Node: pc91] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc114] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc87] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc95] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc157] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc86] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc125] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc168] to [Experiment: emulab-ops/reloadpending]
+*** Console log for pc168 does not exist! Skipping ...
+*** Console log for pc125 does not exist! Skipping ...
+TIMESTAMP: 17:49:29:396259 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 17:49:29:481497 exports started
+TIMESTAMP: 17:49:34:233970 exports finished
+Resetting named maps.
+TIMESTAMP: 17:49:34:237308 named started
+TIMESTAMP: 17:49:36:659308 named finished
+Resetting email lists.
+TIMESTAMP: 17:49:36:662764 genelists started
+TIMESTAMP: 17:49:39:84665 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/T4B. 17:49:39:345090
+TIMESTAMP: 17:49:39:346663 tbswap out finished (succeeded)

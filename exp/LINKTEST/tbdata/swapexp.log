@@ -1,0 +1,58 @@
+Running 'tbswap out  FCT LINKTEST'
+Beginning swap-out for FCT/LINKTEST (75473). 07/28/2011 13:57:02
+TIMESTAMP: 13:57:02:551873 tbswap out started
+Checking for feature SyncVlans.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 13:57:04:696693 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+mapVlansToSwitches: cisco1
+  Removing VLAN #385 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #376 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #270 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #383 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #375 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #368 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #372 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #384 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+TIMESTAMP: 13:57:13:864070 snmpit finished
+Removing dynamic blobs.
+Tearing down virtual nodes.
+TIMESTAMP: 13:57:13:897531 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 13:57:15:353532 vnode_setup finished
+Removing logical wires.
+Freeing nodes.
+TIMESTAMP: 13:57:15:722582 nfree started
+Releasing all nodes from experiment [Experiment: FCT/LINKTEST].
+Moving [Node: pc59] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc77] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc71] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc65] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc51] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc60] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc50] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 13:57:24:540539 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 13:57:24:545058 exports started
+TIMESTAMP: 13:57:29:590976 exports finished
+Resetting named maps.
+TIMESTAMP: 13:57:29:593590 named started
+TIMESTAMP: 13:57:31:738000 named finished
+Resetting email lists.
+TIMESTAMP: 13:57:31:741235 genelists started
+TIMESTAMP: 13:57:35:489662 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/LINKTEST. 13:57:35:645363
+TIMESTAMP: 13:57:35:646690 tbswap out finished (succeeded)

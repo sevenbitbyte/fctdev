@@ -1,0 +1,88 @@
+Experiment: FCT/EXPTRUNK
+State: swapped
+
+Virtual Node Info:
+ID              Type         OS              Qualified Name
+--------------- ------------ --------------- --------------------
+node0           pc           Ubuntu10.04_Mod_4Feb node0.EXPTRUNK.FCT.emulab.net
+node1           pc           Ubuntu10.04_Mod_4Feb node1.EXPTRUNK.FCT.emulab.net
+node10          pc                           node10.EXPTRUNK.FCT.emulab.net
+node11          pc                           node11.EXPTRUNK.FCT.emulab.net
+node12          pc                           node12.EXPTRUNK.FCT.emulab.net
+node2           pcvm         OPENVZ-STD      node2.EXPTRUNK.FCT.emulab.net
+node3           pcvm         OPENVZ-STD      node3.EXPTRUNK.FCT.emulab.net
+node4           pc           Ubuntu10.04_Mod_4Feb node4.EXPTRUNK.FCT.emulab.net
+node5           pc                           node5.EXPTRUNK.FCT.emulab.net
+node6           pc                           node6.EXPTRUNK.FCT.emulab.net
+node7           pc                           node7.EXPTRUNK.FCT.emulab.net
+node8           pc                           node8.EXPTRUNK.FCT.emulab.net
+node9           pc                           node9.EXPTRUNK.FCT.emulab.net
+
+Virtual Lan/Link Info:
+ID              Member/Proto    IP/Mask         Delay     BW (Kbs)  Loss Rate
+--------------- --------------- --------------- --------- --------- ---------
+link0           node0:0         10.1.9.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link0           node1:0         10.1.9.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link1           node1:1         10.1.10.2       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link1           node3:0         10.1.10.3       0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link11          node11:0        10.1.1.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link11          node2:2         10.1.1.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link12          node12:0        10.1.4.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link12          node2:3         10.1.4.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link13          node12:1        10.1.7.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link13          node1:3         10.1.7.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link2           node2:0         10.1.3.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link2           node4:0         10.1.3.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link3           node1:2         10.1.6.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link3           node2:1         10.1.6.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link4           node0:1         10.1.8.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link4           node3:1         10.1.8.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link6           node3:2         10.1.2.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link6           node6:0         10.1.2.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link7           node3:3         10.1.5.2        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+link7           node7:0         10.1.5.3        0.00      100000    0.00000000
+                ethernet        255.255.255.0   0.00      100000    0.00000000
+
+Virtual Queue Info:
+ID              Member          Q Limit    Type    weight/min_th/max_th/linterm
+--------------- --------------- ---------- ------- ----------------------------
+link0           node0:0         50 slots   Tail    0/0/0/0
+link0           node1:0         50 slots   Tail    0/0/0/0
+link1           node1:1         50 slots   Tail    0/0/0/0
+link1           node3:0         50 slots   Tail    0/0/0/0
+link11          node11:0        50 slots   Tail    0/0/0/0
+link11          node2:2         50 slots   Tail    0/0/0/0
+link12          node12:0        50 slots   Tail    0/0/0/0
+link12          node2:3         50 slots   Tail    0/0/0/0
+link13          node12:1        50 slots   Tail    0/0/0/0
+link13          node1:3         50 slots   Tail    0/0/0/0
+link2           node2:0         50 slots   Tail    0/0/0/0
+link2           node4:0         50 slots   Tail    0/0/0/0
+link3           node1:2         50 slots   Tail    0/0/0/0
+link3           node2:1         50 slots   Tail    0/0/0/0
+link4           node0:1         50 slots   Tail    0/0/0/0
+link4           node3:1         50 slots   Tail    0/0/0/0
+link6           node3:2         50 slots   Tail    0/0/0/0
+link6           node6:0         50 slots   Tail    0/0/0/0
+link7           node3:3         50 slots   Tail    0/0/0/0
+link7           node7:0         50 slots   Tail    0/0/0/0
+

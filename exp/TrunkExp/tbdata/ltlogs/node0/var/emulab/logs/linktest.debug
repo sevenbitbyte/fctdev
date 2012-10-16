@@ -1,0 +1,91 @@
+event_notification_check_hmac: event_notification_check_hmac __hmac__: b9e1a2657b597a0c4129299106102fe0e96a4986
+event_notification_check_hmac: event_notification_check_hmac plain: b9e1a2657b597a0c4129299106102fe0e96a4986
+event: linktest - START - STARTAT=1 STOPAT=3 DEBUG=2 DOARP=0 COMPAT=1.1 
+/usr/local/etc/emulab/rc/rc.topomap reconfig 
+nodes:
+ node0 pc529 pc529 d710 Linux 10 ping,ssh,ipod,isup,linktest
+ node1 pc507 pc507 d710 Linux 10 ping,ssh,ipod,isup,linktest
+ node2 pc537 pc537 d710 Linux 10 ping,ssh,ipod,isup,linktest
+ node3 pc454 pc454 d710 Linux 10 ping,ssh,ipod,isup,linktest
+ node4 pc526 pc526 d710 Linux 10 ping,ssh,ipod,isup,linktest
+links:
+ node0 node1 link0 1000000000 0 0.000000 001018569094 none dnode
+ node0 node2 link3 1000000000 0 0.000000 0024e879142e none dnode
+ node1 node0 link0 1000000000 0 0.000000 0024e87904e5 none dnode
+ node1 node2 link4 1000000000 0 0.000000 0024e87904e9 none dnode
+ node1 node3 link1 1000000000 0 0.000000 001018569018 none dnode
+ node2 node0 link3 1000000000 0 0.000000 00101856abb4 none dnode
+ node2 node1 link4 1000000000 0 0.000000 0024e87a3ed4 none dnode
+ node2 node4 link2 1000000000 0 0.000000 0024e87a3ed0 none dnode
+ node3 node1 link1 1000000000 0 0.000000 0024e8779295 none dnode
+ node4 node2 link2 1000000000 0 0.000000 00101856b078 none dnode
+routing protocol: Static
+Synch master is node0
+unlink /proj/FCT/exp/TrunkExp/tbdata/linktest/node0.error
+unlink /proj/FCT/exp/TrunkExp/tbdata/linktest/node2.error
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+event_notification_insert_hmac: event_notification_insert_hmac: 01db032c25a4ec54d99e29fac8d4d922c5bb7cbc
+event_notification_insert_hmac: event_notification_insert_hmac: 49501d916c1a19f66e42c8e1fa484e1db0aafc80
+
+Linktest Version 1.2
+
+event_notification_insert_hmac: event_notification_insert_hmac: 8d0c4c7d0ed2492f752935b5fcd1847a79f84e43
+event_notification_insert_hmac: event_notification_insert_hmac: 87fd2361aab1fb937716e5357f1722b10aa1fecc
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+
+Testing Single Hop Connectivity and Latency ... 19:55:44
+
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+event_notification_insert_hmac: event_notification_insert_hmac: 212041d948031336ccc2820c3febf7036806f511
+event_notification_insert_hmac: event_notification_insert_hmac: 636bb037795ba19cf795080a907e7d5d542144ee
+
+  Some latency tests had errors!
+event_notification_insert_hmac: event_notification_insert_hmac: 771cb806c5fcff8350f3d23c525144c2609d0cdc
+event_notification_insert_hmac: event_notification_insert_hmac: 73569d316d81770ce01b4b826c77ec45ac4cd6b2
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+
+Skipping Routing tests because of previous errors!
+
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+event_notification_insert_hmac: event_notification_insert_hmac: 6bcb5585e038f73462378a0a3a4b53f462a63627
+event_notification_insert_hmac: event_notification_insert_hmac: a7155293b3a806893a182522cfa6537cd40dcd29
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+
+Testing Loss ... 19:55:47
+
+performing barrier synch for backward compatibility
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+/usr/local/etc/emulab/emulab-rude -s /tmp/rude.cfg -P 3  
+rude version 0.70, Copyright (C) 1999 Juha Laine and Sampo Saaristo
+rude comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under GNU GENERAL PUBLIC LICENSE Version 2.
+
+F_ID: F_START: F_STOP: F_SPORT: F_DADD: F_DPORT: F_err: F_suc: F_seq: F_TYPE: [+ type params]
+1 1297911347.616611 1297911351.616611 0 10.1.4.3 10001 0 401 401 CBR [r:100 s:20]
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+unlink /tmp/rude.cfg
+/usr/local/etc/emulab/emulab-rude -s /tmp/rude.cfg -P 3  
+rude version 0.70, Copyright (C) 1999 Juha Laine and Sampo Saaristo
+rude comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under GNU GENERAL PUBLIC LICENSE Version 2.
+
+F_ID: F_START: F_STOP: F_SPORT: F_DADD: F_DPORT: F_err: F_suc: F_seq: F_TYPE: [+ type params]
+2 1297911351.672787 1297911355.672787 0 10.1.2.3 10001 0 401 401 CBR [r:100 s:20]
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+result_count from crude: 806
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+event_notification_insert_hmac: event_notification_insert_hmac: ac0dd87d2b8b565a4673ce0a6046a642633ebd40
+event_notification_insert_hmac: event_notification_insert_hmac: b28f5567ecbd8731a97cb08b99d1af58aab9ccf6
+
+  Some loss tests had errors!
+Cleaning up 
+/usr/local/etc/emulab/emulab-sync -i 4 -n linktest -e 0 
+event_notification_insert_hmac: event_notification_insert_hmac: 40b4877d64a1fabe488c7fd00fe67f2a21f1ae33
+
+Linktest Done
+
+event_notification_insert_hmac: event_notification_insert_hmac: 6ba8a6ff6ab97944a8bc88d0d88b091064acf4a6
+Linktest exit code: 0

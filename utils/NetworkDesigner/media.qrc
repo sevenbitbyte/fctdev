@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/media">
+        <file alias="nodeIcon">pics/node.png</file>
+        <file alias="cloudIcon">pics/cloud.png</file>
+        <file alias="serverIcon">pics/server.png</file>
+    </qresource>
+</RCC>

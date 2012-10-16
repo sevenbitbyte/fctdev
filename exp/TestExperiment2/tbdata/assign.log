@@ -1,0 +1,52 @@
+seed = 1317959955
+Physical Graph: 131
+Calculating shortest paths on switch fabric.
+Virtual Graph: 6
+Generating physical equivalence classes:68
+Type precheck:
+Type precheck passed.
+Node mapping precheck:
+Node mapping precheck succeeded
+Pruning pclasses.
+pclass pruning complete: removed 43 pclasses, 25 remain.
+Type precheck:
+Type precheck passed.
+Policy precheck:
+Policy precheck succeeded
+Annealing.
+Doing melting run
+Reverting: forced
+Reverting to best solution
+Done
+   BEST SCORE:  3.6 in 27000 iters and 1.25413 seconds
+With 0 violations
+Iters to find best score:  26994
+Violations: 0
+  unassigned:  0
+  pnode_load:  0
+  no_connect:  0
+  link_users:  0
+  bandwidth:   0
+  desires:     0
+  vclass:      0
+  delay:       0
+  trivial mix: 0
+  subnodes:    0
+  max_types:   0
+  endpoints:   0
+Nodes:
+node0 pc71
+node1 pc46
+node2 pc74
+node3 pc55
+node4 pc54
+node5 pc76
+End Nodes
+Edges:
+linksimple/link0/node0:0,node2:0 intraswitch link-pc71:eth3-cisco1:(null) (pc71/eth3,(null)) link-pc74:eth3-cisco1:(null) (pc74/eth3,(null))
+linksimple/link1/node1:0,node2:1 intraswitch link-pc46:eth3-cisco1:(null) (pc46/eth3,(null)) link-pc74:eth4-cisco1:(null) (pc74/eth4,(null))
+linksimple/link2/node1:1,node5:0 intraswitch link-pc46:eth4-cisco1:(null) (pc46/eth4,(null)) link-pc76:eth3-cisco1:(null) (pc76/eth3,(null))
+linksimple/link4/node1:2,node3:0 intraswitch link-pc46:eth0-cisco1:(null) (pc46/eth0,(null)) link-pc55:eth3-cisco1:(null) (pc55/eth3,(null))
+linksimple/link5/node0:1,node4:0 intraswitch link-pc71:eth4-cisco1:(null) (pc71/eth4,(null)) link-pc54:eth3-cisco1:(null) (pc54/eth3,(null))
+End Edges
+End solution

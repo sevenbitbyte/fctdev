@@ -1,0 +1,399 @@
+/usr/testbed/sbin/event-sched -d -s localhost -k /proj/FCT/exp/LINKTEST/tbdata/eventkey FCT LINKTEST
+D: adding agent link0
+D:		AddAgent asked to add agent link0
+D: adding agent link0-node1
+D:		AddAgent asked to add agent link0-node1
+D: adding agent link0-node1-tracemon
+D:		AddAgent asked to add agent link0-node1-tracemon
+D: adding agent link0-node3
+D:		AddAgent asked to add agent link0-node3
+D: adding agent link0-node3-tracemon
+D:		AddAgent asked to add agent link0-node3-tracemon
+D: adding agent link1
+D:		AddAgent asked to add agent link1
+D: adding agent link1-node0
+D:		AddAgent asked to add agent link1-node0
+D: adding agent link1-node0-tracemon
+D:		AddAgent asked to add agent link1-node0-tracemon
+D: adding agent link1-node3
+D:		AddAgent asked to add agent link1-node3
+D: adding agent link1-node3-tracemon
+D:		AddAgent asked to add agent link1-node3-tracemon
+D: adding agent link2
+D:		AddAgent asked to add agent link2
+D: adding agent link2-node0
+D:		AddAgent asked to add agent link2-node0
+D: adding agent link2-node0-tracemon
+D:		AddAgent asked to add agent link2-node0-tracemon
+D: adding agent link2-node1
+D:		AddAgent asked to add agent link2-node1
+D: adding agent link2-node1-tracemon
+D:		AddAgent asked to add agent link2-node1-tracemon
+D: adding agent link3
+D:		AddAgent asked to add agent link3
+D: adding agent link3-node0
+D:		AddAgent asked to add agent link3-node0
+D: adding agent link3-node0-tracemon
+D:		AddAgent asked to add agent link3-node0-tracemon
+D: adding agent link3-node2
+D:		AddAgent asked to add agent link3-node2
+D: adding agent link3-node2-tracemon
+D:		AddAgent asked to add agent link3-node2-tracemon
+D: adding agent link4
+D:		AddAgent asked to add agent link4
+D: adding agent link4-node2
+D:		AddAgent asked to add agent link4-node2
+D: adding agent link4-node2-tracemon
+D:		AddAgent asked to add agent link4-node2-tracemon
+D: adding agent link4-node3
+D:		AddAgent asked to add agent link4-node3
+D: adding agent link4-node3-tracemon
+D:		AddAgent asked to add agent link4-node3-tracemon
+D: adding agent link5
+D:		AddAgent asked to add agent link5
+D: adding agent link5-node1
+D:		AddAgent asked to add agent link5-node1
+D: adding agent link5-node1-tracemon
+D:		AddAgent asked to add agent link5-node1-tracemon
+D: adding agent link5-node4
+D:		AddAgent asked to add agent link5-node4
+D: adding agent link5-node4-tracemon
+D:		AddAgent asked to add agent link5-node4-tracemon
+D: adding agent link6
+D:		AddAgent asked to add agent link6
+D: adding agent link6-node2
+D:		AddAgent asked to add agent link6-node2
+D: adding agent link6-node2-tracemon
+D:		AddAgent asked to add agent link6-node2-tracemon
+D: adding agent link6-node5
+D:		AddAgent asked to add agent link6-node5
+D: adding agent link6-node5-tracemon
+D:		AddAgent asked to add agent link6-node5-tracemon
+D: adding agent link7
+D:		AddAgent asked to add agent link7
+D: adding agent link7-node4
+D:		AddAgent asked to add agent link7-node4
+D: adding agent link7-node4-tracemon
+D:		AddAgent asked to add agent link7-node4-tracemon
+D: adding agent link7-node6
+D:		AddAgent asked to add agent link7-node6
+D: adding agent link7-node6-tracemon
+D:		AddAgent asked to add agent link7-node6-tracemon
+D: adding agent linktest
+D:		AddAgent asked to add agent linktest
+D: adding agent node0
+D:		AddAgent asked to add agent node0
+D: adding agent node0-console
+D:		AddAgent asked to add agent node0-console
+D: adding agent node1
+D:		AddAgent asked to add agent node1
+D: adding agent node1-console
+D:		AddAgent asked to add agent node1-console
+D: adding agent node2
+D:		AddAgent asked to add agent node2
+D: adding agent node2-console
+D:		AddAgent asked to add agent node2-console
+D: adding agent node3
+D:		AddAgent asked to add agent node3
+D: adding agent node3-console
+D:		AddAgent asked to add agent node3-console
+D: adding agent node4
+D:		AddAgent asked to add agent node4
+D: adding agent node4-console
+D:		AddAgent asked to add agent node4-console
+D: adding agent node5
+D:		AddAgent asked to add agent node5
+D: adding agent node5-console
+D:		AddAgent asked to add agent node5-console
+D: adding agent node6
+D:		AddAgent asked to add agent node6
+D: adding agent node6-console
+D:		AddAgent asked to add agent node6-console
+D: adding agent ns
+D:		AddAgent asked to add agent ns
+D: adding agent slothd
+D:		AddAgent asked to add agent slothd
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link0-node1-tracemon
+D: 	In GroupList() parsed name link0-tracemon
+D: 	In GroupList() parsed agent link0-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link0-node3-tracemon
+D: 	In GroupList() parsed name link0-tracemon
+D: 	In GroupList() parsed agent link0-node3-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link1-node0-tracemon
+D: 	In GroupList() parsed name link1-tracemon
+D: 	In GroupList() parsed agent link1-node0-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link1-node3-tracemon
+D: 	In GroupList() parsed name link1-tracemon
+D: 	In GroupList() parsed agent link1-node3-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link2-node0-tracemon
+D: 	In GroupList() parsed name link2-tracemon
+D: 	In GroupList() parsed agent link2-node0-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link2-node1-tracemon
+D: 	In GroupList() parsed name link2-tracemon
+D: 	In GroupList() parsed agent link2-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link3-node0-tracemon
+D: 	In GroupList() parsed name link3-tracemon
+D: 	In GroupList() parsed agent link3-node0-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link3-node2-tracemon
+D: 	In GroupList() parsed name link3-tracemon
+D: 	In GroupList() parsed agent link3-node2-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link4-node2-tracemon
+D: 	In GroupList() parsed name link4-tracemon
+D: 	In GroupList() parsed agent link4-node2-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link4-node3-tracemon
+D: 	In GroupList() parsed name link4-tracemon
+D: 	In GroupList() parsed agent link4-node3-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link5-node1-tracemon
+D: 	In GroupList() parsed name link5-tracemon
+D: 	In GroupList() parsed agent link5-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link5-node4-tracemon
+D: 	In GroupList() parsed name link5-tracemon
+D: 	In GroupList() parsed agent link5-node4-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link6-node2-tracemon
+D: 	In GroupList() parsed name link6-tracemon
+D: 	In GroupList() parsed agent link6-node2-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link6-node5-tracemon
+D: 	In GroupList() parsed name link6-tracemon
+D: 	In GroupList() parsed agent link6-node5-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link7-node4-tracemon
+D: 	In GroupList() parsed name link7-tracemon
+D: 	In GroupList() parsed agent link7-node4-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link7-node6-tracemon
+D: 	In GroupList() parsed name link7-tracemon
+D: 	In GroupList() parsed agent link7-node6-tracemon
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link6
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link2
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link7
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link3
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link4
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link0
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link5
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link1
+Agent:   __ns_sequence    SEQUENCE          *        *                *
+Agent:   __ns_teardown    SEQUENCE          *        *                *
+Agent:    __ns_swapout    SEQUENCE          *        *                *
+Agent:   __ns_timeline    TIMELINE          *        *                *
+Agent:           link0        LINK          *        *                *
+Agent:     link0-node1        LINK          *        *                *
+Agent: link0-node1-tracemon   LINKTRACE          *        *                *
+Agent:     link0-node3        LINK          *        *                *
+Agent: link0-node3-tracemon   LINKTRACE          *        *                *
+Agent:           link1        LINK          *        *                *
+Agent:     link1-node0        LINK          *        *                *
+Agent: link1-node0-tracemon   LINKTRACE          *        *                *
+Agent:     link1-node3        LINK          *        *                *
+Agent: link1-node3-tracemon   LINKTRACE          *        *                *
+Agent:           link2        LINK          *        *                *
+Agent:     link2-node0        LINK          *        *                *
+Agent: link2-node0-tracemon   LINKTRACE          *        *                *
+Agent:     link2-node1        LINK          *        *                *
+Agent: link2-node1-tracemon   LINKTRACE          *        *                *
+Agent:           link3        LINK          *        *                *
+Agent:     link3-node0        LINK          *        *                *
+Agent: link3-node0-tracemon   LINKTRACE          *        *                *
+Agent:     link3-node2        LINK          *        *                *
+Agent: link3-node2-tracemon   LINKTRACE          *        *                *
+Agent:           link4        LINK          *        *                *
+Agent:     link4-node2        LINK          *        *                *
+Agent: link4-node2-tracemon   LINKTRACE          *        *                *
+Agent:     link4-node3        LINK          *        *                *
+Agent: link4-node3-tracemon   LINKTRACE          *        *                *
+Agent:           link5        LINK          *        *                *
+Agent:     link5-node1        LINK          *        *                *
+Agent: link5-node1-tracemon   LINKTRACE          *        *                *
+Agent:     link5-node4        LINK          *        *                *
+Agent: link5-node4-tracemon   LINKTRACE          *        *                *
+Agent:           link6        LINK          *        *                *
+Agent:     link6-node2        LINK          *        *                *
+Agent: link6-node2-tracemon   LINKTRACE          *        *                *
+Agent:     link6-node5        LINK          *        *                *
+Agent: link6-node5-tracemon   LINKTRACE          *        *                *
+Agent:           link7        LINK          *        *                *
+Agent:     link7-node4        LINK          *        *                *
+Agent: link7-node4-tracemon   LINKTRACE          *        *                *
+Agent:     link7-node6        LINK          *        *                *
+Agent: link7-node6-tracemon   LINKTRACE          *        *                *
+Agent:        linktest    LINKTEST          *        *                *
+Agent:           node0        NODE      node0     pc59     155.98.36.59
+Agent:   node0-console     CONSOLE      node0     pc59     155.98.36.59
+Agent:           node1        NODE      node1     pc77     155.98.36.77
+Agent:   node1-console     CONSOLE      node1     pc77     155.98.36.77
+Agent:           node2        NODE      node2     pc71     155.98.36.71
+Agent:   node2-console     CONSOLE      node2     pc71     155.98.36.71
+Agent:           node3        NODE      node3     pc65     155.98.36.65
+Agent:   node3-console     CONSOLE      node3     pc65     155.98.36.65
+Agent:           node4        NODE      node4     pc51     155.98.36.51
+Agent:   node4-console     CONSOLE      node4     pc51     155.98.36.51
+Agent:           node5        NODE      node5     pc60     155.98.36.60
+Agent:   node5-console     CONSOLE      node5     pc60     155.98.36.60
+Agent:           node6        NODE      node6     pc50     155.98.36.50
+Agent:   node6-console     CONSOLE      node6     pc50     155.98.36.50
+Agent:              ns   SIMULATOR          *        *                *
+Agent:          slothd      SLOTHD          *        *                *
+Agent:  __all_tracemon       GROUP          *        *                *
+Agent:  link0-tracemon       GROUP          *        *                *
+Agent:  link1-tracemon       GROUP          *        *                *
+Agent:  link2-tracemon       GROUP          *        *                *
+Agent:  link3-tracemon       GROUP          *        *                *
+Agent:  link4-tracemon       GROUP          *        *                *
+Agent:  link5-tracemon       GROUP          *        *                *
+Agent:  link6-tracemon       GROUP          *        *                *
+Agent:  link7-tracemon       GROUP          *        *                *
+Agent:      __all_lans       GROUP          *        *                *
+ Getting event stream at: 1311875686:466896
+Automatically scheduling the beginning and end of time
+Sched: note:0x28704050 at:20110728_11:54:48.441 now:20110728_11:54:48.443 agent:linktest START
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Fire:  note:0x28704050 at:20110728_11:54:48.441 now:20110728_11:54:48.443 agent:linktest
+Sched: note:0x28704050 at:20110728_11:54:54.316 now:20110728_11:54:54.315 agent:ns LOG
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Fire:  note:0x28704050 at:20110728_11:54:54.316 now:20110728_11:54:54.317 agent:ns
+log: Thu Jul 28 11:54:54 2011 - Linktest Version 1.2
+Sched: note:0x28704060 at:20110728_11:54:54.318 now:20110728_11:54:54.319 agent:ns COMPLETE
+Fire:  note:0x28704060 at:20110728_11:54:54.318 now:20110728_11:54:54.319 agent:ns
+Done:  now:20110728_11:54:54.422 CTOKEN=6 ERROR=0
+Sched: note:0x28704050 at:20110728_11:54:54.347 now:20110728_11:54:54.422 agent:linktest REPORT
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Fire:  note:0x28704050 at:20110728_11:54:54.347 now:20110728_11:54:54.422 agent:linktest
+Sched: note:0x28704058 at:20110728_11:54:54.363 now:20110728_11:54:54.422 agent:linktest REPORT
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704058
+Sched: note:0x28704060 at:20110728_11:54:54.378 now:20110728_11:54:54.422 agent:ns LOG
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704060
+Fire:  note:0x28704058 at:20110728_11:54:54.363 now:20110728_11:54:54.424 agent:linktest
+Fire:  note:0x28704060 at:20110728_11:54:54.378 now:20110728_11:54:54.425 agent:ns
+log: Thu Jul 28 11:54:54 2011 - Testing Single Hop Connectivity and Latency ... 11:54:54
+Sched: note:0x28704058 at:20110728_11:54:54.426 now:20110728_11:54:54.427 agent:ns COMPLETE
+Fire:  note:0x28704058 at:20110728_11:54:54.426 now:20110728_11:54:54.427 agent:ns
+Done:  now:20110728_11:54:54.529 CTOKEN=9 ERROR=0
+Sched: note:0x28707050 at:20110728_11:54:57.789 now:20110728_11:54:57.789 agent:linktest REPORT
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28707050
+Fire:  note:0x28707050 at:20110728_11:54:57.789 now:20110728_11:54:57.789 agent:linktest
+Sched: note:0x2870b050 at:20110728_11:54:57.807 now:20110728_11:54:57.892 agent:ns LOG
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x2870b050
+Sched: note:0x2870b058 at:20110728_11:54:57.822 now:20110728_11:54:57.892 agent:linktest REPORT
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x2870b058
+Sched: note:0x2870b060 at:20110728_11:54:57.838 now:20110728_11:54:57.892 agent:ns LOG
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x2870b060
+Fire:  note:0x2870b050 at:20110728_11:54:57.807 now:20110728_11:54:57.893 agent:ns
+Fire:  note:0x2870b058 at:20110728_11:54:57.822 now:20110728_11:54:57.893 agent:linktest
+Fire:  note:0x2870b060 at:20110728_11:54:57.838 now:20110728_11:54:57.894 agent:ns
+log: Thu Jul 28 11:54:57 2011 -   Some latency tests had errors!
+Sched: note:0x2870b068 at:20110728_11:54:57.895 now:20110728_11:54:57.896 agent:ns COMPLETE
+Fire:  note:0x2870b068 at:20110728_11:54:57.895 now:20110728_11:54:57.896 agent:ns
+Done:  now:20110728_11:54:57.898 CTOKEN=11 ERROR=0
+log: Thu Jul 28 11:54:58 2011 - Skipping Routing tests because of previous errors!
+Sched: note:0x2870b058 at:20110728_11:54:58.000 now:20110728_11:54:58.001 agent:ns COMPLETE
+Fire:  note:0x2870b058 at:20110728_11:54:58.000 now:20110728_11:54:58.001 agent:ns
+Done:  now:20110728_11:54:58.103 CTOKEN=13 ERROR=0
+Sched: note:0x28704050 at:20110728_11:54:58.259 now:20110728_11:54:58.260 agent:linktest REPORT
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Fire:  note:0x28704050 at:20110728_11:54:58.259 now:20110728_11:54:58.261 agent:linktest
+Sched: note:0x28704050 at:20110728_11:54:58.277 now:20110728_11:54:58.364 agent:ns LOG
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Fire:  note:0x28704050 at:20110728_11:54:58.277 now:20110728_11:54:58.364 agent:ns
+log: Thu Jul 28 11:54:58 2011 - Testing Loss ... 11:54:58
+Sched: note:0x28704060 at:20110728_11:54:58.365 now:20110728_11:54:58.366 agent:ns COMPLETE
+Fire:  note:0x28704060 at:20110728_11:54:58.365 now:20110728_11:54:58.366 agent:ns
+Done:  now:20110728_11:54:58.468 CTOKEN=15 ERROR=0
+Sched: note:0x28704050 at:20110728_11:55:12.562 now:20110728_11:55:12.561 agent:linktest REPORT
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Fire:  note:0x28704050 at:20110728_11:55:12.562 now:20110728_11:55:12.562 agent:linktest
+Sched: note:0x28704050 at:20110728_11:55:12.580 now:20110728_11:55:12.668 agent:ns LOG
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Fire:  note:0x28704050 at:20110728_11:55:12.580 now:20110728_11:55:12.668 agent:ns
+log: Thu Jul 28 11:55:12 2011 -   Some loss tests had errors!
+Sched: note:0x28704060 at:20110728_11:55:12.670 now:20110728_11:55:12.671 agent:ns COMPLETE
+Fire:  note:0x28704060 at:20110728_11:55:12.670 now:20110728_11:55:12.671 agent:ns
+Done:  now:20110728_11:55:12.774 CTOKEN=17 ERROR=0
+Sched: note:0x28704050 at:20110728_11:55:12.769 now:20110728_11:55:12.774 agent:ns LOG
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Fire:  note:0x28704050 at:20110728_11:55:12.769 now:20110728_11:55:12.774 agent:ns
+log: Thu Jul 28 11:55:12 2011 - Linktest Done
+Sched: note:0x28704060 at:20110728_11:55:12.776 now:20110728_11:55:12.777 agent:ns COMPLETE
+Fire:  note:0x28704060 at:20110728_11:55:12.776 now:20110728_11:55:12.777 agent:ns
+Done:  now:20110728_11:55:12.881 CTOKEN=18 ERROR=0
+Sched: note:0x28703050 at:20110728_11:55:12.787 now:20110728_11:55:12.881 agent:linktest COMPLETE
+Fire:  note:0x28703050 at:20110728_11:55:12.787 now:20110728_11:55:12.881 agent:linktest
+Done:  now:20110728_11:55:12.884 CTOKEN=5 ERROR=2
+Sched: note:0x28703050 at:20110728_11:55:20.926 now:20110728_11:55:20.938 agent:__ns_sequence START
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28703050
+Fire:  note:0x28703050 at:20110728_11:55:20.926 now:20110728_11:55:20.938 agent:__ns_sequence
+Fire:  note:0x28611210 at:20110728_11:55:21.938 now:20110728_11:55:21.980 agent:ns
+Fire:  note:0x28611218 at:20110728_11:55:21.938 now:20110728_11:55:21.980 agent:*
+log: Thu Jul 28 11:55:21 2011 - Time started
+Sched: note:0x28702058 at:20110728_11:55:21.981 now:20110728_11:55:21.983 agent:ns COMPLETE
+Beginning call to experiment.metadata
+Finished with call to experiment.metadata
+Beginning call to experiment.state
+Finished with call to experiment.state
+Beginning call to experiment.event_agentlist
+Finished with call to experiment.event_agentlist
+Beginning call to experiment.virtual_topology
+Finished with call to experiment.virtual_topology
+Beginning call to experiment.event_grouplist
+Finished with call to experiment.event_grouplist
+Beginning call to experiment.event_eventlist
+Finished with call to experiment.event_eventlist
+Beginning call to experiment.event_time_start
+Error occured: Invalid response from server
+Fire:  note:0x28611220 at:20110728_11:55:21.938 now:20110728_11:55:22.094 agent:__ns_timeline
+Sched: note:0x28702050 at:20110728_11:55:22.094 now:20110728_11:55:22.096 agent:__ns_timeline COMPLETE
+Fire:  note:0x28702058 at:20110728_11:55:21.981 now:20110728_11:55:22.199 agent:ns
+Done:  now:20110728_11:55:22.200 CTOKEN=20 ERROR=0
+Fire:  note:0x28702050 at:20110728_11:55:22.094 now:20110728_11:55:22.200 agent:__ns_timeline
+Done:  now:20110728_11:55:22.201 CTOKEN=22 ERROR=0
+Sched: note:0x28702058 at:20110728_11:55:22.201 now:20110728_11:55:22.202 agent:__ns_sequence COMPLETE
+Fire:  note:0x28702058 at:20110728_11:55:22.201 now:20110728_11:55:22.536 agent:__ns_sequence
+Done:  now:20110728_11:55:22.537 CTOKEN=19 ERROR=0
+Sched: note:0x28704050 at:20110728_13:57:04.164 now:20110728_13:57:04.165 agent:__ns_swapout RUN
+Fire:  note:0x28704050 at:20110728_13:57:04.164 now:20110728_13:57:04.189 agent:__ns_swapout
+Sched: note:0x28704058 at:20110728_13:57:04.190 now:20110728_13:57:04.190 agent:__ns_swapout COMPLETE
+Fire:  note:0x28611430 at:20110728_13:57:04.189 now:20110728_13:57:04.292 agent:ns
+Fire:  note:0x28704058 at:20110728_13:57:04.190 now:20110728_13:57:04.292 agent:__ns_swapout
+log: 2h1m43s - Swapout started
+Done:  now:20110728_13:57:04.294 CTOKEN=1311883024 ERROR=0
+Sched: note:0x28704060 at:20110728_13:57:04.293 now:20110728_13:57:04.295 agent:ns COMPLETE
+Sched: note:0x28704050 at:20110728_13:57:04.308 now:20110728_13:57:04.396 agent:__ns_teardown RUN
+Fire:  note:0x28704060 at:20110728_13:57:04.293 now:20110728_13:57:04.571 agent:ns
+Done:  now:20110728_13:57:04.572 CTOKEN=23 ERROR=0
+Fire:  note:0x28704050 at:20110728_13:57:04.308 now:20110728_13:57:04.572 agent:__ns_teardown
+Sched: note:0x28704058 at:20110728_13:57:04.572 now:20110728_13:57:04.573 agent:__ns_teardown COMPLETE
+Fire:  note:0x28611430 at:20110728_13:57:04.572 now:20110728_13:57:04.674 agent:ns
+Fire:  note:0x28704058 at:20110728_13:57:04.572 now:20110728_13:57:04.674 agent:__ns_teardown
+log: 2h1m43s - Time ended
+Done:  now:20110728_13:57:04.676 CTOKEN=1311883024 ERROR=0
+Sched: note:0x28704060 at:20110728_13:57:04.675 now:20110728_13:57:04.678 agent:ns COMPLETE
+Caught a TERM; killing the scheduler and agent
+event-sched[9959]: received signal 15, exiting
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start

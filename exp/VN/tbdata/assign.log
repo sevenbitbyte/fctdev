@@ -1,0 +1,91 @@
+seed = 1304009288
+Physical Graph: 85
+Calculating shortest paths on switch fabric.
+Virtual Graph: 9
+Generating physical equivalence classes:71
+Type precheck:
+Type precheck passed.
+Node mapping precheck:
+Node mapping precheck succeeded
+Pruning pclasses.
+pclass pruning complete: removed 60 pclasses, 11 remain.
+Type precheck:
+Type precheck passed.
+Policy precheck:
+Policy precheck succeeded
+Annealing.
+Doing melting run
+Reverting: forced
+Reverting to best solution
+Done
+   BEST SCORE:  2.5 in 24000 iters and 0.87155 seconds
+With 0 violations
+Iters to find best score:  5876
+Violations: 0
+  unassigned:  0
+  pnode_load:  0
+  no_connect:  0
+  link_users:  0
+  bandwidth:   0
+  desires:     0
+  vclass:      0
+  delay:       0
+  trivial mix: 0
+  subnodes:    0
+  max_types:   0
+  endpoints:   0
+Nodes:
+node0 pc428
+node1 pc428
+node2 pc428
+node3 pc428
+node4 pc428
+node5 pc428
+node6 pc428
+node7 pc428
+node8 pc428
+End Nodes
+Edges:
+linksimple/link0/node0:0,node4:0 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link1/node1:0,node4:1 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link10/node3:3,node4:3 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link11/node2:4,node5:1 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link12/node4:4,node5:2 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link13/node1:4,node2:5 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link14/node5:3,node7:0 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link15/node5:4,node6:0 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link16/node5:5,node8:0 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link17/node0:5,node7:1 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link18/node0:6,node6:1 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link19/node0:7,node8:1 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link2/node0:1,node3:0 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link20/node1:5,node7:2 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link21/node1:6,node6:2 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link22/node1:7,node8:2 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link23/node2:6,node7:3 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link24/node2:7,node6:3 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link25/node2:8,node8:3 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link26/node3:4,node7:4 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link27/node3:5,node6:4 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link28/node3:6,node8:4 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link29/node4:5,node7:5 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link3/node1:1,node3:1 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link30/node4:6,node6:5 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link31/node4:7,node8:5 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link4/node2:0,node3:2 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link5/node2:1,node4:2 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link6/node0:2,node1:2 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link7/node0:3,node2:2 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link8/node0:4,node5:0 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+linksimple/link9/node1:3,node2:3 trivial pc428:loopback (pc428/null,(null)) pc428:loopback (pc428/null,(null)) 
+End Edges
+End solution
+Summary:
+pc428 9 vnodes, 0 nontrivial BW, 3200000 trivial BW, type=pcvm
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=2400
+    ?+ram: used=0 total=12288
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+Total physical nodes used: 1
+End summary

@@ -1,0 +1,119 @@
+Running 'tbswap out -force FCT QG2'
+Beginning swap-out for FCT/QG2 (72235). 01/11/2012 22:10:05
+TIMESTAMP: 22:10:05:614446 tbswap out started
+Checking for feature SyncVlans.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 22:10:09:266663 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+mapVlansToSwitches: cisco1 cisco3
+  Removing VLAN #383 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #367 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #381 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #392 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #379 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #391 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #393 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #382 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #368 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #374 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #372 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #395 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #365 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #386 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #366 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #376 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #381 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #396 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #379 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #378 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #397 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #391 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #373 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #390 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #388 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #394 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #369 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #380 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #377 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+TIMESTAMP: 22:10:41:24693 snmpit finished
+Removing dynamic blobs.
+Tearing down virtual nodes.
+TIMESTAMP: 22:10:41:201715 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 22:10:42:689804 vnode_setup finished
+Removing logical wires.
+Freeing nodes.
+TIMESTAMP: 22:10:43:74160 nfree started
+Releasing all nodes from experiment [Experiment: FCT/QG2].
+Moving [Node: pc48] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc128] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc83] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc86] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc69] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc67] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc61] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc77] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc66] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc99] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc142] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc127] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc51] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc121] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc79] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc55] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc44] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc65] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc120] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc116] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc72] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc59] to [Experiment: emulab-ops/reloadpending]
+*** Console log for pc142 does not exist! Skipping ...
+*** Console log for pc127 does not exist! Skipping ...
+*** Console log for pc128 does not exist! Skipping ...
+*** Console log for pc121 does not exist! Skipping ...
+TIMESTAMP: 22:10:58:67714 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 22:10:58:71495 exports started
+TIMESTAMP: 22:11:03:89964 exports finished
+Resetting named maps.
+TIMESTAMP: 22:11:03:93203 named started
+TIMESTAMP: 22:11:05:547093 named finished
+Resetting email lists.
+TIMESTAMP: 22:11:05:550297 genelists started
+TIMESTAMP: 22:11:07:452385 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/QG2. 22:11:07:736120
+TIMESTAMP: 22:11:07:737352 tbswap out finished (succeeded)

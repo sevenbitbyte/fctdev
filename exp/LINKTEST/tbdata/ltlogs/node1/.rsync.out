@@ -1,0 +1,16 @@
+receiving incremental file list
+./
+var/
+var/emulab/
+var/emulab/logs/
+var/emulab/logs/bootsetup.debug
+var/emulab/logs/dhclient-enter.log
+var/emulab/logs/dhclient-exit.log
+var/emulab/logs/dhclient.log
+var/emulab/logs/emulab-watchdog.log
+var/emulab/logs/linktest.debug
+var/emulab/logs/progagent.debug
+var/emulab/logs/progwrap.debug
+
+sent 262 bytes  received 3446 bytes  2472.00 bytes/sec
+total size is 9667  speedup is 2.61

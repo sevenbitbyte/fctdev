@@ -1,0 +1,95 @@
+event: linktest - START - STARTAT=1 STOPAT=3 DEBUG=2 DOARP=0 COMPAT=1.1 
+/usr/local/etc/emulab/rc/rc.topomap reconfig 
+nodes:
+ node0 pc59 pc59 pc850 Linux 10 ping,ssh,ipod,isup,linktest
+ node1 pc77 pc77 pc850 Linux 10 ping,ssh,ipod,isup,linktest
+ node2 pc71 pc71 pc850 Linux 10 ping,ssh,ipod,isup,linktest
+ node3 pc65 pc65 pc850 Linux 10 ping,ssh,ipod,isup,linktest
+ node4 pc51 pc51 pc850 Linux 10 ping,ssh,ipod,isup,linktest
+ node5 pc60 pc60 pc850 Linux 10 ping,ssh,ipod,isup,linktest
+ node6 pc50 pc50 pc850 Linux 10 ping,ssh,ipod,isup,linktest
+links:
+ node0 node1 link2 100000000 0 0.000000 00034794c478 none dnode
+ node0 node2 link3 100000000 0 0.000000 000347738c07 none dnode
+ node0 node3 link1 100000000 0 0.000000 0002b335e0db none dnode
+ node1 node0 link2 100000000 0 0.000000 00034794c856 none dnode
+ node1 node3 link0 100000000 0 0.000000 0002b33f7a83 none dnode
+ node1 node4 link5 100000000 0 0.000000 000347739f31 none dnode
+ node2 node0 link3 100000000 0 0.000000 0002b33f74bd none dnode
+ node2 node3 link4 100000000 0 0.000000 00034794cab8 none dnode
+ node2 node5 link6 100000000 0 0.000000 000347739503 none dnode
+ node3 node0 link1 100000000 0 0.000000 00034794c05d none dnode
+ node3 node1 link0 100000000 0 0.000000 0002b33f74fd none dnode
+ node3 node2 link4 100000000 0 0.000000 00034773b8b6 none dnode
+ node4 node1 link5 100000000 0 0.000000 0002b365baf7 none dnode
+ node4 node6 link7 100000000 0 0.000000 00034794bfa1 none dnode
+ node5 node2 link6 100000000 0 0.000000 0002b33f8413 none dnode
+ node6 node4 link7 100000000 0 0.000000 0002b3237915 none dnode
+routing protocol: Static
+Synch master is node0
+unlink /proj/FCT/exp/LINKTEST/tbdata/linktest/node0.error
+unlink /proj/FCT/exp/LINKTEST/tbdata/linktest/node1.error
+unlink /proj/FCT/exp/LINKTEST/tbdata/linktest/node4.error
+unlink /proj/FCT/exp/LINKTEST/tbdata/linktest/node3.error
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+
+Linktest Version 1.2
+
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+
+Testing Single Hop Connectivity and Latency ... 11:54:54
+
+Latency error: node1-link5 [pc77/000347739f31] to node4-link5 [pc51] (100 Mbps, 0ms, 0% loss, droptail) : No packets received (n=10)
+
+
+/usr/local/etc/emulab/emulab-sync -n linktest -e 1 
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+
+Skipping Routing tests because of previous errors!
+
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+
+Testing Loss ... 11:54:58
+
+performing barrier synch for backward compatibility
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+/usr/local/etc/emulab/emulab-rude -s /tmp/rude.cfg -P 3  
+rude version 0.70, Copyright (C) 1999 Juha Laine and Sampo Saaristo
+rude comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under GNU GENERAL PUBLIC LICENSE Version 2.
+
+F_ID: F_START: F_STOP: F_SPORT: F_DADD: F_DPORT: F_err: F_suc: F_seq: F_TYPE: [+ type params]
+1 1311875698.674886 1311875702.674886 0 10.1.2.3 10001 0 400 400 CBR [r:100 s:20]
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+unlink /tmp/rude.cfg
+/usr/local/etc/emulab/emulab-rude -s /tmp/rude.cfg -P 3  
+rude version 0.70, Copyright (C) 1999 Juha Laine and Sampo Saaristo
+rude comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under GNU GENERAL PUBLIC LICENSE Version 2.
+
+F_ID: F_START: F_STOP: F_SPORT: F_DADD: F_DPORT: F_err: F_suc: F_seq: F_TYPE: [+ type params]
+2 1311875702.885242 1311875706.885242 0 10.1.6.3 10001 0 401 401 CBR [r:100 s:20]
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+unlink /tmp/rude.cfg
+/usr/local/etc/emulab/emulab-rude -s /tmp/rude.cfg -P 3  
+rude version 0.70, Copyright (C) 1999 Juha Laine and Sampo Saaristo
+rude comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under GNU GENERAL PUBLIC LICENSE Version 2.
+
+F_ID: F_START: F_STOP: F_SPORT: F_DADD: F_DPORT: F_err: F_suc: F_seq: F_TYPE: [+ type params]
+3 1311875707.095741 1311875711.095741 0 10.1.7.3 10001 0 401 401 CBR [r:100 s:20]
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+result_count from crude: 806
+Loss error: node4-link5 [pc51/0002b365baf7] to node1-link5 [pc77] (100 Mbps, 0ms, 0% loss, droptail) : No packets received from node4
+
+/usr/local/etc/emulab/emulab-sync -n linktest -e 1 
+Cleaning up 
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+
+Linktest Done
+
+Linktest exit code: 0

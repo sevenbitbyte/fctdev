@@ -1,0 +1,83 @@
+Running 'tbprerun  -e 88221 Test3.ns'
+Beginning pre run for FCT/Test3. 11:41:54:737650
+Running parser ... 11:41:55:307528
+Parser done! 11:41:59:344358
+Precomputing visualization ...
+Image rendering proceeding in background mode ...
+Setting up static routes (if requested) ... 
+node0:1(0) node2:0(2)
+node2:0(2) node0:1(0)
+node2:1(2) node4:0(4)
+node4:0(4) node2:1(2)
+node1:1(1) node3:0(3)
+node3:0(3) node1:1(1)
+node0:0(0) node1:0(1)
+node1:0(1) node0:0(0)
+node1:2(1) node2:2(2)
+node2:2(2) node1:2(1)
+route 0 to 1 via 1
+src:node0 dst:node1 hop:node1
+route 0 to 2 via 2
+src:node0 dst:node2 hop:node2
+route 0 to 3 via 1
+src:node0 dst:node3 hop:node1
+route 0 to 4 via 2
+src:node0 dst:node4 hop:node2
+route 1 to 0 via 0
+src:node1 dst:node0 hop:node0
+route 1 to 2 via 2
+src:node1 dst:node2 hop:node2
+route 1 to 3 via 3
+src:node1 dst:node3 hop:node3
+route 1 to 4 via 2
+src:node1 dst:node4 hop:node2
+route 2 to 0 via 0
+src:node2 dst:node0 hop:node0
+route 2 to 1 via 1
+src:node2 dst:node1 hop:node1
+route 2 to 3 via 1
+src:node2 dst:node3 hop:node1
+route 2 to 4 via 4
+src:node2 dst:node4 hop:node4
+route 3 to 0 via 1
+src:node3 dst:node0 hop:node1
+route 3 to 1 via 1
+src:node3 dst:node1 hop:node1
+route 3 to 2 via 1
+src:node3 dst:node2 hop:node1
+route 3 to 4 via 1
+src:node3 dst:node4 hop:node1
+route 4 to 0 via 2
+src:node4 dst:node0 hop:node2
+route 4 to 1 via 2
+src:node4 dst:node1 hop:node2
+route 4 to 2 via 2
+src:node4 dst:node2 hop:node2
+route 4 to 3 via 2
+src:node4 dst:node3 hop:node2
+node0 --> node3 : node1:node3
+node0 --> node4 : node2:node4
+node1 --> node4 : node2:node4
+node2 --> node3 : node1:node3
+node3 --> node0 : node1:node0
+node3 --> node2 : node1:node2
+node3 --> node4 : node2:node4
+node4 --> node0 : node2:node0
+node4 --> node1 : node2:node1
+node4 --> node3 : node1:node3
+Generating topomap ...
+Adding DB 'FCT+Test3' to mysql database on users.emulab.net.
+Adding user 'E88221' to mysql database on users.emulab.net.
+Verifying parse ...
+Doing a pre-assign: '/usr/testbed/bin/vtopgen -p FCT Test3' ...
+Checking for feature LibVtopTest.
+  Feature is enabled
+Using test version of libvtop ...
+Minimum nodes   = 5
+Maximum nodes   = 5
+Writing environment strings ...
+Setting up additional program agent support ...
+Setting up additional network agent support ...
+Writing program agent info ...
+Pre run finished. 11:42:11:795378
+Running 'tbreport -b FCT Test3'

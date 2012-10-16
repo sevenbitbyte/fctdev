@@ -1,0 +1,85 @@
+event_notification_check_hmac: event_notification_check_hmac __hmac__: b9e1a2657b597a0c4129299106102fe0e96a4986
+event_notification_check_hmac: event_notification_check_hmac plain: b9e1a2657b597a0c4129299106102fe0e96a4986
+event: linktest - START - STARTAT=1 STOPAT=3 DEBUG=2 DOARP=0 COMPAT=1.1 
+/usr/local/etc/emulab/rc/rc.topomap reconfig 
+nodes:
+ node0 pc529 pc529 d710 Linux 10 ping,ssh,ipod,isup,linktest
+ node1 pc507 pc507 d710 Linux 10 ping,ssh,ipod,isup,linktest
+ node2 pc537 pc537 d710 Linux 10 ping,ssh,ipod,isup,linktest
+ node3 pc454 pc454 d710 Linux 10 ping,ssh,ipod,isup,linktest
+ node4 pc526 pc526 d710 Linux 10 ping,ssh,ipod,isup,linktest
+links:
+ node0 node1 link0 1000000000 0 0.000000 001018569094 none dnode
+ node0 node2 link3 1000000000 0 0.000000 0024e879142e none dnode
+ node1 node0 link0 1000000000 0 0.000000 0024e87904e5 none dnode
+ node1 node2 link4 1000000000 0 0.000000 0024e87904e9 none dnode
+ node1 node3 link1 1000000000 0 0.000000 001018569018 none dnode
+ node2 node0 link3 1000000000 0 0.000000 00101856abb4 none dnode
+ node2 node1 link4 1000000000 0 0.000000 0024e87a3ed4 none dnode
+ node2 node4 link2 1000000000 0 0.000000 0024e87a3ed0 none dnode
+ node3 node1 link1 1000000000 0 0.000000 0024e8779295 none dnode
+ node4 node2 link2 1000000000 0 0.000000 00101856b078 none dnode
+routing protocol: Static
+Synch master is node0
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+
+Linktest Version 1.2
+
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+
+Testing Single Hop Connectivity and Latency ... 19:55:44
+
+Latency error: node1-link4 [pc507/0024e87904e9] to node2-link4 [pc537] (1000 Mbps, 0ms, 0% loss, droptail) : No packets received (n=10)
+
+
+/usr/local/etc/emulab/emulab-sync -n linktest -e 1 
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+
+Skipping Routing tests because of previous errors!
+
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+
+Testing Loss ... 19:55:47
+
+performing barrier synch for backward compatibility
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+/usr/local/etc/emulab/emulab-rude -s /tmp/rude.cfg -P 3  
+rude version 0.70, Copyright (C) 1999 Juha Laine and Sampo Saaristo
+rude comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under GNU GENERAL PUBLIC LICENSE Version 2.
+
+F_ID: F_START: F_STOP: F_SPORT: F_DADD: F_DPORT: F_err: F_suc: F_seq: F_TYPE: [+ type params]
+1 1297911347.617871 1297911351.617871 0 10.1.4.2 10001 0 401 401 CBR [r:100 s:20]
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+unlink /tmp/rude.cfg
+/usr/local/etc/emulab/emulab-rude -s /tmp/rude.cfg -P 3  
+rude version 0.70, Copyright (C) 1999 Juha Laine and Sampo Saaristo
+rude comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under GNU GENERAL PUBLIC LICENSE Version 2.
+
+F_ID: F_START: F_STOP: F_SPORT: F_DADD: F_DPORT: F_err: F_suc: F_seq: F_TYPE: [+ type params]
+2 1297911351.674260 1297911355.674260 0 10.1.5.3 10001 0 401 401 CBR [r:100 s:20]
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+unlink /tmp/rude.cfg
+/usr/local/etc/emulab/emulab-rude -s /tmp/rude.cfg -P 3  
+rude version 0.70, Copyright (C) 1999 Juha Laine and Sampo Saaristo
+rude comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under GNU GENERAL PUBLIC LICENSE Version 2.
+
+F_ID: F_START: F_STOP: F_SPORT: F_DADD: F_DPORT: F_err: F_suc: F_seq: F_TYPE: [+ type params]
+3 1297911355.930249 1297911359.930249 0 10.1.3.3 10001 0 401 401 CBR [r:100 s:20]
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+result_count from crude: 806
+Loss error: node2-link4 [pc537/0024e87a3ed4] to node1-link4 [pc507] (1000 Mbps, 0ms, 0% loss, droptail) : No packets received from node2
+
+/usr/local/etc/emulab/emulab-sync -n linktest -e 1 
+Cleaning up 
+/usr/local/etc/emulab/emulab-sync -n linktest -e 0 
+
+Linktest Done
+
+Linktest exit code: 0

@@ -1,0 +1,437 @@
+static periodic_service* periodic_service::instance() - DEBUG, Installing
+void periodic_service::init() - DEBUG, 
+void periodic_service::install(periodic*) - DEBUG, 
+void periodic_service::reschedule() - DEBUG, Start 360215:21612913:8.70188hms
+void periodic_service::reschedule() - DEBUG, Set for 8.92955sec
+void PeriodicTester::setupAlarm(bool, timeval, timeval, std::string, int) - DEBUG, 360215:21612913:8.76384hms TriggerID=0 trigger_count=0 installed
+
+----------Testing----------
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612913:17.7007hms TriggerID=0 trigger_count=1 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 9ms execTime=[13ms, 10ms, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612913:17.7306hms
+void periodic_service::reschedule() - DEBUG, Set for 3957ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612913:21.6887hms TriggerID=0 trigger_count=2 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 181us execTime=[382us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612913:21.6897hms
+void periodic_service::reschedule() - DEBUG, Set for 3998ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612913:25.6887hms TriggerID=0 trigger_count=3 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 179us execTime=[382us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612913:25.6897hms
+void periodic_service::reschedule() - DEBUG, Set for 3998ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612913:29.6887hms TriggerID=0 trigger_count=4 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 178us execTime=[381us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612913:29.6897hms
+void periodic_service::reschedule() - DEBUG, Set for 3998ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612913:33.6887hms TriggerID=0 trigger_count=5 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 185us execTime=[384us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612913:33.6897hms
+void periodic_service::reschedule() - DEBUG, Set for 3998ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612913:37.6887hms TriggerID=0 trigger_count=6 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 184us execTime=[389us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612913:37.6897hms
+void periodic_service::reschedule() - DEBUG, Set for 3998ms
+
+----------Pausing----------
+void periodic_service::pause() - DEBUG, 
+
+----------Resuming----------
+void periodic_service::resume() - DEBUG, 
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:9.69941hms
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:9.70156hms TriggerID=0 trigger_count=7 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 28.013sec execTime=[304us, 0us, 0us, 0, 0]
+
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:9.7053hms TriggerID=0 trigger_count=8 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 24.0168sec execTime=[293us, 0us, 0us, 0, 0]
+
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:9.70625hms TriggerID=0 trigger_count=9 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 20.0177sec execTime=[283us, 0us, 0us, 0, 0]
+
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:9.70718hms TriggerID=0 trigger_count=10 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 16.0186sec execTime=[303us, 0us, 0us, 0, 0]
+
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:9.70813hms TriggerID=0 trigger_count=11 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 12.0196sec execTime=[287us, 0us, 0us, 0, 0]
+
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:9.70906hms TriggerID=0 trigger_count=12 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 8.02052sec execTime=[325us, 0us, 0us, 0, 0]
+
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:9.71001hms TriggerID=0 trigger_count=13 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 4021ms execTime=[286us, 0us, 0us, 0, 0]
+
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:9.71088hms TriggerID=0 trigger_count=14 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 22ms execTime=[281us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Set for 3988ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:13.7007hms TriggerID=0 trigger_count=15 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 12ms execTime=[385us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:13.7017hms
+void periodic_service::reschedule() - DEBUG, Set for 3986ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:17.6887hms TriggerID=0 trigger_count=16 p.name=first
+void PeriodicTester::setupAlarm(bool, timeval, timeval, std::string, int) - DEBUG, 360215:21612914:17.6977hms TriggerID=1 trigger_count=0 installed
+bool periodic::execute() - DEBUG, [first] error = 182us execTime=[9ms, 10ms, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:17.6992hms
+void periodic_service::reschedule() - DEBUG, Set for 1086ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:18.7972hms TriggerID=1 trigger_count=1 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 287us execTime=[4ms, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:18.8024hms
+void periodic_service::reschedule() - DEBUG, Set for 93ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:18.8966hms TriggerID=1 trigger_count=2 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 292us execTime=[348us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:18.8975hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:18.9964hms TriggerID=1 trigger_count=3 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 124us execTime=[329us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:18.9973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:19.0964hms TriggerID=1 trigger_count=4 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 128us execTime=[336us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:19.0973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:19.1965hms TriggerID=1 trigger_count=5 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 171us execTime=[374us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:19.1975hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:19.2964hms TriggerID=1 trigger_count=6 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 126us execTime=[339us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:19.2974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:19.3964hms TriggerID=1 trigger_count=7 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 121us execTime=[330us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:19.3974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:19.4964hms TriggerID=1 trigger_count=8 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 120us execTime=[332us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:19.4973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:19.5964hms TriggerID=1 trigger_count=9 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 120us execTime=[335us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:19.5973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:19.6965hms TriggerID=1 trigger_count=10 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 174us execTime=[381us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:19.6974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:19.7965hms TriggerID=1 trigger_count=11 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 163us execTime=[585us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:19.7977hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:19.8964hms TriggerID=1 trigger_count=12 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 153us execTime=[362us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:19.8974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:19.9964hms TriggerID=1 trigger_count=13 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 146us execTime=[358us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:19.9974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:20.0964hms TriggerID=1 trigger_count=14 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 132us execTime=[343us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:20.0974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:20.1964hms TriggerID=1 trigger_count=15 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 149us execTime=[360us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:20.1974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:20.2964hms TriggerID=1 trigger_count=16 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 131us execTime=[348us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:20.2974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:20.3965hms TriggerID=1 trigger_count=17 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 158us execTime=[368us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:20.3974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:20.4964hms TriggerID=1 trigger_count=18 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 123us execTime=[333us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:20.4973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:20.5964hms TriggerID=1 trigger_count=19 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 131us execTime=[338us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:20.5973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:20.6964hms TriggerID=1 trigger_count=20 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 126us execTime=[335us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:20.6973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:20.7964hms TriggerID=1 trigger_count=21 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 124us execTime=[340us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:20.7973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:20.8964hms TriggerID=1 trigger_count=22 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 124us execTime=[341us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:20.8973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:20.9964hms TriggerID=1 trigger_count=23 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 153us execTime=[372us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:20.9977hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:21.0964hms TriggerID=1 trigger_count=24 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 139us execTime=[365us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.0974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:21.1965hms TriggerID=1 trigger_count=25 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 175us execTime=[383us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.1975hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:21.2964hms TriggerID=1 trigger_count=26 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 154us execTime=[361us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.2974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:21.3964hms TriggerID=1 trigger_count=27 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 128us execTime=[339us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.3973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:21.4964hms TriggerID=1 trigger_count=28 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 125us execTime=[338us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.4973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:21.5965hms TriggerID=1 trigger_count=29 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 159us execTime=[371us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.601hms
+void periodic_service::reschedule() - DEBUG, Set for 86ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:21.6887hms TriggerID=0 trigger_count=17 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 137us execTime=[393us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.6903hms
+void periodic_service::reschedule() - DEBUG, Set for 5ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:21.6964hms TriggerID=1 trigger_count=30 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 98us execTime=[316us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.6973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:21.7965hms TriggerID=1 trigger_count=31 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 240us execTime=[340us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.7975hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:21.8964hms TriggerID=1 trigger_count=32 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 128us execTime=[341us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.8974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:21.9964hms TriggerID=1 trigger_count=33 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 125us execTime=[335us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:21.9973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:22.0964hms TriggerID=1 trigger_count=34 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 133us execTime=[350us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:22.0974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:22.1965hms TriggerID=1 trigger_count=35 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 169us execTime=[377us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:22.1974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:22.2964hms TriggerID=1 trigger_count=36 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 135us execTime=[360us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:22.2974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:22.3964hms TriggerID=1 trigger_count=37 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 125us execTime=[335us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:22.3973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:22.4964hms TriggerID=1 trigger_count=38 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 124us execTime=[335us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:22.4973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:22.5964hms TriggerID=1 trigger_count=39 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 123us execTime=[333us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:22.5973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:22.6965hms TriggerID=1 trigger_count=40 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 164us execTime=[374us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:22.6975hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:22.7965hms TriggerID=1 trigger_count=41 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 177us execTime=[389us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:22.7975hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:22.8964hms TriggerID=1 trigger_count=42 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 131us execTime=[342us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:22.8974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:22.9964hms TriggerID=1 trigger_count=43 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 120us execTime=[330us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:22.9973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:23.0964hms TriggerID=1 trigger_count=44 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 127us execTime=[336us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:23.0973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:23.1964hms TriggerID=1 trigger_count=45 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 150us execTime=[359us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:23.1974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:23.2964hms TriggerID=1 trigger_count=46 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 122us execTime=[334us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:23.2973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:23.3964hms TriggerID=1 trigger_count=47 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 151us execTime=[363us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:23.3974hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:23.4964hms TriggerID=1 trigger_count=48 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 122us execTime=[340us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:23.4973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:23.5964hms TriggerID=1 trigger_count=49 p.name=second
+bool periodic::execute() - DEBUG, [second] error = 120us execTime=[328us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:23.5973hms
+void periodic_service::reschedule() - DEBUG, Set for 98ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 2 periodics to service
+void PeriodicTester::alarmCallbackB(void*, periodic*) - DEBUG, 360215:21612914:23.6964hms TriggerID=1 trigger_count=50 p.name=second
+void periodic::remove() - DEBUG, second
+bool periodic::execute() - DEBUG, [second] error = 125us execTime=[1ms, 0us, 0us, 0, 0]
+
+periodic::~periodic() - DEBUG, second
+void PeriodicTester::destoryCallback(void*, periodic*) - DEBUG, 360215:21612914:23.7004hms TriggerID=1 trigger_count=50 p.name=second
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:23.7045hms
+void periodic_service::reschedule() - DEBUG, Set for 1983ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:25.6887hms TriggerID=0 trigger_count=18 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 179us execTime=[383us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:25.6897hms
+void periodic_service::reschedule() - DEBUG, Set for 3998ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:29.6887hms TriggerID=0 trigger_count=19 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 183us execTime=[382us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:29.6897hms
+void periodic_service::reschedule() - DEBUG, Set for 3998ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:33.6887hms TriggerID=0 trigger_count=20 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 181us execTime=[383us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:33.6897hms
+void periodic_service::reschedule() - DEBUG, Set for 3998ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:37.6887hms TriggerID=0 trigger_count=21 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 178us execTime=[381us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:37.6897hms
+void periodic_service::reschedule() - DEBUG, Set for 3998ms
+void periodic_service_alarm_handler(int) - DEBUG, Have 1 periodics to service
+void PeriodicTester::alarmCallbackA(void*, periodic*) - DEBUG, 360215:21612914:41.6887hms TriggerID=0 trigger_count=22 p.name=first
+bool periodic::execute() - DEBUG, [first] error = 183us execTime=[380us, 0us, 0us, 0, 0]
+
+void periodic_service::reschedule() - DEBUG, Start 360215:21612914:41.6897hms
+void periodic_service::reschedule() - DEBUG, Set for 3998ms
+
+----------Cleanup Up----------
+periodic_service::~periodic_service() - DEBUG, 
+void periodic_service::teardown() - DEBUG, 
+void periodic_service::teardown() - DEBUG, Complete
+periodic::~periodic() - DEBUG, first
+periodic_service::~periodic_service() - DEBUG, Complete
+
+----------Exiting----------

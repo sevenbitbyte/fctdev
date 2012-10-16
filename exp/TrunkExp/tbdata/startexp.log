@@ -1,0 +1,321 @@
+Running 'tbprerun  -e 76309 TrunkExp.ns'
+Beginning pre run for FCT/TrunkExp. 15:18:46:544822
+Running parser ... 15:18:46:901835
+Parser done! 15:18:52:167414
+Precomputing visualization ...
+Image rendering proceeding in background mode ...
+Setting up static routes (if requested) ... 
+Generating topomap ...
+Adding DB 'FCT+TrunkExp' to mysql database on users.emulab.net.
+Adding user 'E76309' to mysql database on users.emulab.net.
+Verifying parse ...
+Doing a pre-assign: '/usr/testbed/bin/vtopgen -p FCT TrunkExp' ...
+Minimum nodes   = 5
+Maximum nodes   = 5
+Writing environment strings ...
+Setting up additional program agent support ...
+Setting up additional network agent support ...
+Writing program agent info ...
+Pre run finished. 15:19:07:256519
+Running 'tbswap in  FCT TrunkExp'
+Beginning swap-in for FCT/TrunkExp (76309). 02/04/2011 15:19:07
+TIMESTAMP: 15:19:07:749529 tbswap in started
+Checking for feature SyncVlans.
+  Feature is disabled
+Checking with Admission Control ...
+Mapping to physical reality ...
+TIMESTAMP: 15:19:07:902596 mapper wrapper started
+Checking for feature NewMapper.
+  Feature is disabled
+assign_wrapper improved started
+TIMESTAMP: 15:19:09:140189 assign_wrapper started
+TIMESTAMP: 15:19:09:144085 TOP started
+Resetting DB before updating.
+opened topfile
+Minimum nodes   = 5
+Maximum nodes   = 5
+TIMESTAMP: 15:19:09:651993 TOP finished
+TIMESTAMP: 15:19:09:652763 assign_loop started
+Assign Run 1
+TIMESTAMP: 15:19:09:654232 ptopgen started
+ptopargs -p FCT -e TrunkExp 
+TIMESTAMP: 15:19:12:985073 ptopgen finished
+TIMESTAMP: 15:19:12:987565 assign started
+assign -P FCT-TrunkExp-5421.ptop FCT-TrunkExp-5421.top
+   BEST SCORE:  3.2 in 17000 iters and 0.73924 seconds
+TIMESTAMP: 15:19:15:19268 assign finished
+TIMESTAMP: 15:19:15:20666 reserving started
+*** Console log for pc125 does not exist! Skipping ...
+*** Console log for pc143 does not exist! Skipping ...
+TIMESTAMP: 15:19:17:632642 reserving finished
+Successfully reserved all physical nodes we needed.
+TIMESTAMP: 15:19:17:639289 assign_loop finished
+TIMESTAMP: 15:19:17:641714 LoadPhysResources started
+TIMESTAMP: 15:19:17:653054 LoadPhysResources finished
+TIMESTAMP: 15:19:17:654152 interpreting started
+TIMESTAMP: 15:19:17:658353 interpreting finished
+TIMESTAMP: 15:19:17:659397 uploading started
+TIMESTAMP: 15:19:19:159172 uploading finished
+TIMESTAMP: 15:19:19:160488 assign_wrapper finished
+TIMESTAMP: 15:19:19:172880 mapper wrapper finished
+Mapped to physical reality!
+Fetching tarballs and RPMs (if any) ...
+TIMESTAMP: 15:19:19:177977 tarfiles_setup started
+TIMESTAMP: 15:19:19:691320 tarfiles_setup finished
+Setting up mountpoints.
+TIMESTAMP: 15:19:20:97483 mountpoints started
+TIMESTAMP: 15:19:24:725197 mountpoints finished
+TIMESTAMP: 15:19:24:727212 named started
+Setting up named maps.
+TIMESTAMP: 15:19:27:990101 named finished
+Cleaning NFS traces.
+TIMESTAMP: 15:19:27:995992 nfstrace gc started
+/usr/local/lib/python2.6/site-packages/MySQLdb/__init__.py:34: DeprecationWarning: the sets module is deprecated
+  from sets import ImmutableSet
+TIMESTAMP: 15:19:29:287819 nfstrace gc finished
+TIMESTAMP: 15:19:29:303202 gentopofile started
+Generating ltmap (again) ...
+TIMESTAMP: 15:19:29:631497 gentopofile finished
+Resetting OS and rebooting.
+TIMESTAMP: 15:19:29:634702 launching os_setup
+Setting up VLANs.
+Checking for feature NewOsSetup.
+TIMESTAMP: 15:19:29:657151 snmpit started
+  Feature is disabled
+TIMESTAMP: 15:19:32:260429 os_setup started
+TIMESTAMP: 15:19:32:324184 rebooting/reloading nodes started
+osload (pc112): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+pc112: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Creating VLAN 1041810 as VLAN #281 on stack Experiment ... 
+Setting up reload for pc112 (mode: Frisbee)
+  Creating VLAN 1041810 as VLAN #281 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+osload (pc125): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+pc125: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc125 (mode: Frisbee)
+Succeeded
+osload (pc142): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+Creating VLAN 1041812 as VLAN #286 on stack Experiment ... 
+pc142: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc142 (mode: Frisbee)
+  Creating VLAN 1041812 as VLAN #286 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+osload (pc143): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+pc143: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc143 (mode: Frisbee)
+Succeeded
+osload (pc152): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+Creating VLAN 1041814 as VLAN #373 on stack Experiment ... 
+pc152: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc152 (mode: Frisbee)
+  Creating VLAN 1041814 as VLAN #373 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+osload: Issuing reboot for pc112 pc125 pc142 pc143 pc152 and then waiting ...
+Succeeded
+reboot (pc112): Attempting to reboot ...
+reboot (pc125): Attempting to reboot ...
+reboot (pc142): Attempting to reboot ...
+reboot (pc143): Attempting to reboot ...
+reboot (pc152): Attempting to reboot ...
+Creating VLAN 1041811 as VLAN #379 on stack Experiment ... 
+reboot (pc112): Successful!
+reboot (pc125): Successful!
+reboot (pc142): Successful!
+reboot (pc143): Successful!
+  Creating VLAN 1041811 as VLAN #379 on cisco3 ... reboot (pc152): Successful!
+reboot: Done. There were 0 failures.
+reboot (pc152): child returned 0 status.
+reboot (pc143): child returned 0 status.
+reboot (pc142): child returned 0 status.
+Succeeded.
+    Applying VLAN changes on cisco3 ...reboot (pc125): child returned 0 status.
+reboot (pc112): child returned 0 status.
+ Succeeded
+Succeeded
+Creating VLAN 1041813 as VLAN #456 on stack Experiment ... 
+  Creating VLAN 1041813 as VLAN #456 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+Succeeded
+TIMESTAMP: 15:19:43:287645 snmpit finished
+Setting up email lists.
+TIMESTAMP: 15:19:43:298911 genelists started
+TIMESTAMP: 15:19:46:55227 genelists finished
+Clearing port counters.
+TIMESTAMP: 15:19:46:59611 portstats started
+TIMESTAMP: 15:19:47:472747 portstats finished
+osload (pc112): still waiting; it has been 1 minute(s)
+osload (pc112): still waiting; it has been 2 minute(s)
+osload (pc112): still waiting; it has been 3 minute(s)
+osload (pc112): still waiting; it has been 4 minute(s)
+osload (pc112): still waiting; it has been 5 minute(s)
+osload (pc112): still waiting; it has been 6 minute(s)
+osload (pc112): still waiting; it has been 7 minute(s)
+osload (pc112): still waiting; it has been 8 minute(s)
+*** os_setup-osload:
+***   pc112 appears wedged; it has been 8 minutes since it was rebooted. 
+Tail of pc112 console:
+pc112: Running /etc/testbed/frisbee -S 155.98.32.70 -M 449  -s 2 -D 131 -B 30 -F emulab-ops/UBUNTU10-STD /dev/ad0 at Fri Feb  4 08:18:55 MST 2011.
+pc112: emulab-ops/UBUNTU10-STD: address: 234.17.113.96:32588.
+pc112: Maximum socket buffer size of 229376 bytes.
+pc112: Bound to port 32588.
+pc112: Using Multicast 234.17.113.96.
+pc112: Joined the team after 79 sec. ID is 1631800658. File is 365 chunks (382730240 bytes).
+pc112: ................................................................... 130    298.
+pc112: ................................................................... 192    232.
+pc112: .....................................................sss........... 280    168.
+pc112: ...................s...................................
+*** os_setup-osload:
+***   pc125 appears wedged; it has been 9 minutes since it was rebooted. 
+Tail of pc125 console:
+tail: /var/log/tiplogs/pc125.run: No such file or directory
+
+*** os_setup-osload:
+***   pc142 appears wedged; it has been 9 minutes since it was rebooted. 
+Tail of pc142 console:
+pc142: Running /etc/testbed/frisbee -S 155.98.32.70 -M 449  -s 2 -D 131 -B 30 -F emulab-ops/UBUNTU10-STD /dev/ad0 at Fri Feb  4 08:18:55 MST 2011.
+pc142: emulab-ops/UBUNTU10-STD: address: 234.17.113.96:32588.
+pc142: Maximum socket buffer size of 229376 bytes.
+pc142: Bound to port 32588.
+pc142: Using Multicast 234.17.113.96.
+pc142: Joined the team after 78 sec. ID is 2115626927. File is 365 chunks (382730240 bytes).
+pc142: ................................................................... 130    298.
+pc142: ................................................................... 192    232.
+pc142: .....................................................sss........... 279    168.
+pc142: ...................s...................................
+*** os_setup-osload:
+***   pc143 appears wedged; it has been 9 minutes since it was rebooted. 
+Tail of pc143 console:
+tail: /var/log/tiplogs/pc143.run: No such file or directory
+
+*** os_setup-osload:
+***   pc152 appears wedged; it has been 9 minutes since it was rebooted. 
+Tail of pc152 console:
+pc152: Running /etc/testbed/frisbee -S 155.98.32.70 -M 449  -s 2 -D 131 -B 30 -F emulab-ops/UBUNTU10-STD /dev/ad0 at Fri Feb  4 15:18:55 MST 2011.
+pc152: emulab-ops/UBUNTU10-STD: address: 234.17.113.96:32588.
+pc152: Maximum socket buffer size of 229376 bytes.
+pc152: Bound to port 32588.
+pc152: Using Multicast 234.17.113.96.
+pc152: Joined the team after 79 sec. ID is 1105988097. File is 365 chunks (382730240 bytes).
+pc152: ................................................................... 131    298.
+pc152: ................................................................... 193    232.
+pc152: .....................................................sss........... 280    168.
+pc152: ...................s...................................
+*** os_setup-osload: pc112: Trying again ...
+*** os_setup-osload: pc125: Trying again ...
+*** os_setup-osload: pc142: Trying again ...
+*** os_setup-osload: pc143: Trying again ...
+*** os_setup-osload: pc152: Trying again ...
+osload: Issuing reboot for pc112 pc125 pc142 pc143 pc152 and then waiting ...
+reboot (pc112): Attempting to reboot ...
+reboot (pc125): Attempting to reboot ...
+reboot (pc142): Attempting to reboot ...
+reboot (pc143): Attempting to reboot ...
+reboot (pc152): Attempting to reboot ...
+reboot (pc112): Successful!
+reboot (pc125): Successful!
+reboot (pc142): Successful!
+reboot (pc143): Successful!
+reboot (pc152): Successful!
+reboot: Done. There were 0 failures.
+reboot (pc152): child returned 0 status.
+reboot (pc143): child returned 0 status.
+reboot (pc142): child returned 0 status.
+reboot (pc125): child returned 0 status.
+reboot (pc112): child returned 0 status.
+osload (pc112): still waiting; it has been 1 minute(s)
+osload (pc112): still waiting; it has been 2 minute(s)
+osload (pc112): still waiting; it has been 3 minute(s)
+osload (pc143): still waiting; it has been 4 minute(s)
+osload (pc143): still waiting; it has been 5 minute(s)
+osload: Done! There were 0 failures.
+reload (pc152): child returned 0 status.
+reload (pc143): child returned 0 status.
+reload (pc142): child returned 0 status.
+reload (pc125): child returned 0 status.
+reload (pc112): child returned 0 status.
+TIMESTAMP: 15:35:09:293358 rebooting/reloading finished
+Waiting for local testbed nodes to finish rebooting ...
+TIMESTAMP: 15:35:09:296616 Local node waiting started
+pc152 is alive and well
+Still waiting for pc143 (SHUTDOWN) - it's been 1 minute(s).
+Still waiting for pc143 (TBSETUP) - it's been 2 minute(s).
+pc143 is alive and well
+Still waiting for pc142 (BOOTING) - it's been 2 minute(s).
+Still waiting for pc142 (BOOTING) - it's been 3 minute(s).
+Still waiting for pc142 (BOOTING) - it's been 4 minute(s).
+Still waiting for pc142 (BOOTING) - it's been 5 minute(s).
+Still waiting for pc142 (BOOTING) - it's been 6 minute(s).
+Still waiting for pc142 (BOOTING) - it's been 7 minute(s).
+*** Giving up on pc142 (BOOTING) - it's been 7 minute(s).
+Tail of pc142 console:
+pc142: Error sending boot errno to Emulab Control!..
+pc142: gethostbyname(UNKNOWN) failed..
+pc142: TMCC exited with status 256!..
+pc142: Error sending TBFAILED to Emulab Control!..
+pc142: Boot Complete..
+pc142: ..[74G[ OK ]..
+pc142: ..
+pc142: Ubuntu 10.04.1 LTS node2.trunkexp.fct.emulab.net ttyS0.
+pc142: .
+pc142: node2.trunkexp.fct.emulab.net login: 
+*** os_setup: Rebooting pc142 and waiting again ...
+reboot (pc142): Attempting to reboot ...
+reboot (pc142): Successful!
+reboot: Done. There were 0 failures.
+pc125 is alive and well
+*** Giving up on pc112 (BOOTING) - it's been 7 minute(s).
+Tail of pc112 console:
+pc112: Error sending boot errno to Emulab Control!..
+pc112: gethostbyname(UNKNOWN) failed..
+pc112: TMCC exited with status 256!..
+pc112: Error sending TBFAILED to Emulab Control!..
+pc112: Boot Complete..
+pc112: ..[74G[ OK ]..
+pc112: ..
+pc112: Ubuntu 10.04.1 LTS localhost ttyS0.
+pc112: .
+pc112: localhost login: 
+*** os_setup: Rebooting pc112 and waiting again ...
+reboot (pc112): Attempting to reboot ...
+reboot (pc112): Successful!
+reboot: Done. There were 0 failures.
+Still waiting for pc142 (SHUTDOWN) - it's been 1 minute(s).
+pc142 is alive and well
+Still waiting for pc112 (TBSETUP) - it's been 1 minute(s).
+Still waiting for pc112 (TBSETUP) - it's been 2 minute(s).
+pc112 is alive and well
+TIMESTAMP: 15:44:30:914908 Local node waiting finished
+OS Setup Done. 
+TIMESTAMP: 15:44:35:110999 os_setup finished
+Starting the event system.
+TIMESTAMP: 15:44:35:129411 eventsys_control started
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 15:44:38:201908 eventsys_control finished
+Starting linktest ... this could take a while!'
+Running '/usr/testbed/bin/sshtb -t -t -F /dev/null -host users.emulab.net exec /usr/testbed/sbin/linktest.proxy -d 2 -t 600 -l 3 -g FCT -u alm2220 -e FCT/TrunkExp -o /proj/FCT/exp/TrunkExp/logs/linktest.log'
+tcgetattr: Inappropriate ioctl for device
+Starting linktest at 15:43:27
+Debug mode requested.
+Linktest Version 1.2 
+Testing Single Hop Connectivity and Latency ... 15:43:33 
+  All latency tests were successful! 
+Testing Routing ... 15:43:35 
+  All routing tests were successful! 
+Testing Loss ... 15:43:37 
+  Some loss tests had errors! 
+Linktest completed at 15:43:52
+Downloading logs...
+Loss error: node2-link2 [pc142/0002b3861df9] to node4-link2 [pc143] (100 Mbps, 0ms, 0% loss, droptail) : Unexpected loss (sent 401, received=345)
+
+*** WARNING: tbswap: Linktest run returned non-zero status!
+TIMESTAMP: 15:45:12:168763 Starting event time
+*** ERROR: tbswap: Experiment swap-in canceled by user.
+Successfully finished swap-in for FCT/TrunkExp. 15:45:13:115275
+TIMESTAMP: 15:45:13:116547 tbswap in finished (succeeded)
+Running 'tbreport -b FCT TrunkExp'

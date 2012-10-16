@@ -1,0 +1,86 @@
+Running 'tbswap out  FCT TestbedSimulation'
+Beginning swap-out for FCT/TestbedSimulation (64650). 09/22/2010 19:35:52
+TIMESTAMP: 19:35:52:644099 tbswap out started
+Stopping the event system
+Stopping the location piper
+TIMESTAMP: 19:36:00:148460 snmpit started
+Removing VLANs.
+  Removing VLAN #407 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #422 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #421 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #418 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #412 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #411 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #420 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 .... Succeeded
+  Removing VLAN #417 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #407 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #422 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #413 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #423 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #412 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #409 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #419 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #408 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #409 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #416 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #410 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+TIMESTAMP: 19:36:29:569176 snmpit finished
+Tearing down virtual nodes.
+TIMESTAMP: 19:36:29:613278 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 19:36:32:576700 vnode_setup finished
+Freeing nodes.
+TIMESTAMP: 19:36:32:582559 nfree started
+Releasing all nodes from experiment [Experiment: FCT/TestbedSimulation].
+Moving [Node: pc239] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc123] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc346] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc329] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc73] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc62] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc266] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc350] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc114] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc112] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc61] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc60] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 19:36:48:522437 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 19:36:48:529028 exports started
+Another exports in progress. Waiting a moment ...
+Another exports in progress. Waiting a moment ...
+Another exports in progress. Waiting a moment ...
+Another exports in progress. Waiting a moment ...
+Another exports in progress. Waiting a moment ...
+Another exports in progress. Waiting a moment ...
+Another exports in progress. Waiting a moment ...
+TIMESTAMP: 19:37:08:542148 exports finished
+Resetting named maps.
+TIMESTAMP: 19:37:08:546522 named started
+TIMESTAMP: 19:37:12:85065 named finished
+Resetting email lists.
+TIMESTAMP: 19:37:12:91195 genelists started
+TIMESTAMP: 19:37:17:783207 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/TestbedSimulation. 19:37:18:41770
+TIMESTAMP: 19:37:18:45391 tbswap out finished (succeeded)

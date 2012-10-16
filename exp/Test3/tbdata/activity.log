@@ -1,0 +1,56 @@
+Running 'tbswap out  FCT Test3'
+Beginning swap-out for FCT/Test3 (88221). 10/10/2011 23:30:04
+TIMESTAMP: 23:30:04:516847 tbswap out started
+Checking for feature SyncVlans.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 23:30:06:388562 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+mapVlansToSwitches: cisco1
+  Removing VLAN #589 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #571 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #588 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #567 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #602 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #570 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #587 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+TIMESTAMP: 23:30:15:769724 snmpit finished
+Removing dynamic blobs.
+Tearing down virtual nodes.
+TIMESTAMP: 23:30:16:1769 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 23:30:17:493058 vnode_setup finished
+Removing logical wires.
+Freeing nodes.
+TIMESTAMP: 23:30:17:933441 nfree started
+Releasing all nodes from experiment [Experiment: FCT/Test3].
+Moving [Node: pc52] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc55] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc67] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc74] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc54] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc68] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc82] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 23:30:33:460022 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 23:30:33:463898 exports started
+TIMESTAMP: 23:30:38:324718 exports finished
+Resetting named maps.
+TIMESTAMP: 23:30:38:327898 named started
+TIMESTAMP: 23:30:40:784253 named finished
+Resetting email lists.
+TIMESTAMP: 23:30:40:787280 genelists started
+TIMESTAMP: 23:30:43:174155 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/Test3. 23:30:43:373091
+TIMESTAMP: 23:30:43:374118 tbswap out finished (succeeded)

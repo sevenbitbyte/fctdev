@@ -1,0 +1,24 @@
+Jul 28 11:54:21 watchdog[943]: Dogging it
+INTERVAL=1800 ISALIVE=180 NTPDRIFT=3600 CVSUP=0 RUSAGE=0 HOSTKEYS=59999940 DHCPDCONF=1800 SETROOTPSWD=3600
+
+INTERVAL => 1800
+ISALIVE => 180
+NTPDRIFT => 3600
+CVSUP => 0
+RUSAGE => 0
+HOSTKEYS => 59999940
+DHCPDCONF => 1800
+SETROOTPSWD => 3600
+Jul 28 11:54:21 watchdog[943]: setintervals: descheduling cvsup
+Jul 28 11:54:21 watchdog[943]: setintervals: scheduling hkeys now
+Jul 28 11:54:21 watchdog[943]: setintervals: scheduling isalive now
+Jul 28 11:54:21 watchdog[943]: setintervals: descheduling rusage
+Jul 28 11:54:21 watchdog[943]: setintervals: scheduling check
+Jul 28 11:54:21 watchdog[943]: setintervals: scheduling rootpswd now
+Jul 28 11:54:21 watchdog[943]: setintervals: descheduling batt
+Jul 28 11:54:21 watchdog[943]: setintervals: descheduling dhcpdconf
+Jul 28 11:54:21 watchdog[943]: setintervals: scheduling drift
+Jul 28 11:54:21 watchdog[943]: setintervals: check=1800, isalive=180, drift=3600, cvsup=0, rusage=0, hostkeys=59999940, battery=0, rootpswd=3600 dhcpdconf=0
+Jul 28 11:54:21 watchdog[943]: Resetting root password
+usermod: user 'toor' does not exist
+*** WARNING: resetting password for toor.

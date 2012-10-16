@@ -1,0 +1,34 @@
+V 2
+H node0 pc299 pc299 pc3000 2572 Linux 10.04 ping,ssh,ipod,isup,mlinks,linktest,vlans
+H node1 pc321 pc321 pc3000 2572 Linux 10.04 ping,ssh,ipod,isup,mlinks,linktest,vlans
+H node10 pc60 pc60 pc850 336 Linux 9.0 ping,ssh,ipod,isup,linktest,linkdelays,vlans
+H node11 pc313 pc313 pc3000 336 Linux 9.0 ping,ssh,ipod,isup,linktest,linkdelays,vlans
+H node12 pc315 pc315 pc3000 336 Linux 9.0 ping,ssh,ipod,isup,linktest,linkdelays,vlans
+H node2 pcvm357-1 pc357 pcvm 1762 Fedora 8 ping,ssh,isup,linktest
+H node3 pcvm279-1 pc279 pcvm 1762 Fedora 8 ping,ssh,isup,linktest
+H node4 pc341 pc341 pc3000 2572 Linux 10.04 ping,ssh,ipod,isup,mlinks,linktest,vlans
+H node5 pc278 pc278 pc3000 336 Linux 9.0 ping,ssh,ipod,isup,linktest,linkdelays,vlans
+H node6 pc284 pc284 pc3000 336 Linux 9.0 ping,ssh,ipod,isup,linktest,linkdelays,vlans
+H node7 pc307 pc307 pc3000 336 Linux 9.0 ping,ssh,ipod,isup,linktest,linkdelays,vlans
+H node8 pc242 pc242 pc3000 336 Linux 9.0 ping,ssh,ipod,isup,linktest,linkdelays,vlans
+H node9 pc335 pc335 pc3000 336 Linux 9.0 ping,ssh,ipod,isup,linktest,linkdelays,vlans
+L node2 node4 link2 00000a010302 none linkdelay
+L node4 node2 link2 000423b728f0 none linkdelay
+L node12 node1 link13 000423b71af8 none dnode
+L node1 node12 link13 000423a8fcd0 none dnode
+L node12 node2 link12 000423b71af9 none linkdelay
+L node2 node12 link12 00000a010402 none linkdelay
+L node11 node2 link11 000423b718da none linkdelay
+L node2 node11 link11 00000a010102 none linkdelay
+L node1 node2 link3 000423a8fcd1 none linkdelay
+L node2 node1 link3 00000a010603 none linkdelay
+L node1 node3 link1 000423a8fc0f none linkdelay
+L node3 node1 link1 00000a010a03 none linkdelay
+L node0 node1 link0 000423b74090 none dnode
+L node1 node0 link0 000423a8fc0e none dnode
+L node3 node7 link7 00000a010502 none linkdelay
+L node7 node3 link7 000423b72654 none linkdelay
+L node3 node6 link6 00000a010202 none linkdelay
+L node6 node3 link6 000423b72666 none linkdelay
+L node0 node3 link4 000423b7410c none linkdelay
+L node3 node0 link4 00000a010803 none linkdelay

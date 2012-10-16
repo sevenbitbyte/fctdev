@@ -1,0 +1,49 @@
+Doing a preswapmod on the experiment archive ...
+Backing up old experiment state ... 10:40:30:844730
+Running 'tbprerun  -e 63507 EXPTRUNK-modify.ns'
+Beginning pre run for FCT/EXPTRUNK. 10:40:31:766400
+Running parser ... 10:40:32:298729
+Parser done! 10:40:36:411345
+Setting up static routes (if requested) ... 
+Generating topomap ...
+Adding DB 'FCT+EXPTRUNK' to mysql database on users.emulab.net.
+Adding user 'E63507' to mysql database on users.emulab.net.
+Verifying parse ...
+Doing a pre-assign: '/usr/testbed/bin/vtopgen -p FCT EXPTRUNK' ...
+Checking for feature LibVtopTest.
+  Feature is enabled
+Using test version of libvtop ...
+*** WARNING: vtopgen:
+***   link1: changing node1:1 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: vtopgen:
+***   link11: changing node11:0 to non-encapsulating since physical host
+***   does not support veth-ne 
+*** WARNING: vtopgen:
+***   link12: changing node12:0 to non-encapsulating since physical host
+***   does not support veth-ne 
+*** WARNING: vtopgen:
+***   link2: changing node4:0 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: vtopgen:
+***   link3: changing node1:2 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: vtopgen:
+***   link4: changing node0:1 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: vtopgen:
+***   link6: changing node6:0 to non-encapsulating since physical host does
+***   not support veth-ne 
+*** WARNING: vtopgen:
+***   link7: changing node7:0 to non-encapsulating since physical host does
+***   not support veth-ne 
+Minimum nodes   = 11
+Maximum nodes   = 11
+Virtual nodes     = 2
+Writing environment strings ...
+Setting up additional program agent support ...
+Setting up additional network agent support ...
+Writing program agent info ...
+Pre run finished. 10:40:47:668262
+Image rendering proceeding in background mode ...
+Running 'tbreport -b FCT EXPTRUNK'

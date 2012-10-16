@@ -1,0 +1,104 @@
+seed = 1327785407
+Physical Graph: 114
+Calculating shortest paths on switch fabric.
+Virtual Graph: 31
+Generating physical equivalence classes:58
+Type precheck:
+Type precheck passed.
+Node mapping precheck:
+Node mapping precheck succeeded
+Pruning pclasses.
+pclass pruning complete: removed 40 pclasses, 18 remain.
+Type precheck:
+Type precheck passed.
+Policy precheck:
+Policy precheck succeeded
+Annealing.
+Doing melting run
+Reverting: forced
+Reverting to best solution
+Done
+   BEST SCORE:  24.67 in 20000 iters and 1.32922 seconds
+With 0 violations
+Iters to find best score:  18878
+Violations: 0
+  unassigned:  0
+  pnode_load:  0
+  no_connect:  0
+  link_users:  0
+  bandwidth:   0
+  desires:     0
+  vclass:      0
+  delay:       0
+  trivial mix: 0
+  subnodes:    0
+  max_types:   0
+  endpoints:   0
+Nodes:
+node0 pc423
+node1 pc531
+node10 pc501
+node11 pc456
+node12 pc429
+node13 pc505
+node14 pc529
+node15 pc547
+node16 pc508
+node17 pc421
+node18 pc512
+node19 pc430
+node2 pc534
+node20 pc249
+node21 pc511
+node22 pc319
+node23 pc440
+node3 pc348
+node4 pc234
+node5 pc208
+node6 pc550
+node7 pc490
+node8 pc537
+node9 pc521
+tbdelay0 pc538
+tbdelay1 pc538
+tbdelay2 pc554
+tbdelay3 pc554
+tbdelay4 pc254
+tbdelay5 pc487
+tbdelay6 pc486
+End Nodes
+Edges:
+linksdelaysrc/link0/node0:0,node2:0 intraswitch link-pc423:eth1-procurve4:(null) (pc423/eth1,(null)) link-pc538:eth1-procurve4:(null) (pc538/eth1,(null))
+linksdelaydst/link0/node2:0,node0:0 intraswitch link-pc534:eth3-procurve5:(null) (pc534/eth3,(null)) link-pc538:eth3-procurve5:(null) (pc538/eth3,(null))
+linksdelaysrc/link1/node2:1,node6:0 intraswitch link-pc534:eth5-procurve5:(null) (pc534/eth5,(null)) link-pc538:eth5-procurve5:(null) (pc538/eth5,(null))
+linksdelaydst/link1/node6:0,node2:1 intraswitch link-pc550:eth4-procurve4:(null) (pc550/eth4,(null)) link-pc538:eth4-procurve4:(null) (pc538/eth4,(null))
+linksimple/link10/node7:2,node14:0 intraswitch link-pc490:eth4-procurve3:(null) (pc490/eth4,(null)) link-pc529:eth2-procurve3:(null) (pc529/eth2,(null))
+linksimple/link11/node8:0,node15:0 intraswitch link-pc537:eth2-procurve3:(null) (pc537/eth2,(null)) link-pc547:eth2-procurve3:(null) (pc547/eth2,(null))
+linksdelaysrc/link12/node8:1,node16:0 intraswitch link-pc537:eth5-procurve5:(null) (pc537/eth5,(null)) link-pc554:eth3-procurve5:(null) (pc554/eth3,(null))
+linksdelaydst/link12/node16:0,node8:1 intraswitch link-pc508:eth3-procurve5:(null) (pc508/eth3,(null)) link-pc554:eth5-procurve5:(null) (pc554/eth5,(null))
+linksimple/link13/node7:3,node8:2 intraswitch link-pc490:eth3-procurve5:(null) (pc490/eth3,(null)) link-pc537:eth3-procurve5:(null) (pc537/eth3,(null))
+linksimple/link14/node11:1,node14:1 interswitch  link-pc456:eth2-procurve3:(null) (pc456/eth2,(null)) link-procurve1:procurve3 ((null),(null)) link-procurve1:procurve4 ((null),(null)) link-pc529:eth4-procurve4:(null) (pc529/eth4,(null))
+linksimple/link16/node9:0,node11:2 intraswitch link-pc521:eth3-procurve5:(null) (pc521/eth3,(null)) link-pc456:eth3-procurve5:(null) (pc456/eth3,(null))
+linksimple/link17/node10:0,node11:3 interswitch  link-pc501:eth3-procurve5:(null) (pc501/eth3,(null)) link-procurve1:procurve5 ((null),(null)) link-procurve1:procurve4 ((null),(null)) link-pc456:eth4-procurve4:(null) (pc456/eth4,(null))
+linksimple/link18/node12:0,node14:2 intraswitch link-pc429:eth1-procurve4:(null) (pc429/eth1,(null)) link-pc529:eth1-procurve4:(null) (pc529/eth1,(null))
+linksimple/link19/node13:0,node14:3 intraswitch link-pc505:eth3-procurve5:(null) (pc505/eth3,(null)) link-pc529:eth3-procurve5:(null) (pc529/eth3,(null))
+linksimple/link2/node1:0,node2:2 intraswitch link-pc531:eth2-procurve3:(null) (pc531/eth2,(null)) link-pc534:eth2-procurve3:(null) (pc534/eth2,(null))
+linksimple/link20/node15:1,node17:0 intraswitch link-pc547:eth3-procurve5:(null) (pc547/eth3,(null)) link-pc421:eth3-procurve5:(null) (pc421/eth3,(null))
+linksimple/link21/node15:2,node18:0 intraswitch link-pc547:eth5-procurve5:(null) (pc547/eth5,(null)) link-pc512:eth3-procurve5:(null) (pc512/eth3,(null))
+linksimple/link22/node16:1,node19:0 intraswitch link-pc508:eth4-procurve3:(null) (pc508/eth4,(null)) link-pc430:eth4-procurve3:(null) (pc430/eth4,(null))
+linksimple/link23/node20:0,node19:1 interswitch  link-pc249:eth2-cisco8:(null) (pc249/eth2,(null)) link-procurve1:procurve5 ((null),(null)) link-procurve1:cisco8 ((null),(null)) link-pc430:eth3-procurve5:(null) (pc430/eth3,(null))
+linksdelaysrc/link24/node6:2,node16:2 intraswitch link-pc550:eth2-procurve3:(null) (pc550/eth2,(null)) link-pc554:eth2-procurve3:(null) (pc554/eth2,(null))
+linksdelaydst/link24/node16:2,node6:2 intraswitch link-pc508:eth1-procurve4:(null) (pc508/eth1,(null)) link-pc554:eth4-procurve4:(null) (pc554/eth4,(null))
+linksimple/link25/node9:1,node21:0 interswitch  link-pc521:eth5-procurve5:(null) (pc521/eth5,(null)) link-procurve1:procurve4 ((null),(null)) link-procurve1:procurve5 ((null),(null)) link-pc511:eth1-procurve4:(null) (pc511/eth1,(null))
+linksimple/link26/node21:1,node22:0 interswitch  link-pc511:eth3-procurve5:(null) (pc511/eth3,(null)) link-procurve1:procurve5 ((null),(null)) link-procurve1:cisco8 ((null),(null)) link-pc319:eth4-cisco8:(null) (pc319/eth4,(null))
+linksimple/link27/node22:1,node23:0 interswitch  link-pc319:eth5-cisco8:(null) (pc319/eth5,(null)) link-procurve1:procurve4 ((null),(null)) link-procurve1:cisco8 ((null),(null)) link-pc440:eth1-procurve4:(null) (pc440/eth1,(null))
+linksimple/link3/node2:3,node5:0 interswitch  link-pc534:eth4-procurve4:(null) (pc534/eth4,(null)) link-procurve1:procurve4 ((null),(null)) link-procurve1:cisco8 ((null),(null)) link-cisco8:cisco5 ((null),(null)) link-pc208:eth3-cisco5:(null) (pc208/eth3,(null))
+linksimple/link4/node3:0,node5:1 intraswitch link-pc348:eth4-cisco8:(null) (pc348/eth4,(null)) link-pc208:eth2-cisco8:(null) (pc208/eth2,(null))
+linksdelaysrc/link5/node4:0,node5:2 interswitch  link-pc234:eth2-cisco8:(null) (pc234/eth2,(null)) link-cisco8:cisco5 ((null),(null)) link-pc254:eth3-cisco5:(null) (pc254/eth3,(null))
+linksdelaydst/link5/node5:2,node4:0 intraswitch link-pc208:eth4-cisco8:(null) (pc208/eth4,(null)) link-pc254:eth2-cisco8:(null) (pc254/eth2,(null))
+linksdelaysrc/link7/node6:1,node7:0 interswitch  link-pc550:eth1-procurve4:(null) (pc550/eth1,(null)) link-procurve1:procurve4 ((null),(null)) link-procurve1:procurve5 ((null),(null)) link-pc487:eth3-procurve5:(null) (pc487/eth3,(null))
+linksdelaydst/link7/node7:0,node6:1 intraswitch link-pc490:eth2-procurve3:(null) (pc490/eth2,(null)) link-pc487:eth4-procurve3:(null) (pc487/eth4,(null))
+linksdelaysrc/link9/node7:1,node11:0 intraswitch link-pc490:eth1-procurve4:(null) (pc490/eth1,(null)) link-pc486:eth1-procurve4:(null) (pc486/eth1,(null))
+linksdelaydst/link9/node11:0,node7:1 interswitch  link-pc456:eth1-procurve4:(null) (pc456/eth1,(null)) link-procurve1:procurve4 ((null),(null)) link-procurve1:procurve3 ((null),(null)) link-pc486:eth4-procurve3:(null) (pc486/eth4,(null))
+End Edges
+End solution

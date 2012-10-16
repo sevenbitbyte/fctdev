@@ -1,0 +1,140 @@
+<?php
+
+if (!defined('BASEPATH')) exit('No direct script access allowed');
+
+class Usermanager {
+
+	var $current_user;
+
+	public function __construct() {
+		$current_user = Null;
+	}
+
+	public function init() {
+		session_start();
+		$CI = & get_instance();
+		$db = & db_get();
+		$user = new UserInfo();
+		$sql = "SELECT uid, username, passphrase, certificate FROM geni_users WHERE session_id=?";
+		$res = $db->query($sql, array(session_id()));
+		if ($res->num_rows() > 0) {
+			$row = $res->row();
+			$user->uid = $row->uid;
+			$user->username = $row->username;
+			$user->certificate = $row->certificate;
+			$user->passphrase = $row->passphrase;
+			$user->logged = true;
+		}
+		$res->free_result();
+		$this->current_user = $user;
+	}
+
+	public function login($username, $passphrase) {
+		$db = & db_get();
+		$sql = "SELECT uid,certificate FROM geni_users WHERE username=? && passphrase=?";
+		$res = $db->query($sql, array($username, $passphrase));
+		if ($res->num_rows() != 1) {
+			$res->free_result();
+			$sql = "SELECT COUNT(username) AS num_users FROM geni_users";
+			$res = $db->query($sql);
+			if ($res->row()->num_users == 0) {
+				$this->add_user($username, $passphrase);
+				return $this->attempt_login($username, $passphrase);
+			}
+			return "Wrong username or password.";
+		}
+		$row = $res->row();
+		$this->current_user->uid = $row->uid;
+		$this->current_user->username = $username;
+		$this->current_user->passphrase = $passphrase;
+		$this->current_user->certificate = $row->certificate;
+		if (!file_exists($this->current_user->certificate)) {
+			$this->current_user->certificate = ""; // Certificate can't be found.. must have been erased or moved.
+			$this->clear_certificate($username);
+		}
+		$this->current_user->logged = true;
+		$res->free_result();
+		$sql = "UPDATE geni_users SET session_id='" . session_id() . "' WHERE username='" . $username . "'";
+		$db->simple_query($sql);
+		return "";
+	}
+
+	public function logout() {
+		if ($this->current_user->uid == Null) {
+			return;
+		}
+
+		$db = & db_get();
+		$sql = "SELECT session_id FROM geni_users WHERE uid=?";
+		$res = $db->query($sql, array($this->current_user->uid));
+		if ($res->num_rows() > 0) {
+			$sql = "UPDATE geni_users SET session_id=NULL WHERE uid=?";
+			$db->query($sql, array($this->current_user->uid));
+		}
+	}
+
+	public function add_user($username, $passphrase) {
+		$db = & db_get();
+		$sql = "INSERT INTO geni_users (username, passphrase) VALUES (?, ?)";
+		$res = $db->query($sql, array($username, $passphrase));
+	}
+
+	public function import_certificate($username, $certificate) {
+		$fn = "/tmp/$username.pem"; //$this->get_cert_resource_filename($username);
+		if (move_uploaded_file($certificate['tmp_name'], $fn)) {
+			$db = & db_get();
+			$sql = "UPDATE geni_users SET certificate='" . $fn . "' WHERE username='" . $username . "'";
+			$db->simple_query($sql);
+			if ($this->current_user->username == $username) $this->current_user->certificate = $fn;
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public function clear_certificate($username, $certificate="") {
+		$db = & db_get();
+		$sql = "UPDATE geni_users SET certificate='' WHERE username='" . $username . "'";
+		$db->simple_query($sql);
+		if ($this->current_user->username == $username) $this->current_user->certificate = '';
+		if (!empty($certificate) && file_exists($certificate)) unlink($certificate);
+	}
+
+}
+
+class UserInfo {
+
+	var $uid;
+	var $username;
+	var $certificate;
+	var $passphrase;
+	var $logged;
+
+	public function __construct() {
+		$this->uid = Null;
+		$this->username = Null;
+		$this->certificate = Null;
+		$this->passphrase = Null;
+		$this->logged = false;
+	}
+
+	public function clear_certificate() {
+		$db = & db_get();
+		$sql = "UPDATE geni_users SET certificate=? WHERE uid=?";
+		$db->query($sql, array(Null, $this->uid));
+		$this->certificate = Null;
+		if (!empty($this->certificate) && file_exists($this->certificate)) {
+			unlink($this->certificate);
+		}
+	}
+
+	public function get_parsed_certificate() {
+		if (!file_exists($this->certificate)) {
+			$this->clear_certificate();
+			return Null;
+		}
+		return openssl_x509_parse(file_get_contents($this->certificate));
+	}
+
+}
+?>

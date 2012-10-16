@@ -1,0 +1,82 @@
+warning: 'node7' is down, its logs will not be retrieved
+error: failed to sync node 'node8'
+node8: Permission denied (publickey,password).
+node8: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node8: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node20'
+node20: Permission denied (publickey,password).
+node20: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node20: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node13'
+node13: Permission denied (publickey,password).
+node13: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node13: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node0'
+node0: Permission denied (publickey,password).
+node0: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node0: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node6'
+node6: Permission denied (publickey,password).
+node6: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node6: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node9'
+node9: Permission denied (publickey,password).
+node9: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node9: rsync error: error in rsync protocol data stream (code 12) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node12'
+node12: Permission denied (publickey,password).
+node12: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node12: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node10'
+node10: Permission denied (publickey,password).
+node10: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node10: rsync error: error in rsync protocol data stream (code 12) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node4'
+node4: Permission denied (publickey,password).
+node4: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node4: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node3'
+node3: Permission denied (publickey,password).
+node3: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node3: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node19'
+node19: Permission denied (publickey,password).
+node19: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node19: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node16'
+node16: Permission denied (publickey,password).
+node16: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node16: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node5'
+node5: Permission denied (publickey,password).
+node5: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node5: rsync error: error in rsync protocol data stream (code 12) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node14'
+node14: Permission denied (publickey,password).
+node14: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node14: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node18'
+node18: Permission denied (publickey,password).
+node18: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node18: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node15'
+node15: Permission denied (publickey,password).
+node15: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node15: rsync error: error in rsync protocol data stream (code 12) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node2'
+node2: Permission denied (publickey,password).
+node2: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node2: rsync error: error in rsync protocol data stream (code 12) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node17'
+node17: Permission denied (publickey,password).
+node17: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node17: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node11'
+node11: Permission denied (publickey,password).
+node11: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node11: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+error: failed to sync node 'node1'
+node1: Permission denied (publickey,password).
+node1: rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+node1: rsync error: unexplained error (code 255) at io.c(472) [receiver=2.6.8]
+

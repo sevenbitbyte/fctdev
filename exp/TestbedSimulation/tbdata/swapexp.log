@@ -1,0 +1,208 @@
+Running 'tbswap in  FCT TestbedSimulation'
+Beginning swap-in for FCT/TestbedSimulation (64650). 09/24/2010 09:41:48
+TIMESTAMP: 09:41:48:588442 tbswap in started
+Checking with Admission Control ...
+Mapping to physical reality ...
+TIMESTAMP: 09:41:48:861256 mapper wrapper started
+assign_wrapper improved started
+TIMESTAMP: 09:41:49:487616 assign_wrapper started
+TIMESTAMP: 09:41:49:493526 TOP started
+Resetting DB before updating.
+opened topfile
+Minimum nodes   = 12
+Maximum nodes   = 12
+TIMESTAMP: 09:41:50:288712 TOP finished
+TIMESTAMP: 09:41:50:290152 assign_loop started
+Assign Run 1
+TIMESTAMP: 09:41:50:292790 ptopgen started
+ptopargs -p FCT -e TestbedSimulation 
+TIMESTAMP: 09:41:53:282564 ptopgen finished
+TIMESTAMP: 09:41:53:285853 assign started
+assign -P FCT-TestbedSimulation-75477.ptop FCT-TestbedSimulation-75477.top
+   BEST SCORE:  17.02 in 17000 iters and 1.13397 seconds
+TIMESTAMP: 09:41:55:328371 assign finished
+TIMESTAMP: 09:41:55:330106 reserving started
+TIMESTAMP: 09:42:02:31992 reserving finished
+Successfully reserved all physical nodes we needed.
+TIMESTAMP: 09:42:02:48827 assign_loop finished
+TIMESTAMP: 09:42:02:52053 LoadPhysResources started
+TIMESTAMP: 09:42:02:98924 LoadPhysResources finished
+TIMESTAMP: 09:42:02:100908 interpreting started
+TIMESTAMP: 09:42:02:127885 interpreting finished
+TIMESTAMP: 09:42:02:129728 uploading started
+TIMESTAMP: 09:42:02:541769 uploading finished
+TIMESTAMP: 09:42:02:543251 assign_wrapper finished
+TIMESTAMP: 09:42:02:559308 mapper wrapper finished
+Mapped to physical reality!
+Fetching tarballs and RPMs (if any) ...
+TIMESTAMP: 09:42:02:566219 tarfiles_setup started
+TIMESTAMP: 09:42:03:576098 tarfiles_setup finished
+Setting up mountpoints.
+TIMESTAMP: 09:42:03:583761 mountpoints started
+TIMESTAMP: 09:42:11:128540 mountpoints finished
+TIMESTAMP: 09:42:11:133630 named started
+Setting up named maps.
+TIMESTAMP: 09:42:13:860567 named finished
+Cleaning NFS traces.
+TIMESTAMP: 09:42:13:864813 nfstrace gc started
+TIMESTAMP: 09:42:16:443169 nfstrace gc finished
+TIMESTAMP: 09:42:16:446909 gentopofile started
+Generating ltmap (again) ...
+TIMESTAMP: 09:42:17:243506 gentopofile finished
+Resetting OS and rebooting.
+TIMESTAMP: 09:42:17:247706 launching os_setup
+Setting up VLANs.
+TIMESTAMP: 09:42:17:261737 snmpit started
+TIMESTAMP: 09:42:18:476866 os_setup started
+TIMESTAMP: 09:42:18:589501 rebooting/reloading nodes started
+osload (pc170): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc170 (mode: Frisbee)
+osload (pc171): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc171 (mode: Frisbee)
+osload (pc176): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc176 (mode: Frisbee)
+osload (pc23): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc23 (mode: Frisbee)
+osload (pc283): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc283 (mode: Frisbee)
+osload (pc284): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc284 (mode: Frisbee)
+osload (pc287): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc287 (mode: Frisbee)
+osload (pc294): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc294 (mode: Frisbee)
+osload (pc3): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc3 (mode: Frisbee)
+osload (pc303): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc303 (mode: Frisbee)
+osload (pc51): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc51 (mode: Frisbee)
+osload (pc62): Changing default OS to [OS 1232: emulab-ops,UBUNTU70-STD]
+Setting up reload for pc62 (mode: Frisbee)
+osload: Issuing reboot for pc170 pc171 pc176 pc23 pc283 pc284 pc287 pc294 pc3 pc303 pc51 pc62 and then waiting ...
+reboot (pc170): Attempting to reboot ...
+reboot (pc171): Attempting to reboot ...
+reboot (pc176): Attempting to reboot ...
+reboot (pc23): Attempting to reboot ...
+reboot (pc283): Attempting to reboot ...
+reboot (pc284): Attempting to reboot ...
+reboot (pc287): Attempting to reboot ...
+reboot (pc294): Attempting to reboot ...
+reboot (pc3): Attempting to reboot ...
+reboot (pc303): Attempting to reboot ...
+reboot (pc51): Attempting to reboot ...
+reboot (pc62): Attempting to reboot ...
+reboot (pc170): Successful!
+reboot (pc171): Successful!
+reboot (pc176): Successful!
+reboot (pc23): Successful!
+reboot (pc283): Successful!
+reboot (pc284): Successful!
+reboot (pc287): Successful!
+reboot (pc294): Successful!
+reboot (pc3): Successful!
+reboot (pc303): Successful!
+reboot (pc51): Successful!
+reboot (pc62): Successful!
+reboot: Done. There were 0 failures.
+reboot (pc3): child returned 0 status.
+reboot (pc294): child returned 0 status.
+reboot (pc170): child returned 0 status.
+reboot (pc51): child returned 0 status.
+reboot (pc287): child returned 0 status.
+reboot (pc23): child returned 0 status.
+reboot (pc176): child returned 0 status.
+reboot (pc62): child returned 0 status.
+reboot (pc303): child returned 0 status.
+reboot (pc283): child returned 0 status.
+reboot (pc284): child returned 0 status.
+reboot (pc171): child returned 0 status.
+osload (pc170): still waiting; it has been 1 minute(s)
+osload: Done! There were 0 failures.
+reload (pc3): child returned 0 status.
+reload (pc294): child returned 0 status.
+reload (pc170): child returned 0 status.
+reload (pc51): child returned 0 status.
+reload (pc287): child returned 0 status.
+reload (pc23): child returned 0 status.
+reload (pc176): child returned 0 status.
+reload (pc62): child returned 0 status.
+reload (pc303): child returned 0 status.
+reload (pc283): child returned 0 status.
+reload (pc284): child returned 0 status.
+reload (pc171): child returned 0 status.
+TIMESTAMP: 09:44:42:862051 rebooting/reloading finished
+Waiting for local testbed nodes to finish rebooting ...
+TIMESTAMP: 09:44:42:865354 Local node waiting started
+Still waiting for pc3 (BOOTING) - it's been 1 minute(s).
+*** WARNING: snmpit:
+***   SNMP GET failed - In /usr/testbed/bin/snmpit
+***   SNMPIT get failed for device cisco8 (try 30 of 30)
+***   Variable was [sysDescr,0,(undefined),(undefined)]
+***   Returned (undefined), ErrorNum was -24
+***   Error string is: Timeout
+RPC::Async::Server: Disconnecting client for error: SNMP GET failed - In /usr/testbed/bin/snmpit
+SNMPIT get failed for device cisco8 (try 30 of 30)
+Variable was [sysDescr,0,(undefined),(undefined)]
+Returned (undefined), ErrorNum was -24
+Error string is: Timeout
+
+
+*** ERROR: snmpit: RPC::Async::Client: server disconnected
+*** ERROR: tbswap: Failed to set up VLANs.
+Cleaning up after errors.
+Waiting for os_setup to finish
+pc3 is alive and well
+Still waiting for pc294 (BOOTING) - it's been 1 minute(s).
+pc294 is alive and well
+pc170 is alive and well
+Still waiting for pc51 (TBSETUP) - it's been 1 minute(s).
+pc51 is alive and well
+pc287 is alive and well
+pc23 is alive and well
+pc176 is alive and well
+Still waiting for pc62 (TBSETUP) - it's been 1 minute(s).
+Still waiting for pc62 (TBSETUP) - it's been 2 minute(s).
+pc62 is alive and well
+Still waiting for pc303 (BOOTING) - it's been 2 minute(s).
+Still waiting for pc303 (BOOTING) - it's been 3 minute(s).
+pc303 is alive and well
+pc283 is alive and well
+pc284 is alive and well
+pc171 is alive and well
+TIMESTAMP: 09:48:24:773206 Local node waiting finished
+OS Setup Done. 
+TIMESTAMP: 09:48:24:892557 os_setup finished
+Stopping the event system
+Stopping the location piper
+TIMESTAMP: 09:48:26:733489 snmpit started
+Removing VLANs.
+snmpit: FCT/TestbedSimulation has VLANs, but none have been created on switches
+  ... skipping
+TIMESTAMP: 09:48:27:856638 snmpit finished
+Tearing down virtual nodes.
+TIMESTAMP: 09:48:27:884707 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 09:48:29:730897 vnode_setup finished
+Freeing nodes.
+TIMESTAMP: 09:48:29:735142 nfree started
+Releasing all nodes from experiment [Experiment: FCT/TestbedSimulation].
+Moving [Node: pc303] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc170] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc294] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc287] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc3] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc62] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc284] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc283] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc176] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc171] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc23] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc51] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 09:48:44:585360 nfree finished
+Resetting DB.
+Failingly finished swap-in for FCT/TestbedSimulation. 09:48:44:797986
+TIMESTAMP: 09:48:44:799257 tbswap in finished (failed)
+*** ERROR: swapexp: tbswap in failed!
+Cleaning up and exiting with status 1 ... 

@@ -1,0 +1,228 @@
+/usr/testbed/sbin/event-sched -d -s localhost -k /proj/FCT/exp/T4B/tbdata/eventkey FCT T4B
+D: adding agent link0
+D:		AddAgent asked to add agent link0
+D: adding agent link0-node0
+D:		AddAgent asked to add agent link0-node0
+D: adding agent link0-node1
+D:		AddAgent asked to add agent link0-node1
+D: adding agent link1
+D:		AddAgent asked to add agent link1
+D: adding agent link1-node0
+D:		AddAgent asked to add agent link1-node0
+D: adding agent link1-node2
+D:		AddAgent asked to add agent link1-node2
+D: adding agent link2
+D:		AddAgent asked to add agent link2
+D: adding agent link2-node2
+D:		AddAgent asked to add agent link2-node2
+D: adding agent link2-node4
+D:		AddAgent asked to add agent link2-node4
+D: adding agent link3
+D:		AddAgent asked to add agent link3
+D: adding agent link3-node0
+D:		AddAgent asked to add agent link3-node0
+D: adding agent link3-node3
+D:		AddAgent asked to add agent link3-node3
+D: adding agent link4
+D:		AddAgent asked to add agent link4
+D: adding agent link4-node1
+D:		AddAgent asked to add agent link4-node1
+D: adding agent link4-node3
+D:		AddAgent asked to add agent link4-node3
+D: adding agent link5
+D:		AddAgent asked to add agent link5
+D: adding agent link5-node3
+D:		AddAgent asked to add agent link5-node3
+D: adding agent link5-node5
+D:		AddAgent asked to add agent link5-node5
+D: adding agent link6
+D:		AddAgent asked to add agent link6
+D: adding agent link6-node2
+D:		AddAgent asked to add agent link6-node2
+D: adding agent link6-node3
+D:		AddAgent asked to add agent link6-node3
+D: adding agent link7
+D:		AddAgent asked to add agent link7
+D: adding agent link7-node1
+D:		AddAgent asked to add agent link7-node1
+D: adding agent link7-node2
+D:		AddAgent asked to add agent link7-node2
+D: adding agent linktest
+D:		AddAgent asked to add agent linktest
+D: adding agent node0
+D:		AddAgent asked to add agent node0
+D: adding agent node0-console
+D:		AddAgent asked to add agent node0-console
+D: adding agent node1
+D:		AddAgent asked to add agent node1
+D: adding agent node1-console
+D:		AddAgent asked to add agent node1-console
+D: adding agent node2
+D:		AddAgent asked to add agent node2
+D: adding agent node2-console
+D:		AddAgent asked to add agent node2-console
+D: adding agent node3
+D:		AddAgent asked to add agent node3
+D: adding agent node3-console
+D:		AddAgent asked to add agent node3-console
+D: adding agent node4
+D:		AddAgent asked to add agent node4
+D: adding agent node4-console
+D:		AddAgent asked to add agent node4-console
+D: adding agent node5
+D:		AddAgent asked to add agent node5
+D: adding agent node5-console
+D:		AddAgent asked to add agent node5-console
+D: adding agent ns
+D:		AddAgent asked to add agent ns
+D: adding agent slothd
+D:		AddAgent asked to add agent slothd
+D: adding agent tbdelay0_program
+D:		AddAgent asked to add agent tbdelay0_program
+D: adding agent tbdelay1_program
+D:		AddAgent asked to add agent tbdelay1_program
+D: adding agent __tbdelay0_program-agent
+D:		AddAgent asked to add agent __tbdelay0_program-agent
+D: adding agent __tbdelay1_program-agent
+D:		AddAgent asked to add agent __tbdelay1_program-agent
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link6
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link2
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link7
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link3
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link4
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link0
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link5
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link1
+D: 	In GroupList() parsed name __all_program-agents
+D: 	In GroupList() parsed agent __tbdelay0_program-agent
+D: 	In GroupList() parsed name __all_program-agents
+D: 	In GroupList() parsed agent __tbdelay1_program-agent
+Agent:   __ns_sequence    SEQUENCE          *        *                *
+Agent:   __ns_teardown    SEQUENCE          *        *                *
+Agent:    __ns_swapout    SEQUENCE          *        *                *
+Agent:   __ns_timeline    TIMELINE          *        *                *
+Agent:           link0        LINK          *        *                *
+Agent:     link0-node0        LINK          *        *                *
+Agent:     link0-node1        LINK          *        *                *
+Agent:           link1        LINK          *        *                *
+Agent:     link1-node0        LINK          *        *                *
+Agent:     link1-node2        LINK          *        *                *
+Agent:           link2        LINK          *        *                *
+Agent:     link2-node2        LINK          *        *                *
+Agent:     link2-node4        LINK          *        *                *
+Agent:           link3        LINK          *        *                *
+Agent:     link3-node0        LINK          *        *                *
+Agent:     link3-node3        LINK          *        *                *
+Agent:           link4        LINK          *        *                *
+Agent:     link4-node1        LINK          *        *                *
+Agent:     link4-node3        LINK          *        *                *
+Agent:           link5        LINK          *        *                *
+Agent:     link5-node3        LINK          *        *                *
+Agent:     link5-node5        LINK          *        *                *
+Agent:           link6        LINK          *        *                *
+Agent:     link6-node2        LINK          *        *                *
+Agent:     link6-node3        LINK          *        *                *
+Agent:           link7        LINK          *        *                *
+Agent:     link7-node1        LINK          *        *                *
+Agent:     link7-node2        LINK          *        *                *
+Agent:        linktest    LINKTEST          *        *                *
+Agent:           node0        NODE      node0     pc49     155.98.36.49
+Agent:   node0-console     CONSOLE      node0     pc49     155.98.36.49
+Agent:           node1        NODE      node1     pc47     155.98.36.47
+Agent:   node1-console     CONSOLE      node1     pc47     155.98.36.47
+Agent:           node2        NODE      node2     pc79     155.98.36.79
+Agent:   node2-console     CONSOLE      node2     pc79     155.98.36.79
+Agent:           node3        NODE      node3     pc67     155.98.36.67
+Agent:   node3-console     CONSOLE      node3     pc67     155.98.36.67
+Agent:           node4        NODE      node4     pc61     155.98.36.61
+Agent:   node4-console     CONSOLE      node4     pc61     155.98.36.61
+Agent:           node5        NODE      node5     pc50     155.98.36.50
+Agent:   node5-console     CONSOLE      node5     pc50     155.98.36.50
+Agent:              ns   SIMULATOR          *        *                *
+Agent:          slothd      SLOTHD          *        *                *
+Agent: tbdelay0_program     PROGRAM   tbdelay0     pc64     155.98.36.64
+Agent: tbdelay1_program     PROGRAM   tbdelay1     pc68     155.98.36.68
+Agent: __tbdelay0_program-agent     PROGRAM   tbdelay0     pc64     155.98.36.64
+Agent: __tbdelay1_program-agent     PROGRAM   tbdelay1     pc68     155.98.36.68
+Agent:      __all_lans       GROUP          *        *                *
+Agent: __all_program-agents       GROUP          *        *                *
+ Getting event stream at: 1326749028:567569
+D: AddEvent asked to add event link3
+AddEvent called with event of triggertype TIMER
+     0.0      link3       LINK         UP          *             0x286111f0
+D: AddEvent asked to add event link1
+AddEvent called with event of triggertype TIMER
+     0.0      link1       LINK         UP          *             0x286111f8
+D: AddEvent asked to add event link7
+AddEvent called with event of triggertype TIMER
+     0.0      link7       LINK         UP          *             0x28611200
+Automatically scheduling the beginning and end of time
+Sched: note:0x28704050 at:20120116_14:23:49.217 now:20120116_14:23:49.224 agent:__ns_sequence START
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Fire:  note:0x28704050 at:20120116_14:23:49.217 now:20120116_14:23:49.225 agent:__ns_sequence
+Fire:  note:0x28611230 at:20120116_14:23:50.225 now:20120116_14:23:50.243 agent:ns
+Fire:  note:0x28611238 at:20120116_14:23:50.225 now:20120116_14:23:50.243 agent:*
+log: 0s - Time started
+Sched: note:0x28703058 at:20120116_14:23:50.246 now:20120116_14:23:50.246 agent:ns COMPLETE
+Beginning call to experiment.metadata
+Finished with call to experiment.metadata
+Beginning call to experiment.state
+Finished with call to experiment.state
+Beginning call to experiment.event_agentlist
+Finished with call to experiment.event_agentlist
+Beginning call to experiment.virtual_topology
+Finished with call to experiment.virtual_topology
+Beginning call to experiment.event_grouplist
+Finished with call to experiment.event_grouplist
+Beginning call to experiment.event_eventlist
+Finished with call to experiment.event_eventlist
+Beginning call to experiment.event_time_start
+Error occured: Invalid response from server
+Fire:  note:0x28611240 at:20120116_14:23:50.225 now:20120116_14:23:50.352 agent:__ns_timeline
+Sched: note:0x28703050 at:20120116_14:23:50.352 now:20120116_14:23:50.353 agent:__ns_timeline COMPLETE
+Fire:  note:0x28703058 at:20120116_14:23:50.246 now:20120116_14:23:50.455 agent:ns
+Done:  now:20120116_14:23:50.456 CTOKEN=12 ERROR=0
+Fire:  note:0x28611238 at:20120116_14:23:50.352 now:20120116_14:23:50.456 agent:link1
+Fire:  note:0x28611248 at:20120116_14:23:50.352 now:20120116_14:23:50.457 agent:link7
+Fire:  note:0x28611230 at:20120116_14:23:50.352 now:20120116_14:23:50.458 agent:link3
+Fire:  note:0x28703050 at:20120116_14:23:50.352 now:20120116_14:23:50.459 agent:__ns_timeline
+Done:  now:20120116_14:23:50.460 CTOKEN=14 ERROR=0
+Sched: note:0x28703058 at:20120116_14:23:50.460 now:20120116_14:23:50.461 agent:__ns_sequence COMPLETE
+Fire:  note:0x28703058 at:20120116_14:23:50.460 now:20120116_14:23:50.710 agent:__ns_sequence
+Done:  now:20120116_14:23:50.711 CTOKEN=11 ERROR=0
+Sched: note:0x28705050 at:20120116_17:17:23.542 now:20120116_17:17:23.543 agent:__ns_swapout RUN
+Fire:  note:0x28705050 at:20120116_17:17:23.542 now:20120116_17:17:23.543 agent:__ns_swapout
+Sched: note:0x28705058 at:20120116_17:17:23.543 now:20120116_17:17:23.544 agent:__ns_swapout COMPLETE
+Fire:  note:0x28611450 at:20120116_17:17:23.543 now:20120116_17:17:23.645 agent:ns
+Fire:  note:0x28705058 at:20120116_17:17:23.543 now:20120116_17:17:23.645 agent:__ns_swapout
+Done:  now:20120116_17:17:23.646 CTOKEN=1326759443 ERROR=0
+log: 2h53m33s - Swapout started
+Sched: note:0x28705060 at:20120116_17:17:23.648 now:20120116_17:17:23.656 agent:ns COMPLETE
+Sched: note:0x28705068 at:20120116_17:17:23.666 now:20120116_17:17:23.749 agent:__ns_teardown RUN
+Fire:  note:0x28705060 at:20120116_17:17:23.648 now:20120116_17:17:23.784 agent:ns
+Done:  now:20120116_17:17:23.786 CTOKEN=18 ERROR=0
+Fire:  note:0x28705068 at:20120116_17:17:23.666 now:20120116_17:17:23.786 agent:__ns_teardown
+Sched: note:0x28705050 at:20120116_17:17:23.786 now:20120116_17:17:23.787 agent:__ns_teardown COMPLETE
+Fire:  note:0x28611450 at:20120116_17:17:23.786 now:20120116_17:17:23.887 agent:ns
+Fire:  note:0x28705050 at:20120116_17:17:23.786 now:20120116_17:17:23.887 agent:__ns_teardown
+Done:  now:20120116_17:17:23.888 CTOKEN=1326759443 ERROR=0
+log: 2h53m33s - Time ended
+Sched: note:0x28705060 at:20120116_17:17:23.889 now:20120116_17:17:23.897 agent:ns COMPLETE
+Caught a TERM; killing the scheduler and agent
+event-sched[54038]: received signal 15, exiting
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start

@@ -1,0 +1,70 @@
+V 2
+H node0 pc48 pc48 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node1 pc128 pc128 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node10 pc83 pc83 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node11 pc86 pc86 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node12 pc69 pc69 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node13 pc67 pc67 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node14 pc61 pc61 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node15 pc77 pc77 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node16 pc66 pc66 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node17 pc99 pc99 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node18 pc142 pc142 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node19 pc127 pc127 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node2 pc51 pc51 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node20 pc121 pc121 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node3 pc79 pc79 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node4 pc55 pc55 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node5 pc44 pc44 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node6 pc65 pc65 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node7 pc120 pc120 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node8 pc116 pc116 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+H node9 pc72 pc72 pc850 2488 Linux 10.04 ping,ssh,ipod,isup,linktest
+L node13 node5 link13 0002b33f8277 none dnode
+L node5 node13 link13 000347738e93 none dnode
+L node18 node7 link22 0002b3861df9 none dnode
+L node7 node18 link22 000347738a0f none dnode
+L node12 node4 link3 0002b33f7fd5 none dnode
+L node4 node12 link3 00034794ca2a none dnode
+L node1 node8 link18 000347952995 none dnode
+L node8 node1 link18 0002b365cd97 none dnode
+L node15 node6 link15 0002b33f7a83 none dnode
+L node6 node15 link15 00034773b8b6 none dnode
+L node3 node4 link4 00034773929f none dnode
+L node4 node3 link4 00034773911b none dnode
+L node17 node7 link21 0002b365bc31 none dnode
+L node7 node17 link21 00034794c279 none dnode
+L node1 node2 link9 000347738d58 none dnode
+L node2 node1 link9 000347738f4a none dnode
+L node0 node4 link6 00034794c3d7 none dnode
+L node4 node0 link6 00034773911c none dnode
+L node14 node5 link14 0002b30019e9 none dnode
+L node5 node14 link14 000347738e94 none dnode
+L node19 node8 link19 0002b365cbf7 none dnode
+L node8 node19 link19 00034794bc53 none dnode
+L node20 node8 link20 0002b365d15b none dnode
+L node8 node20 link20 00034773906d none dnode
+L node1 node7 link17 0002b365c02d none dnode
+L node7 node1 link17 0002b365cbf3 none dnode
+L node11 node4 link2 00034773a242 none dnode
+L node4 node11 link2 0002b33f7449 none dnode
+L node0 node2 link8 00034773a252 none dnode
+L node2 node0 link8 000347738f49 none dnode
+L node2 node6 link12 00034794bfa1 none dnode
+L node6 node2 link12 00034794c05d none dnode
+L node10 node3 link1 00034794c1f5 none dnode
+L node3 node10 link1 00034794c855 none dnode
+L node3 node9 link0 0002b33f7f2b none dnode
+L node9 node3 link0 0002b33f72c1 none dnode
+L node0 node1 link7 00034773a251 none dnode
+L node1 node0 link7 000347738d57 none dnode
+L node7 node8 link23 000347738a10 none dnode
+L node8 node7 link23 00034773906e none dnode
+L node0 node3 link5 0002b3861973 none dnode
+L node3 node0 link5 0003477392a0 none dnode
+L node5 node6 link10 0002b33f736d none dnode
+L node6 node5 link10 0002b33f74fd none dnode
+L node2 node5 link11 0002b365baf7 none dnode
+L node5 node2 link11 00034794cab6 none dnode
+L node16 node6 link16 0002b33f7813 none dnode
+L node6 node16 link16 00034773b8b7 none dnode

@@ -1,0 +1,44 @@
+h node0
+h node1
+h node10
+h node11
+h node2
+h node3
+h node4
+h node5
+h node6
+h node7
+h node8
+h node9
+l node0 node6 100000000 0.0000 0.000000 link2 droptail
+l node6 node0 100000000 0.0000 0.000000 link2 droptail
+l node2 node3 100000000 0.0000 0.000000 link8 droptail
+l node3 node2 100000000 0.0000 0.000000 link8 droptail
+l node11 node5 100000000 0.0000 0.000000 link13 droptail
+l node5 node11 100000000 0.0000 0.000000 link13 droptail
+l node10 node4 100000000 0.0000 0.000000 link12 droptail
+l node4 node10 100000000 0.0000 0.000000 link12 droptail
+l node1 node5 100000000 0.0000 0.000000 link3 droptail
+l node5 node1 100000000 0.0000 0.000000 link3 droptail
+l node1 node7 100000000 0.0000 0.000000 link1 droptail
+l node7 node1 100000000 0.0000 0.000000 link1 droptail
+l node0 node1 100000000 0.0000 0.000000 link0 droptail
+l node1 node0 100000000 0.0000 0.000000 link0 droptail
+l node4 node5 100000000 0.0000 0.000000 link7 droptail
+l node5 node4 100000000 0.0000 0.000000 link7 droptail
+l node0 node4 100000000 0.0000 0.000000 link4 droptail
+l node4 node0 100000000 0.0000 0.000000 link4 droptail
+l node1 node2 100000000 0.0000 0.000000 link5 droptail
+l node2 node1 100000000 0.0000 0.000000 link5 droptail
+l node3 node9 100000000 0.0000 0.000000 link10 droptail
+l node9 node3 100000000 0.0000 0.000000 link10 droptail
+l node8 node9 100000000 0.0000 0.000000 link11 droptail
+l node9 node8 100000000 0.0000 0.000000 link11 droptail
+l node2 node8 100000000 0.0000 0.000000 link9 droptail
+l node8 node2 100000000 0.0000 0.000000 link9 droptail
+l node6 node7 100000000 0.0000 0.000000 link6 droptail
+l node7 node6 100000000 0.0000 0.000000 link6 droptail
+l node10 node11 100000000 0.0000 0.000000 link14 droptail
+l node11 node10 100000000 0.0000 0.000000 link14 droptail
+r static
+s ns

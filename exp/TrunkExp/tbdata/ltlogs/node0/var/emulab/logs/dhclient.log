@@ -1,0 +1,23 @@
+Wed Feb 16 19:55:13 MST 2011: eth0: findcnet running dhclient on: eth6
+eth7
+eth8
+eth9
+eth10
+eth11
+Resetting hostname to node0.trunkexp.fct.emulab.net ... Done!
+Wed Feb 16 19:55:21 MST 2011: eth0: findcnet dhclient returned
+Wed Feb 16 19:55:21 MST 2011: taking eth6 down
+Wed Feb 16 19:55:21 MST 2011: taking eth7 down
+Wed Feb 16 19:55:21 MST 2011: taking eth8 down
+Wed Feb 16 19:55:21 MST 2011: taking eth9 down
+Wed Feb 16 19:55:21 MST 2011: taking eth11 down
+Wed Feb 16 19:55:21 MST 2011: eth0: cnet is eth10
+Wed Feb 16 19:55:21 MST 2011: eth1: cnet is eth10
+Wed Feb 16 19:55:21 MST 2011: eth2: cnet is eth10
+Wed Feb 16 19:55:21 MST 2011: eth3: cnet is eth10
+Wed Feb 16 19:55:21 MST 2011: eth4: cnet is eth10
+Wed Feb 16 19:55:21 MST 2011: eth5: cnet is eth10
+Wed Feb 16 19:55:21 MST 2011: eth6: cnet is eth10
+Wed Feb 16 19:55:21 MST 2011: eth7: cnet is eth10
+Wed Feb 16 19:55:21 MST 2011: eth8: cnet is eth10
+Wed Feb 16 19:55:21 MST 2011: eth9: cnet is eth10

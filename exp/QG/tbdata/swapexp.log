@@ -1,0 +1,125 @@
+Running 'tbswap out  FCT QG'
+Beginning swap-out for FCT/QG (69349). 01/29/2012 00:50:12
+TIMESTAMP: 00:50:12:402033 tbswap out started
+Checking for feature SyncVlans.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 00:50:16:404753 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+mapVlansToSwitches: cisco5 cisco8 procurve1 procurve3 procurve4 procurve5
+  Removing VLAN # 279 ... Removed VLAN 279 on switch procurve5.
+  Removing VLAN # 307 ... Removed VLAN 307 on switch procurve5.
+  Removing VLAN # 289 ... Removed VLAN 289 on switch procurve5.
+  Removing VLAN # 310 ... Removed VLAN 310 on switch procurve5.
+  Removing VLAN # 264 ... Removed VLAN 264 on switch procurve5.
+  Removing VLAN # 318 ... Removed VLAN 318 on switch procurve5.
+  Removing VLAN # 297 ... Removed VLAN 297 on switch procurve5.
+  Removing VLAN # 300 ... Removed VLAN 300 on switch procurve5.
+  Removing VLAN # 309 ... Removed VLAN 309 on switch procurve5.
+  Removing VLAN # 292 ... Removed VLAN 292 on switch procurve5.
+  Removing VLAN # 282 ... Removed VLAN 282 on switch procurve5.
+  Removing VLAN # 306 ... Removed VLAN 306 on switch procurve5.
+  Removing VLAN # 293 ... Removed VLAN 293 on switch procurve5.
+  Removing VLAN # 286 ... Removed VLAN 286 on switch procurve5.
+  Removing VLAN # 312 ... Removed VLAN 312 on switch procurve4.
+  Removing VLAN # 314 ... Removed VLAN 314 on switch procurve4.
+  Removing VLAN # 289 ... Removed VLAN 289 on switch procurve4.
+  Removing VLAN # 285 ... Removed VLAN 285 on switch procurve4.
+  Removing VLAN # 291 ... Removed VLAN 291 on switch procurve4.
+  Removing VLAN # 299 ... Removed VLAN 299 on switch procurve4.
+  Removing VLAN # 288 ... Removed VLAN 288 on switch procurve4.
+  Removing VLAN # 278 ... Removed VLAN 278 on switch procurve4.
+  Removing VLAN # 309 ... Removed VLAN 309 on switch procurve4.
+  Removing VLAN # 316 ... Removed VLAN 316 on switch procurve4.
+  Removing VLAN # 313 ... Removed VLAN 313 on switch procurve4.
+  Removing VLAN # 286 ... Removed VLAN 286 on switch procurve4.
+  Removing VLAN # 321 ... Removed VLAN 321 on switch procurve3.
+  Removing VLAN # 314 ... Removed VLAN 314 on switch procurve3.
+  Removing VLAN # 299 ... Removed VLAN 299 on switch procurve3.
+  Removing VLAN # 308 ... Removed VLAN 308 on switch procurve3.
+  Removing VLAN # 301 ... Removed VLAN 301 on switch procurve3.
+  Removing VLAN # 311 ... Removed VLAN 311 on switch procurve3.
+  Removing VLAN # 295 ... Removed VLAN 295 on switch procurve3.
+  Removing VLAN # 315 ... Removed VLAN 315 on switch procurve3.
+  Removing VLAN # 312 ... Removed VLAN 312 on switch procurve1.
+  Removing VLAN # 314 ... Removed VLAN 314 on switch procurve1.
+  Removing VLAN # 289 ... Removed VLAN 289 on switch procurve1.
+  Removing VLAN # 318 ... Removed VLAN 318 on switch procurve1.
+  Removing VLAN # 299 ... Removed VLAN 299 on switch procurve1.
+  Removing VLAN # 309 ... Removed VLAN 309 on switch procurve1.
+  Removing VLAN # 313 ... Removed VLAN 313 on switch procurve1.
+  Removing VLAN # 292 ... Removed VLAN 292 on switch procurve1.
+  Removing VLAN # 286 ... Removed VLAN 286 on switch procurve1.
+  Removing VLAN #312 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #319 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #318 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #303 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #313 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #292 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #320 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #312 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #319 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+TIMESTAMP: 00:51:24:508654 snmpit finished
+Removing dynamic blobs.
+Tearing down virtual nodes.
+TIMESTAMP: 00:51:24:840839 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 00:51:26:397018 vnode_setup finished
+Removing logical wires.
+Freeing nodes.
+TIMESTAMP: 00:51:26:833064 nfree started
+Releasing all nodes from experiment [Experiment: FCT/QG].
+Moving [Node: pc423] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc531] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc501] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc456] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc429] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc505] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc529] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc547] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc508] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc421] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc512] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc430] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc534] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc249] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc511] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc319] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc440] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc348] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc234] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc208] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc550] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc490] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc537] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc521] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc538] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc554] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc254] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc487] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc486] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 00:52:32:687668 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 00:52:32:692943 exports started
+TIMESTAMP: 00:52:42:194977 exports finished
+Resetting named maps.
+TIMESTAMP: 00:52:42:197851 named started
+TIMESTAMP: 00:52:48:277794 named finished
+Resetting email lists.
+TIMESTAMP: 00:52:48:280932 genelists started
+TIMESTAMP: 00:52:52:547353 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/QG. 00:52:52:994900
+TIMESTAMP: 00:52:52:995825 tbswap out finished (succeeded)

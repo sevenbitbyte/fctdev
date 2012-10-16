@@ -1,0 +1,231 @@
+Running 'tbswap out  FCT Node502'
+Beginning swap-out for FCT/Node502 (75872). 02/11/2011 15:39:50
+TIMESTAMP: 15:39:50:964334 tbswap out started
+Checking for feature SyncVlans.
+  Feature is disabled
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 15:39:52:824735 snmpit started
+Removing VLANs.
+  Removing VLAN #372 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #342 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #345 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #342 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #345 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #372 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #342 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #400 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #345 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #363 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #372 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #341 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #370 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #379 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #398 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #377 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #367 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #409 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #412 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #357 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #369 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #404 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #342 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #384 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #376 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #353 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #368 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #366 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #418 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #373 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #354 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #389 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #356 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #397 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #413 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #406 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #417 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #410 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #371 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #385 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #383 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #394 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #358 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #343 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #340 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #396 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #380 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #346 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #365 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #374 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #360 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #382 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #411 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #350 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #309 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #405 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #348 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #416 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #355 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #388 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #362 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #336 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #400 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #345 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #347 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #375 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #407 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #359 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #361 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #399 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #408 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #403 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #364 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+  Removing VLAN #393 on cisco1 ... Succeeded.
+    Applying VLAN changes on cisco1 ... Succeeded
+TIMESTAMP: 15:41:08:897053 snmpit finished
+Tearing down virtual nodes.
+TIMESTAMP: 15:41:09:175243 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 15:41:10:742704 vnode_setup finished
+Freeing nodes.
+TIMESTAMP: 15:41:11:121074 nfree started
+Releasing all nodes from experiment [Experiment: FCT/Node502].
+Moving [Node: pc72] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc1] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc15] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc27] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc62] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc37] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc26] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc6] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc59] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc2] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc79] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc35] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc54] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc12] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc20] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc42] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc341] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc69] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc82] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc98] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc13] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc28] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc63] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc39] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc61] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc78] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc60] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc291] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc32] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc83] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc10] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc22] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc271] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc70] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc77] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc24] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc18] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc75] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc76] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc33] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc17] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc50] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc25] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc5] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc21] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc81] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc57] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc46] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc4] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc56] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc66] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 15:41:38:912031 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 15:41:38:917234 exports started
+TIMESTAMP: 15:41:44:753011 exports finished
+Resetting named maps.
+TIMESTAMP: 15:41:44:756519 named started
+TIMESTAMP: 15:41:47:113275 named finished
+Resetting email lists.
+TIMESTAMP: 15:41:47:118270 genelists started
+TIMESTAMP: 15:41:49:286375 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/Node502. 15:41:50:147079
+TIMESTAMP: 15:41:50:148427 tbswap out finished (succeeded)

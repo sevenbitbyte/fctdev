@@ -1,0 +1,17 @@
+h node0
+h node1
+h node2
+h node3
+h node4
+l node2 node4 1000000000 0.0000 0.000000 link2 droptail
+l node4 node2 1000000000 0.0000 0.000000 link2 droptail
+l node1 node3 1000000000 0.0000 0.000000 link1 droptail
+l node3 node1 1000000000 0.0000 0.000000 link1 droptail
+l node0 node2 1000000000 0.0000 0.000000 link3 droptail
+l node2 node0 1000000000 0.0000 0.000000 link3 droptail
+l node0 node1 1000000000 0.0000 0.000000 link0 droptail
+l node1 node0 1000000000 0.0000 0.000000 link0 droptail
+l node1 node2 1000000000 0.0000 0.000000 link4 droptail
+l node2 node1 1000000000 0.0000 0.000000 link4 droptail
+r static
+s ns

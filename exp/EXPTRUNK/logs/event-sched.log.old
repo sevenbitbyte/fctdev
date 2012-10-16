@@ -1,0 +1,123 @@
+/usr/testbed/sbin/event-sched -d -s localhost -k /proj/FCT/exp/EXPTRUNK/tbdata/eventkey FCT EXPTRUNK
+D: adding agent link5
+D:		AddAgent asked to add agent link5
+D: adding agent link5-node3
+D:		AddAgent asked to add agent link5-node3
+D: adding agent link5-node3-tracemon
+D:		AddAgent asked to add agent link5-node3-tracemon
+D: adding agent link5-node5
+D:		AddAgent asked to add agent link5-node5
+D: adding agent link5-node5-tracemon
+D:		AddAgent asked to add agent link5-node5-tracemon
+D: adding agent linktest
+D:		AddAgent asked to add agent linktest
+D: adding agent node3
+D:		AddAgent asked to add agent node3
+D: adding agent node3-console
+D:		AddAgent asked to add agent node3-console
+D: adding agent node5
+D:		AddAgent asked to add agent node5
+D: adding agent node5-console
+D:		AddAgent asked to add agent node5-console
+D: adding agent ns
+D:		AddAgent asked to add agent ns
+D: adding agent slothd
+D:		AddAgent asked to add agent slothd
+D: adding agent vhost-0_program
+D:		AddAgent asked to add agent vhost-0_program
+D: adding agent __vhost-0_program-agent
+D:		AddAgent asked to add agent __vhost-0_program-agent
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link5-node3-tracemon
+D: 	In GroupList() parsed name link5-tracemon
+D: 	In GroupList() parsed agent link5-node3-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link5-node5-tracemon
+D: 	In GroupList() parsed name link5-tracemon
+D: 	In GroupList() parsed agent link5-node5-tracemon
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link5
+D: 	In GroupList() parsed name __all_program-agents
+D: 	In GroupList() parsed agent __vhost-0_program-agent
+Agent:   __ns_sequence    SEQUENCE          *        *                *
+Agent:   __ns_teardown    SEQUENCE          *        *                *
+Agent:    __ns_swapout    SEQUENCE          *        *                *
+Agent:   __ns_timeline    TIMELINE          *        *                *
+Agent:           link5        LINK          *        *                *
+Agent:     link5-node3        LINK          *        *                *
+Agent: link5-node3-tracemon   LINKTRACE          *        *                *
+Agent:     link5-node5        LINK          *        *                *
+Agent: link5-node5-tracemon   LINKTRACE          *        *                *
+Agent:        linktest    LINKTEST          *        *                *
+Agent:           node3        NODE      node3 pcvm125-1    155.98.36.125
+Agent:   node3-console     CONSOLE      node3 pcvm125-1    155.98.36.125
+Agent:           node5        NODE      node5    pc143    155.98.36.143
+Agent:   node5-console     CONSOLE      node5    pc143    155.98.36.143
+Agent:              ns   SIMULATOR          *        *                *
+Agent:          slothd      SLOTHD          *        *                *
+Agent: vhost-0_program     PROGRAM    vhost-0    pc125    155.98.36.125
+Agent: __vhost-0_program-agent     PROGRAM    vhost-0    pc125    155.98.36.125
+Agent:  __all_tracemon       GROUP          *        *                *
+Agent:  link5-tracemon       GROUP          *        *                *
+Agent:      __all_lans       GROUP          *        *                *
+Agent: __all_program-agents       GROUP          *        *                *
+ Getting event stream at: 1304016051:96356
+Sched: note:0x28704050 at:20110428_12:40:51.568 now:20110428_12:40:51.580 agent:__ns_sequence START
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Automatically scheduling the beginning and end of time
+Fire:  note:0x28704050 at:20110428_12:40:51.568 now:20110428_12:40:51.780 agent:__ns_sequence
+Fire:  note:0x28611220 at:20110428_12:40:52.780 now:20110428_12:40:52.823 agent:ns
+Fire:  note:0x28611228 at:20110428_12:40:52.780 now:20110428_12:40:52.823 agent:*
+log: 0s - Time started
+Sched: note:0x28703058 at:20110428_12:40:52.827 now:20110428_12:40:52.829 agent:ns COMPLETE
+Beginning call to experiment.metadata
+Finished with call to experiment.metadata
+Beginning call to experiment.state
+Finished with call to experiment.state
+Beginning call to experiment.event_agentlist
+Finished with call to experiment.event_agentlist
+Beginning call to experiment.virtual_topology
+Finished with call to experiment.virtual_topology
+Beginning call to experiment.event_grouplist
+Finished with call to experiment.event_grouplist
+Beginning call to experiment.event_eventlist
+Finished with call to experiment.event_eventlist
+Beginning call to experiment.event_time_start
+Error occured: Invalid response from server
+Fire:  note:0x28611230 at:20110428_12:40:52.780 now:20110428_12:40:52.933 agent:__ns_timeline
+Sched: note:0x28703050 at:20110428_12:40:52.933 now:20110428_12:40:52.935 agent:__ns_timeline COMPLETE
+Fire:  note:0x28703058 at:20110428_12:40:52.827 now:20110428_12:40:53.040 agent:ns
+Done:  now:20110428_12:40:53.041 CTOKEN=1 ERROR=0
+Fire:  note:0x28703050 at:20110428_12:40:52.933 now:20110428_12:40:53.042 agent:__ns_timeline
+Done:  now:20110428_12:40:53.043 CTOKEN=5 ERROR=0
+Sched: note:0x28703058 at:20110428_12:40:53.043 now:20110428_12:40:53.045 agent:__ns_sequence COMPLETE
+Fire:  note:0x28703058 at:20110428_12:40:53.043 now:20110428_12:40:53.394 agent:__ns_sequence
+Done:  now:20110428_12:40:53.396 CTOKEN=0 ERROR=0
+Sched: note:0x28705050 at:20110428_12:41:35.683 now:20110428_12:41:35.685 agent:__ns_swapout RUN
+Fire:  note:0x28705050 at:20110428_12:41:35.683 now:20110428_12:41:35.685 agent:__ns_swapout
+Sched: note:0x28705058 at:20110428_12:41:35.685 now:20110428_12:41:35.686 agent:__ns_swapout COMPLETE
+Fire:  note:0x28611440 at:20110428_12:41:35.685 now:20110428_12:41:35.788 agent:ns
+Fire:  note:0x28705058 at:20110428_12:41:35.685 now:20110428_12:41:35.788 agent:__ns_swapout
+log: 43s - Swapout started
+Done:  now:20110428_12:41:35.791 CTOKEN=1304016095 ERROR=0
+Sched: note:0x28705060 at:20110428_12:41:35.790 now:20110428_12:41:35.792 agent:ns COMPLETE
+Sched: note:0x28705050 at:20110428_12:41:35.799 now:20110428_12:41:35.893 agent:__ns_teardown RUN
+Fire:  note:0x28705060 at:20110428_12:41:35.790 now:20110428_12:41:36.025 agent:ns
+Done:  now:20110428_12:41:36.027 CTOKEN=6 ERROR=0
+Fire:  note:0x28705050 at:20110428_12:41:35.799 now:20110428_12:41:36.027 agent:__ns_teardown
+Sched: note:0x28705058 at:20110428_12:41:36.027 now:20110428_12:41:36.028 agent:__ns_teardown COMPLETE
+Fire:  note:0x28611440 at:20110428_12:41:36.027 now:20110428_12:41:36.130 agent:ns
+Fire:  note:0x28705058 at:20110428_12:41:36.027 now:20110428_12:41:36.130 agent:__ns_teardown
+log: 44s - Time ended
+Done:  now:20110428_12:41:36.133 CTOKEN=1304016095 ERROR=0
+Sched: note:0x28705060 at:20110428_12:41:36.131 now:20110428_12:41:36.134 agent:ns COMPLETE
+Caught a TERM; killing the scheduler and agent
+event-sched[6637]: received signal 15, exiting
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start

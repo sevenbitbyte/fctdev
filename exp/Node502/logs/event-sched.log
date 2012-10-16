@@ -1,0 +1,1818 @@
+/usr/testbed/sbin/event-sched -d -s localhost -k /proj/FCT/exp/Node502/tbdata/eventkey FCT Node502
+D: adding agent link0
+D:		AddAgent asked to add agent link0
+D: adding agent link0-node0
+D:		AddAgent asked to add agent link0-node0
+D: adding agent link0-node0-tracemon
+D:		AddAgent asked to add agent link0-node0-tracemon
+D: adding agent link0-node2
+D:		AddAgent asked to add agent link0-node2
+D: adding agent link0-node2-tracemon
+D:		AddAgent asked to add agent link0-node2-tracemon
+D: adding agent link1
+D:		AddAgent asked to add agent link1
+D: adding agent link1-node1
+D:		AddAgent asked to add agent link1-node1
+D: adding agent link1-node1-tracemon
+D:		AddAgent asked to add agent link1-node1-tracemon
+D: adding agent link1-node2
+D:		AddAgent asked to add agent link1-node2
+D: adding agent link1-node2-tracemon
+D:		AddAgent asked to add agent link1-node2-tracemon
+D: adding agent link10
+D:		AddAgent asked to add agent link10
+D: adding agent link10-node10
+D:		AddAgent asked to add agent link10-node10
+D: adding agent link10-node10-tracemon
+D:		AddAgent asked to add agent link10-node10-tracemon
+D: adding agent link10-node3
+D:		AddAgent asked to add agent link10-node3
+D: adding agent link10-node3-tracemon
+D:		AddAgent asked to add agent link10-node3-tracemon
+D: adding agent link11
+D:		AddAgent asked to add agent link11
+D: adding agent link11-node10
+D:		AddAgent asked to add agent link11-node10
+D: adding agent link11-node10-tracemon
+D:		AddAgent asked to add agent link11-node10-tracemon
+D: adding agent link11-node9
+D:		AddAgent asked to add agent link11-node9
+D: adding agent link11-node9-tracemon
+D:		AddAgent asked to add agent link11-node9-tracemon
+D: adding agent link12
+D:		AddAgent asked to add agent link12
+D: adding agent link12-node11
+D:		AddAgent asked to add agent link12-node11
+D: adding agent link12-node11-tracemon
+D:		AddAgent asked to add agent link12-node11-tracemon
+D: adding agent link12-node4
+D:		AddAgent asked to add agent link12-node4
+D: adding agent link12-node4-tracemon
+D:		AddAgent asked to add agent link12-node4-tracemon
+D: adding agent link13
+D:		AddAgent asked to add agent link13
+D: adding agent link13-node12
+D:		AddAgent asked to add agent link13-node12
+D: adding agent link13-node12-tracemon
+D:		AddAgent asked to add agent link13-node12-tracemon
+D: adding agent link13-node4
+D:		AddAgent asked to add agent link13-node4
+D: adding agent link13-node4-tracemon
+D:		AddAgent asked to add agent link13-node4-tracemon
+D: adding agent link14
+D:		AddAgent asked to add agent link14
+D: adding agent link14-node11
+D:		AddAgent asked to add agent link14-node11
+D: adding agent link14-node11-tracemon
+D:		AddAgent asked to add agent link14-node11-tracemon
+D: adding agent link14-node12
+D:		AddAgent asked to add agent link14-node12
+D: adding agent link14-node12-tracemon
+D:		AddAgent asked to add agent link14-node12-tracemon
+D: adding agent link15
+D:		AddAgent asked to add agent link15
+D: adding agent link15-node13
+D:		AddAgent asked to add agent link15-node13
+D: adding agent link15-node13-tracemon
+D:		AddAgent asked to add agent link15-node13-tracemon
+D: adding agent link15-node5
+D:		AddAgent asked to add agent link15-node5
+D: adding agent link15-node5-tracemon
+D:		AddAgent asked to add agent link15-node5-tracemon
+D: adding agent link16
+D:		AddAgent asked to add agent link16
+D: adding agent link16-node14
+D:		AddAgent asked to add agent link16-node14
+D: adding agent link16-node14-tracemon
+D:		AddAgent asked to add agent link16-node14-tracemon
+D: adding agent link16-node5
+D:		AddAgent asked to add agent link16-node5
+D: adding agent link16-node5-tracemon
+D:		AddAgent asked to add agent link16-node5-tracemon
+D: adding agent link17
+D:		AddAgent asked to add agent link17
+D: adding agent link17-node13
+D:		AddAgent asked to add agent link17-node13
+D: adding agent link17-node13-tracemon
+D:		AddAgent asked to add agent link17-node13-tracemon
+D: adding agent link17-node14
+D:		AddAgent asked to add agent link17-node14
+D: adding agent link17-node14-tracemon
+D:		AddAgent asked to add agent link17-node14-tracemon
+D: adding agent link18
+D:		AddAgent asked to add agent link18
+D: adding agent link18-node15
+D:		AddAgent asked to add agent link18-node15
+D: adding agent link18-node15-tracemon
+D:		AddAgent asked to add agent link18-node15-tracemon
+D: adding agent link18-node6
+D:		AddAgent asked to add agent link18-node6
+D: adding agent link18-node6-tracemon
+D:		AddAgent asked to add agent link18-node6-tracemon
+D: adding agent link19
+D:		AddAgent asked to add agent link19
+D: adding agent link19-node16
+D:		AddAgent asked to add agent link19-node16
+D: adding agent link19-node16-tracemon
+D:		AddAgent asked to add agent link19-node16-tracemon
+D: adding agent link19-node6
+D:		AddAgent asked to add agent link19-node6
+D: adding agent link19-node6-tracemon
+D:		AddAgent asked to add agent link19-node6-tracemon
+D: adding agent link2
+D:		AddAgent asked to add agent link2
+D: adding agent link2-node0
+D:		AddAgent asked to add agent link2-node0
+D: adding agent link2-node0-tracemon
+D:		AddAgent asked to add agent link2-node0-tracemon
+D: adding agent link2-node1
+D:		AddAgent asked to add agent link2-node1
+D: adding agent link2-node1-tracemon
+D:		AddAgent asked to add agent link2-node1-tracemon
+D: adding agent link20
+D:		AddAgent asked to add agent link20
+D: adding agent link20-node15
+D:		AddAgent asked to add agent link20-node15
+D: adding agent link20-node15-tracemon
+D:		AddAgent asked to add agent link20-node15-tracemon
+D: adding agent link20-node16
+D:		AddAgent asked to add agent link20-node16
+D: adding agent link20-node16-tracemon
+D:		AddAgent asked to add agent link20-node16-tracemon
+D: adding agent link21
+D:		AddAgent asked to add agent link21
+D: adding agent link21-node17
+D:		AddAgent asked to add agent link21-node17
+D: adding agent link21-node17-tracemon
+D:		AddAgent asked to add agent link21-node17-tracemon
+D: adding agent link21-node8
+D:		AddAgent asked to add agent link21-node8
+D: adding agent link21-node8-tracemon
+D:		AddAgent asked to add agent link21-node8-tracemon
+D: adding agent link22
+D:		AddAgent asked to add agent link22
+D: adding agent link22-node18
+D:		AddAgent asked to add agent link22-node18
+D: adding agent link22-node18-tracemon
+D:		AddAgent asked to add agent link22-node18-tracemon
+D: adding agent link22-node8
+D:		AddAgent asked to add agent link22-node8
+D: adding agent link22-node8-tracemon
+D:		AddAgent asked to add agent link22-node8-tracemon
+D: adding agent link23
+D:		AddAgent asked to add agent link23
+D: adding agent link23-node17
+D:		AddAgent asked to add agent link23-node17
+D: adding agent link23-node17-tracemon
+D:		AddAgent asked to add agent link23-node17-tracemon
+D: adding agent link23-node18
+D:		AddAgent asked to add agent link23-node18
+D: adding agent link23-node18-tracemon
+D:		AddAgent asked to add agent link23-node18-tracemon
+D: adding agent link24
+D:		AddAgent asked to add agent link24
+D: adding agent link24-node19
+D:		AddAgent asked to add agent link24-node19
+D: adding agent link24-node19-tracemon
+D:		AddAgent asked to add agent link24-node19-tracemon
+D: adding agent link24-node20
+D:		AddAgent asked to add agent link24-node20
+D: adding agent link24-node20-tracemon
+D:		AddAgent asked to add agent link24-node20-tracemon
+D: adding agent link25
+D:		AddAgent asked to add agent link25
+D: adding agent link25-node19
+D:		AddAgent asked to add agent link25-node19
+D: adding agent link25-node19-tracemon
+D:		AddAgent asked to add agent link25-node19-tracemon
+D: adding agent link25-node7
+D:		AddAgent asked to add agent link25-node7
+D: adding agent link25-node7-tracemon
+D:		AddAgent asked to add agent link25-node7-tracemon
+D: adding agent link26
+D:		AddAgent asked to add agent link26
+D: adding agent link26-node20
+D:		AddAgent asked to add agent link26-node20
+D: adding agent link26-node20-tracemon
+D:		AddAgent asked to add agent link26-node20-tracemon
+D: adding agent link26-node7
+D:		AddAgent asked to add agent link26-node7
+D: adding agent link26-node7-tracemon
+D:		AddAgent asked to add agent link26-node7-tracemon
+D: adding agent link27
+D:		AddAgent asked to add agent link27
+D: adding agent link27-node3
+D:		AddAgent asked to add agent link27-node3
+D: adding agent link27-node3-tracemon
+D:		AddAgent asked to add agent link27-node3-tracemon
+D: adding agent link27-node4
+D:		AddAgent asked to add agent link27-node4
+D: adding agent link27-node4-tracemon
+D:		AddAgent asked to add agent link27-node4-tracemon
+D: adding agent link28
+D:		AddAgent asked to add agent link28
+D: adding agent link28-node5
+D:		AddAgent asked to add agent link28-node5
+D: adding agent link28-node5-tracemon
+D:		AddAgent asked to add agent link28-node5-tracemon
+D: adding agent link28-node6
+D:		AddAgent asked to add agent link28-node6
+D: adding agent link28-node6-tracemon
+D:		AddAgent asked to add agent link28-node6-tracemon
+D: adding agent link29
+D:		AddAgent asked to add agent link29
+D: adding agent link29-node7
+D:		AddAgent asked to add agent link29-node7
+D: adding agent link29-node7-tracemon
+D:		AddAgent asked to add agent link29-node7-tracemon
+D: adding agent link29-node8
+D:		AddAgent asked to add agent link29-node8
+D: adding agent link29-node8-tracemon
+D:		AddAgent asked to add agent link29-node8-tracemon
+D: adding agent link3
+D:		AddAgent asked to add agent link3
+D: adding agent link3-node0
+D:		AddAgent asked to add agent link3-node0
+D: adding agent link3-node0-tracemon
+D:		AddAgent asked to add agent link3-node0-tracemon
+D: adding agent link3-node3
+D:		AddAgent asked to add agent link3-node3
+D: adding agent link3-node3-tracemon
+D:		AddAgent asked to add agent link3-node3-tracemon
+D: adding agent link30
+D:		AddAgent asked to add agent link30
+D: adding agent link30-node21
+D:		AddAgent asked to add agent link30-node21
+D: adding agent link30-node21-tracemon
+D:		AddAgent asked to add agent link30-node21-tracemon
+D: adding agent link30-node9
+D:		AddAgent asked to add agent link30-node9
+D: adding agent link30-node9-tracemon
+D:		AddAgent asked to add agent link30-node9-tracemon
+D: adding agent link31
+D:		AddAgent asked to add agent link31
+D: adding agent link31-node22
+D:		AddAgent asked to add agent link31-node22
+D: adding agent link31-node22-tracemon
+D:		AddAgent asked to add agent link31-node22-tracemon
+D: adding agent link31-node9
+D:		AddAgent asked to add agent link31-node9
+D: adding agent link31-node9-tracemon
+D:		AddAgent asked to add agent link31-node9-tracemon
+D: adding agent link32
+D:		AddAgent asked to add agent link32
+D: adding agent link32-node10
+D:		AddAgent asked to add agent link32-node10
+D: adding agent link32-node10-tracemon
+D:		AddAgent asked to add agent link32-node10-tracemon
+D: adding agent link32-node23
+D:		AddAgent asked to add agent link32-node23
+D: adding agent link32-node23-tracemon
+D:		AddAgent asked to add agent link32-node23-tracemon
+D: adding agent link33
+D:		AddAgent asked to add agent link33
+D: adding agent link33-node10
+D:		AddAgent asked to add agent link33-node10
+D: adding agent link33-node10-tracemon
+D:		AddAgent asked to add agent link33-node10-tracemon
+D: adding agent link33-node24
+D:		AddAgent asked to add agent link33-node24
+D: adding agent link33-node24-tracemon
+D:		AddAgent asked to add agent link33-node24-tracemon
+D: adding agent link34
+D:		AddAgent asked to add agent link34
+D: adding agent link34-node11
+D:		AddAgent asked to add agent link34-node11
+D: adding agent link34-node11-tracemon
+D:		AddAgent asked to add agent link34-node11-tracemon
+D: adding agent link34-node26
+D:		AddAgent asked to add agent link34-node26
+D: adding agent link34-node26-tracemon
+D:		AddAgent asked to add agent link34-node26-tracemon
+D: adding agent link35
+D:		AddAgent asked to add agent link35
+D: adding agent link35-node11
+D:		AddAgent asked to add agent link35-node11
+D: adding agent link35-node11-tracemon
+D:		AddAgent asked to add agent link35-node11-tracemon
+D: adding agent link35-node25
+D:		AddAgent asked to add agent link35-node25
+D: adding agent link35-node25-tracemon
+D:		AddAgent asked to add agent link35-node25-tracemon
+D: adding agent link36
+D:		AddAgent asked to add agent link36
+D: adding agent link36-node12
+D:		AddAgent asked to add agent link36-node12
+D: adding agent link36-node12-tracemon
+D:		AddAgent asked to add agent link36-node12-tracemon
+D: adding agent link36-node28
+D:		AddAgent asked to add agent link36-node28
+D: adding agent link36-node28-tracemon
+D:		AddAgent asked to add agent link36-node28-tracemon
+D: adding agent link37
+D:		AddAgent asked to add agent link37
+D: adding agent link37-node12
+D:		AddAgent asked to add agent link37-node12
+D: adding agent link37-node12-tracemon
+D:		AddAgent asked to add agent link37-node12-tracemon
+D: adding agent link37-node27
+D:		AddAgent asked to add agent link37-node27
+D: adding agent link37-node27-tracemon
+D:		AddAgent asked to add agent link37-node27-tracemon
+D: adding agent link38
+D:		AddAgent asked to add agent link38
+D: adding agent link38-node13
+D:		AddAgent asked to add agent link38-node13
+D: adding agent link38-node13-tracemon
+D:		AddAgent asked to add agent link38-node13-tracemon
+D: adding agent link38-node30
+D:		AddAgent asked to add agent link38-node30
+D: adding agent link38-node30-tracemon
+D:		AddAgent asked to add agent link38-node30-tracemon
+D: adding agent link39
+D:		AddAgent asked to add agent link39
+D: adding agent link39-node13
+D:		AddAgent asked to add agent link39-node13
+D: adding agent link39-node13-tracemon
+D:		AddAgent asked to add agent link39-node13-tracemon
+D: adding agent link39-node29
+D:		AddAgent asked to add agent link39-node29
+D: adding agent link39-node29-tracemon
+D:		AddAgent asked to add agent link39-node29-tracemon
+D: adding agent link4
+D:		AddAgent asked to add agent link4
+D: adding agent link4-node0
+D:		AddAgent asked to add agent link4-node0
+D: adding agent link4-node0-tracemon
+D:		AddAgent asked to add agent link4-node0-tracemon
+D: adding agent link4-node4
+D:		AddAgent asked to add agent link4-node4
+D: adding agent link4-node4-tracemon
+D:		AddAgent asked to add agent link4-node4-tracemon
+D: adding agent link40
+D:		AddAgent asked to add agent link40
+D: adding agent link40-node14
+D:		AddAgent asked to add agent link40-node14
+D: adding agent link40-node14-tracemon
+D:		AddAgent asked to add agent link40-node14-tracemon
+D: adding agent link40-node31
+D:		AddAgent asked to add agent link40-node31
+D: adding agent link40-node31-tracemon
+D:		AddAgent asked to add agent link40-node31-tracemon
+D: adding agent link41
+D:		AddAgent asked to add agent link41
+D: adding agent link41-node14
+D:		AddAgent asked to add agent link41-node14
+D: adding agent link41-node14-tracemon
+D:		AddAgent asked to add agent link41-node14-tracemon
+D: adding agent link41-node32
+D:		AddAgent asked to add agent link41-node32
+D: adding agent link41-node32-tracemon
+D:		AddAgent asked to add agent link41-node32-tracemon
+D: adding agent link42
+D:		AddAgent asked to add agent link42
+D: adding agent link42-node15
+D:		AddAgent asked to add agent link42-node15
+D: adding agent link42-node15-tracemon
+D:		AddAgent asked to add agent link42-node15-tracemon
+D: adding agent link42-node36
+D:		AddAgent asked to add agent link42-node36
+D: adding agent link42-node36-tracemon
+D:		AddAgent asked to add agent link42-node36-tracemon
+D: adding agent link43
+D:		AddAgent asked to add agent link43
+D: adding agent link43-node15
+D:		AddAgent asked to add agent link43-node15
+D: adding agent link43-node15-tracemon
+D:		AddAgent asked to add agent link43-node15-tracemon
+D: adding agent link43-node34
+D:		AddAgent asked to add agent link43-node34
+D: adding agent link43-node34-tracemon
+D:		AddAgent asked to add agent link43-node34-tracemon
+D: adding agent link44
+D:		AddAgent asked to add agent link44
+D: adding agent link44-node16
+D:		AddAgent asked to add agent link44-node16
+D: adding agent link44-node16-tracemon
+D:		AddAgent asked to add agent link44-node16-tracemon
+D: adding agent link44-node35
+D:		AddAgent asked to add agent link44-node35
+D: adding agent link44-node35-tracemon
+D:		AddAgent asked to add agent link44-node35-tracemon
+D: adding agent link45
+D:		AddAgent asked to add agent link45
+D: adding agent link45-node16
+D:		AddAgent asked to add agent link45-node16
+D: adding agent link45-node16-tracemon
+D:		AddAgent asked to add agent link45-node16-tracemon
+D: adding agent link45-node33
+D:		AddAgent asked to add agent link45-node33
+D: adding agent link45-node33-tracemon
+D:		AddAgent asked to add agent link45-node33-tracemon
+D: adding agent link46
+D:		AddAgent asked to add agent link46
+D: adding agent link46-node17
+D:		AddAgent asked to add agent link46-node17
+D: adding agent link46-node17-tracemon
+D:		AddAgent asked to add agent link46-node17-tracemon
+D: adding agent link46-node38
+D:		AddAgent asked to add agent link46-node38
+D: adding agent link46-node38-tracemon
+D:		AddAgent asked to add agent link46-node38-tracemon
+D: adding agent link47
+D:		AddAgent asked to add agent link47
+D: adding agent link47-node17
+D:		AddAgent asked to add agent link47-node17
+D: adding agent link47-node17-tracemon
+D:		AddAgent asked to add agent link47-node17-tracemon
+D: adding agent link47-node37
+D:		AddAgent asked to add agent link47-node37
+D: adding agent link47-node37-tracemon
+D:		AddAgent asked to add agent link47-node37-tracemon
+D: adding agent link48
+D:		AddAgent asked to add agent link48
+D: adding agent link48-node19
+D:		AddAgent asked to add agent link48-node19
+D: adding agent link48-node19-tracemon
+D:		AddAgent asked to add agent link48-node19-tracemon
+D: adding agent link48-node39
+D:		AddAgent asked to add agent link48-node39
+D: adding agent link48-node39-tracemon
+D:		AddAgent asked to add agent link48-node39-tracemon
+D: adding agent link49
+D:		AddAgent asked to add agent link49
+D: adding agent link49-node19
+D:		AddAgent asked to add agent link49-node19
+D: adding agent link49-node19-tracemon
+D:		AddAgent asked to add agent link49-node19-tracemon
+D: adding agent link49-node40
+D:		AddAgent asked to add agent link49-node40
+D: adding agent link49-node40-tracemon
+D:		AddAgent asked to add agent link49-node40-tracemon
+D: adding agent link5
+D:		AddAgent asked to add agent link5
+D: adding agent link5-node2
+D:		AddAgent asked to add agent link5-node2
+D: adding agent link5-node2-tracemon
+D:		AddAgent asked to add agent link5-node2-tracemon
+D: adding agent link5-node5
+D:		AddAgent asked to add agent link5-node5
+D: adding agent link5-node5-tracemon
+D:		AddAgent asked to add agent link5-node5-tracemon
+D: adding agent link50
+D:		AddAgent asked to add agent link50
+D: adding agent link50-node20
+D:		AddAgent asked to add agent link50-node20
+D: adding agent link50-node20-tracemon
+D:		AddAgent asked to add agent link50-node20-tracemon
+D: adding agent link50-node41
+D:		AddAgent asked to add agent link50-node41
+D: adding agent link50-node41-tracemon
+D:		AddAgent asked to add agent link50-node41-tracemon
+D: adding agent link51
+D:		AddAgent asked to add agent link51
+D: adding agent link51-node20
+D:		AddAgent asked to add agent link51-node20
+D: adding agent link51-node20-tracemon
+D:		AddAgent asked to add agent link51-node20-tracemon
+D: adding agent link51-node42
+D:		AddAgent asked to add agent link51-node42
+D: adding agent link51-node42-tracemon
+D:		AddAgent asked to add agent link51-node42-tracemon
+D: adding agent link52
+D:		AddAgent asked to add agent link52
+D: adding agent link52-node18
+D:		AddAgent asked to add agent link52-node18
+D: adding agent link52-node18-tracemon
+D:		AddAgent asked to add agent link52-node18-tracemon
+D: adding agent link52-node43
+D:		AddAgent asked to add agent link52-node43
+D: adding agent link52-node43-tracemon
+D:		AddAgent asked to add agent link52-node43-tracemon
+D: adding agent link53
+D:		AddAgent asked to add agent link53
+D: adding agent link53-node18
+D:		AddAgent asked to add agent link53-node18
+D: adding agent link53-node18-tracemon
+D:		AddAgent asked to add agent link53-node18-tracemon
+D: adding agent link53-node44
+D:		AddAgent asked to add agent link53-node44
+D: adding agent link53-node44-tracemon
+D:		AddAgent asked to add agent link53-node44-tracemon
+D: adding agent link6
+D:		AddAgent asked to add agent link6
+D: adding agent link6-node2
+D:		AddAgent asked to add agent link6-node2
+D: adding agent link6-node2-tracemon
+D:		AddAgent asked to add agent link6-node2-tracemon
+D: adding agent link6-node6
+D:		AddAgent asked to add agent link6-node6
+D: adding agent link6-node6-tracemon
+D:		AddAgent asked to add agent link6-node6-tracemon
+D: adding agent link7
+D:		AddAgent asked to add agent link7
+D: adding agent link7-node1
+D:		AddAgent asked to add agent link7-node1
+D: adding agent link7-node1-tracemon
+D:		AddAgent asked to add agent link7-node1-tracemon
+D: adding agent link7-node7
+D:		AddAgent asked to add agent link7-node7
+D: adding agent link7-node7-tracemon
+D:		AddAgent asked to add agent link7-node7-tracemon
+D: adding agent link8
+D:		AddAgent asked to add agent link8
+D: adding agent link8-node1
+D:		AddAgent asked to add agent link8-node1
+D: adding agent link8-node1-tracemon
+D:		AddAgent asked to add agent link8-node1-tracemon
+D: adding agent link8-node8
+D:		AddAgent asked to add agent link8-node8
+D: adding agent link8-node8-tracemon
+D:		AddAgent asked to add agent link8-node8-tracemon
+D: adding agent link9
+D:		AddAgent asked to add agent link9
+D: adding agent link9-node3
+D:		AddAgent asked to add agent link9-node3
+D: adding agent link9-node3-tracemon
+D:		AddAgent asked to add agent link9-node3-tracemon
+D: adding agent link9-node9
+D:		AddAgent asked to add agent link9-node9
+D: adding agent link9-node9-tracemon
+D:		AddAgent asked to add agent link9-node9-tracemon
+D: adding agent linktest
+D:		AddAgent asked to add agent linktest
+D: adding agent node0
+D:		AddAgent asked to add agent node0
+D: adding agent node0-console
+D:		AddAgent asked to add agent node0-console
+D: adding agent node1
+D:		AddAgent asked to add agent node1
+D: adding agent node1-console
+D:		AddAgent asked to add agent node1-console
+D: adding agent node10
+D:		AddAgent asked to add agent node10
+D: adding agent node10-console
+D:		AddAgent asked to add agent node10-console
+D: adding agent node11
+D:		AddAgent asked to add agent node11
+D: adding agent node11-console
+D:		AddAgent asked to add agent node11-console
+D: adding agent node12
+D:		AddAgent asked to add agent node12
+D: adding agent node12-console
+D:		AddAgent asked to add agent node12-console
+D: adding agent node13
+D:		AddAgent asked to add agent node13
+D: adding agent node13-console
+D:		AddAgent asked to add agent node13-console
+D: adding agent node14
+D:		AddAgent asked to add agent node14
+D: adding agent node14-console
+D:		AddAgent asked to add agent node14-console
+D: adding agent node15
+D:		AddAgent asked to add agent node15
+D: adding agent node15-console
+D:		AddAgent asked to add agent node15-console
+D: adding agent node16
+D:		AddAgent asked to add agent node16
+D: adding agent node16-console
+D:		AddAgent asked to add agent node16-console
+D: adding agent node17
+D:		AddAgent asked to add agent node17
+D: adding agent node17-console
+D:		AddAgent asked to add agent node17-console
+D: adding agent node18
+D:		AddAgent asked to add agent node18
+D: adding agent node18-console
+D:		AddAgent asked to add agent node18-console
+D: adding agent node19
+D:		AddAgent asked to add agent node19
+D: adding agent node19-console
+D:		AddAgent asked to add agent node19-console
+D: adding agent node2
+D:		AddAgent asked to add agent node2
+D: adding agent node2-console
+D:		AddAgent asked to add agent node2-console
+D: adding agent node20
+D:		AddAgent asked to add agent node20
+D: adding agent node20-console
+D:		AddAgent asked to add agent node20-console
+D: adding agent node21
+D:		AddAgent asked to add agent node21
+D: adding agent node21-console
+D:		AddAgent asked to add agent node21-console
+D: adding agent node22
+D:		AddAgent asked to add agent node22
+D: adding agent node22-console
+D:		AddAgent asked to add agent node22-console
+D: adding agent node23
+D:		AddAgent asked to add agent node23
+D: adding agent node23-console
+D:		AddAgent asked to add agent node23-console
+D: adding agent node24
+D:		AddAgent asked to add agent node24
+D: adding agent node24-console
+D:		AddAgent asked to add agent node24-console
+D: adding agent node25
+D:		AddAgent asked to add agent node25
+D: adding agent node25-console
+D:		AddAgent asked to add agent node25-console
+D: adding agent node26
+D:		AddAgent asked to add agent node26
+D: adding agent node26-console
+D:		AddAgent asked to add agent node26-console
+D: adding agent node27
+D:		AddAgent asked to add agent node27
+D: adding agent node27-console
+D:		AddAgent asked to add agent node27-console
+D: adding agent node28
+D:		AddAgent asked to add agent node28
+D: adding agent node28-console
+D:		AddAgent asked to add agent node28-console
+D: adding agent node29
+D:		AddAgent asked to add agent node29
+D: adding agent node29-console
+D:		AddAgent asked to add agent node29-console
+D: adding agent node3
+D:		AddAgent asked to add agent node3
+D: adding agent node3-console
+D:		AddAgent asked to add agent node3-console
+D: adding agent node30
+D:		AddAgent asked to add agent node30
+D: adding agent node30-console
+D:		AddAgent asked to add agent node30-console
+D: adding agent node31
+D:		AddAgent asked to add agent node31
+D: adding agent node31-console
+D:		AddAgent asked to add agent node31-console
+D: adding agent node32
+D:		AddAgent asked to add agent node32
+D: adding agent node32-console
+D:		AddAgent asked to add agent node32-console
+D: adding agent node33
+D:		AddAgent asked to add agent node33
+D: adding agent node33-console
+D:		AddAgent asked to add agent node33-console
+D: adding agent node34
+D:		AddAgent asked to add agent node34
+D: adding agent node34-console
+D:		AddAgent asked to add agent node34-console
+D: adding agent node35
+D:		AddAgent asked to add agent node35
+D: adding agent node35-console
+D:		AddAgent asked to add agent node35-console
+D: adding agent node36
+D:		AddAgent asked to add agent node36
+D: adding agent node36-console
+D:		AddAgent asked to add agent node36-console
+D: adding agent node37
+D:		AddAgent asked to add agent node37
+D: adding agent node37-console
+D:		AddAgent asked to add agent node37-console
+D: adding agent node38
+D:		AddAgent asked to add agent node38
+D: adding agent node38-console
+D:		AddAgent asked to add agent node38-console
+D: adding agent node39
+D:		AddAgent asked to add agent node39
+D: adding agent node39-console
+D:		AddAgent asked to add agent node39-console
+D: adding agent node4
+D:		AddAgent asked to add agent node4
+D: adding agent node4-console
+D:		AddAgent asked to add agent node4-console
+D: adding agent node40
+D:		AddAgent asked to add agent node40
+D: adding agent node40-console
+D:		AddAgent asked to add agent node40-console
+D: adding agent node41
+D:		AddAgent asked to add agent node41
+D: adding agent node41-console
+D:		AddAgent asked to add agent node41-console
+D: adding agent node42
+D:		AddAgent asked to add agent node42
+D: adding agent node42-console
+D:		AddAgent asked to add agent node42-console
+D: adding agent node43
+D:		AddAgent asked to add agent node43
+D: adding agent node43-console
+D:		AddAgent asked to add agent node43-console
+D: adding agent node44
+D:		AddAgent asked to add agent node44
+D: adding agent node44-console
+D:		AddAgent asked to add agent node44-console
+D: adding agent node5
+D:		AddAgent asked to add agent node5
+D: adding agent node5-console
+D:		AddAgent asked to add agent node5-console
+D: adding agent node6
+D:		AddAgent asked to add agent node6
+D: adding agent node6-console
+D:		AddAgent asked to add agent node6-console
+D: adding agent node7
+D:		AddAgent asked to add agent node7
+D: adding agent node7-console
+D:		AddAgent asked to add agent node7-console
+D: adding agent node8
+D:		AddAgent asked to add agent node8
+D: adding agent node8-console
+D:		AddAgent asked to add agent node8-console
+D: adding agent node9
+D:		AddAgent asked to add agent node9
+D: adding agent node9-console
+D:		AddAgent asked to add agent node9-console
+D: adding agent ns
+D:		AddAgent asked to add agent ns
+D: adding agent slothd
+D:		AddAgent asked to add agent slothd
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link0-node0-tracemon
+D: 	In GroupList() parsed name link0-tracemon
+D: 	In GroupList() parsed agent link0-node0-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link0-node2-tracemon
+D: 	In GroupList() parsed name link0-tracemon
+D: 	In GroupList() parsed agent link0-node2-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link1-node1-tracemon
+D: 	In GroupList() parsed name link1-tracemon
+D: 	In GroupList() parsed agent link1-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link1-node2-tracemon
+D: 	In GroupList() parsed name link1-tracemon
+D: 	In GroupList() parsed agent link1-node2-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link10-node10-tracemon
+D: 	In GroupList() parsed name link10-tracemon
+D: 	In GroupList() parsed agent link10-node10-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link10-node3-tracemon
+D: 	In GroupList() parsed name link10-tracemon
+D: 	In GroupList() parsed agent link10-node3-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link11-node10-tracemon
+D: 	In GroupList() parsed name link11-tracemon
+D: 	In GroupList() parsed agent link11-node10-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link11-node9-tracemon
+D: 	In GroupList() parsed name link11-tracemon
+D: 	In GroupList() parsed agent link11-node9-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link12-node11-tracemon
+D: 	In GroupList() parsed name link12-tracemon
+D: 	In GroupList() parsed agent link12-node11-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link12-node4-tracemon
+D: 	In GroupList() parsed name link12-tracemon
+D: 	In GroupList() parsed agent link12-node4-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link13-node12-tracemon
+D: 	In GroupList() parsed name link13-tracemon
+D: 	In GroupList() parsed agent link13-node12-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link13-node4-tracemon
+D: 	In GroupList() parsed name link13-tracemon
+D: 	In GroupList() parsed agent link13-node4-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link14-node11-tracemon
+D: 	In GroupList() parsed name link14-tracemon
+D: 	In GroupList() parsed agent link14-node11-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link14-node12-tracemon
+D: 	In GroupList() parsed name link14-tracemon
+D: 	In GroupList() parsed agent link14-node12-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link15-node13-tracemon
+D: 	In GroupList() parsed name link15-tracemon
+D: 	In GroupList() parsed agent link15-node13-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link15-node5-tracemon
+D: 	In GroupList() parsed name link15-tracemon
+D: 	In GroupList() parsed agent link15-node5-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link16-node14-tracemon
+D: 	In GroupList() parsed name link16-tracemon
+D: 	In GroupList() parsed agent link16-node14-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link16-node5-tracemon
+D: 	In GroupList() parsed name link16-tracemon
+D: 	In GroupList() parsed agent link16-node5-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link17-node13-tracemon
+D: 	In GroupList() parsed name link17-tracemon
+D: 	In GroupList() parsed agent link17-node13-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link17-node14-tracemon
+D: 	In GroupList() parsed name link17-tracemon
+D: 	In GroupList() parsed agent link17-node14-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link18-node15-tracemon
+D: 	In GroupList() parsed name link18-tracemon
+D: 	In GroupList() parsed agent link18-node15-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link18-node6-tracemon
+D: 	In GroupList() parsed name link18-tracemon
+D: 	In GroupList() parsed agent link18-node6-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link19-node16-tracemon
+D: 	In GroupList() parsed name link19-tracemon
+D: 	In GroupList() parsed agent link19-node16-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link19-node6-tracemon
+D: 	In GroupList() parsed name link19-tracemon
+D: 	In GroupList() parsed agent link19-node6-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link2-node0-tracemon
+D: 	In GroupList() parsed name link2-tracemon
+D: 	In GroupList() parsed agent link2-node0-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link2-node1-tracemon
+D: 	In GroupList() parsed name link2-tracemon
+D: 	In GroupList() parsed agent link2-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link20-node15-tracemon
+D: 	In GroupList() parsed name link20-tracemon
+D: 	In GroupList() parsed agent link20-node15-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link20-node16-tracemon
+D: 	In GroupList() parsed name link20-tracemon
+D: 	In GroupList() parsed agent link20-node16-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link21-node17-tracemon
+D: 	In GroupList() parsed name link21-tracemon
+D: 	In GroupList() parsed agent link21-node17-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link21-node8-tracemon
+D: 	In GroupList() parsed name link21-tracemon
+D: 	In GroupList() parsed agent link21-node8-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link22-node18-tracemon
+D: 	In GroupList() parsed name link22-tracemon
+D: 	In GroupList() parsed agent link22-node18-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link22-node8-tracemon
+D: 	In GroupList() parsed name link22-tracemon
+D: 	In GroupList() parsed agent link22-node8-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link23-node17-tracemon
+D: 	In GroupList() parsed name link23-tracemon
+D: 	In GroupList() parsed agent link23-node17-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link23-node18-tracemon
+D: 	In GroupList() parsed name link23-tracemon
+D: 	In GroupList() parsed agent link23-node18-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link24-node19-tracemon
+D: 	In GroupList() parsed name link24-tracemon
+D: 	In GroupList() parsed agent link24-node19-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link24-node20-tracemon
+D: 	In GroupList() parsed name link24-tracemon
+D: 	In GroupList() parsed agent link24-node20-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link25-node19-tracemon
+D: 	In GroupList() parsed name link25-tracemon
+D: 	In GroupList() parsed agent link25-node19-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link25-node7-tracemon
+D: 	In GroupList() parsed name link25-tracemon
+D: 	In GroupList() parsed agent link25-node7-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link26-node20-tracemon
+D: 	In GroupList() parsed name link26-tracemon
+D: 	In GroupList() parsed agent link26-node20-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link26-node7-tracemon
+D: 	In GroupList() parsed name link26-tracemon
+D: 	In GroupList() parsed agent link26-node7-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link27-node3-tracemon
+D: 	In GroupList() parsed name link27-tracemon
+D: 	In GroupList() parsed agent link27-node3-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link27-node4-tracemon
+D: 	In GroupList() parsed name link27-tracemon
+D: 	In GroupList() parsed agent link27-node4-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link28-node5-tracemon
+D: 	In GroupList() parsed name link28-tracemon
+D: 	In GroupList() parsed agent link28-node5-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link28-node6-tracemon
+D: 	In GroupList() parsed name link28-tracemon
+D: 	In GroupList() parsed agent link28-node6-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link29-node7-tracemon
+D: 	In GroupList() parsed name link29-tracemon
+D: 	In GroupList() parsed agent link29-node7-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link29-node8-tracemon
+D: 	In GroupList() parsed name link29-tracemon
+D: 	In GroupList() parsed agent link29-node8-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link3-node0-tracemon
+D: 	In GroupList() parsed name link3-tracemon
+D: 	In GroupList() parsed agent link3-node0-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link3-node3-tracemon
+D: 	In GroupList() parsed name link3-tracemon
+D: 	In GroupList() parsed agent link3-node3-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link30-node21-tracemon
+D: 	In GroupList() parsed name link30-tracemon
+D: 	In GroupList() parsed agent link30-node21-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link30-node9-tracemon
+D: 	In GroupList() parsed name link30-tracemon
+D: 	In GroupList() parsed agent link30-node9-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link31-node22-tracemon
+D: 	In GroupList() parsed name link31-tracemon
+D: 	In GroupList() parsed agent link31-node22-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link31-node9-tracemon
+D: 	In GroupList() parsed name link31-tracemon
+D: 	In GroupList() parsed agent link31-node9-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link32-node10-tracemon
+D: 	In GroupList() parsed name link32-tracemon
+D: 	In GroupList() parsed agent link32-node10-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link32-node23-tracemon
+D: 	In GroupList() parsed name link32-tracemon
+D: 	In GroupList() parsed agent link32-node23-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link33-node10-tracemon
+D: 	In GroupList() parsed name link33-tracemon
+D: 	In GroupList() parsed agent link33-node10-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link33-node24-tracemon
+D: 	In GroupList() parsed name link33-tracemon
+D: 	In GroupList() parsed agent link33-node24-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link34-node11-tracemon
+D: 	In GroupList() parsed name link34-tracemon
+D: 	In GroupList() parsed agent link34-node11-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link34-node26-tracemon
+D: 	In GroupList() parsed name link34-tracemon
+D: 	In GroupList() parsed agent link34-node26-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link35-node11-tracemon
+D: 	In GroupList() parsed name link35-tracemon
+D: 	In GroupList() parsed agent link35-node11-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link35-node25-tracemon
+D: 	In GroupList() parsed name link35-tracemon
+D: 	In GroupList() parsed agent link35-node25-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link36-node12-tracemon
+D: 	In GroupList() parsed name link36-tracemon
+D: 	In GroupList() parsed agent link36-node12-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link36-node28-tracemon
+D: 	In GroupList() parsed name link36-tracemon
+D: 	In GroupList() parsed agent link36-node28-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link37-node12-tracemon
+D: 	In GroupList() parsed name link37-tracemon
+D: 	In GroupList() parsed agent link37-node12-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link37-node27-tracemon
+D: 	In GroupList() parsed name link37-tracemon
+D: 	In GroupList() parsed agent link37-node27-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link38-node13-tracemon
+D: 	In GroupList() parsed name link38-tracemon
+D: 	In GroupList() parsed agent link38-node13-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link38-node30-tracemon
+D: 	In GroupList() parsed name link38-tracemon
+D: 	In GroupList() parsed agent link38-node30-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link39-node13-tracemon
+D: 	In GroupList() parsed name link39-tracemon
+D: 	In GroupList() parsed agent link39-node13-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link39-node29-tracemon
+D: 	In GroupList() parsed name link39-tracemon
+D: 	In GroupList() parsed agent link39-node29-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link4-node0-tracemon
+D: 	In GroupList() parsed name link4-tracemon
+D: 	In GroupList() parsed agent link4-node0-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link4-node4-tracemon
+D: 	In GroupList() parsed name link4-tracemon
+D: 	In GroupList() parsed agent link4-node4-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link40-node14-tracemon
+D: 	In GroupList() parsed name link40-tracemon
+D: 	In GroupList() parsed agent link40-node14-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link40-node31-tracemon
+D: 	In GroupList() parsed name link40-tracemon
+D: 	In GroupList() parsed agent link40-node31-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link41-node14-tracemon
+D: 	In GroupList() parsed name link41-tracemon
+D: 	In GroupList() parsed agent link41-node14-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link41-node32-tracemon
+D: 	In GroupList() parsed name link41-tracemon
+D: 	In GroupList() parsed agent link41-node32-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link42-node15-tracemon
+D: 	In GroupList() parsed name link42-tracemon
+D: 	In GroupList() parsed agent link42-node15-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link42-node36-tracemon
+D: 	In GroupList() parsed name link42-tracemon
+D: 	In GroupList() parsed agent link42-node36-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link43-node15-tracemon
+D: 	In GroupList() parsed name link43-tracemon
+D: 	In GroupList() parsed agent link43-node15-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link43-node34-tracemon
+D: 	In GroupList() parsed name link43-tracemon
+D: 	In GroupList() parsed agent link43-node34-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link44-node16-tracemon
+D: 	In GroupList() parsed name link44-tracemon
+D: 	In GroupList() parsed agent link44-node16-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link44-node35-tracemon
+D: 	In GroupList() parsed name link44-tracemon
+D: 	In GroupList() parsed agent link44-node35-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link45-node16-tracemon
+D: 	In GroupList() parsed name link45-tracemon
+D: 	In GroupList() parsed agent link45-node16-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link45-node33-tracemon
+D: 	In GroupList() parsed name link45-tracemon
+D: 	In GroupList() parsed agent link45-node33-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link46-node17-tracemon
+D: 	In GroupList() parsed name link46-tracemon
+D: 	In GroupList() parsed agent link46-node17-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link46-node38-tracemon
+D: 	In GroupList() parsed name link46-tracemon
+D: 	In GroupList() parsed agent link46-node38-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link47-node17-tracemon
+D: 	In GroupList() parsed name link47-tracemon
+D: 	In GroupList() parsed agent link47-node17-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link47-node37-tracemon
+D: 	In GroupList() parsed name link47-tracemon
+D: 	In GroupList() parsed agent link47-node37-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link48-node19-tracemon
+D: 	In GroupList() parsed name link48-tracemon
+D: 	In GroupList() parsed agent link48-node19-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link48-node39-tracemon
+D: 	In GroupList() parsed name link48-tracemon
+D: 	In GroupList() parsed agent link48-node39-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link49-node19-tracemon
+D: 	In GroupList() parsed name link49-tracemon
+D: 	In GroupList() parsed agent link49-node19-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link49-node40-tracemon
+D: 	In GroupList() parsed name link49-tracemon
+D: 	In GroupList() parsed agent link49-node40-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link5-node2-tracemon
+D: 	In GroupList() parsed name link5-tracemon
+D: 	In GroupList() parsed agent link5-node2-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link5-node5-tracemon
+D: 	In GroupList() parsed name link5-tracemon
+D: 	In GroupList() parsed agent link5-node5-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link50-node20-tracemon
+D: 	In GroupList() parsed name link50-tracemon
+D: 	In GroupList() parsed agent link50-node20-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link50-node41-tracemon
+D: 	In GroupList() parsed name link50-tracemon
+D: 	In GroupList() parsed agent link50-node41-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link51-node20-tracemon
+D: 	In GroupList() parsed name link51-tracemon
+D: 	In GroupList() parsed agent link51-node20-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link51-node42-tracemon
+D: 	In GroupList() parsed name link51-tracemon
+D: 	In GroupList() parsed agent link51-node42-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link52-node18-tracemon
+D: 	In GroupList() parsed name link52-tracemon
+D: 	In GroupList() parsed agent link52-node18-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link52-node43-tracemon
+D: 	In GroupList() parsed name link52-tracemon
+D: 	In GroupList() parsed agent link52-node43-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link53-node18-tracemon
+D: 	In GroupList() parsed name link53-tracemon
+D: 	In GroupList() parsed agent link53-node18-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link53-node44-tracemon
+D: 	In GroupList() parsed name link53-tracemon
+D: 	In GroupList() parsed agent link53-node44-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link6-node2-tracemon
+D: 	In GroupList() parsed name link6-tracemon
+D: 	In GroupList() parsed agent link6-node2-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link6-node6-tracemon
+D: 	In GroupList() parsed name link6-tracemon
+D: 	In GroupList() parsed agent link6-node6-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link7-node1-tracemon
+D: 	In GroupList() parsed name link7-tracemon
+D: 	In GroupList() parsed agent link7-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link7-node7-tracemon
+D: 	In GroupList() parsed name link7-tracemon
+D: 	In GroupList() parsed agent link7-node7-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link8-node1-tracemon
+D: 	In GroupList() parsed name link8-tracemon
+D: 	In GroupList() parsed agent link8-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link8-node8-tracemon
+D: 	In GroupList() parsed name link8-tracemon
+D: 	In GroupList() parsed agent link8-node8-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link9-node3-tracemon
+D: 	In GroupList() parsed name link9-tracemon
+D: 	In GroupList() parsed agent link9-node3-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link9-node9-tracemon
+D: 	In GroupList() parsed name link9-tracemon
+D: 	In GroupList() parsed agent link9-node9-tracemon
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link10
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link11
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link12
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link13
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link14
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link15
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link16
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link17
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link18
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link19
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link20
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link21
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link22
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link23
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link24
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link25
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link26
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link27
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link28
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link29
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link30
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link31
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link32
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link33
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link34
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link0
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link35
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link1
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link36
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link2
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link37
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link3
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link38
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link4
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link39
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link40
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link5
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link41
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link6
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link42
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link7
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link43
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link8
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link44
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link9
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link45
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link46
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link47
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link48
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link50
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link49
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link51
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link52
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link53
+Agent:   __ns_sequence    SEQUENCE          *        *                *
+Agent:   __ns_teardown    SEQUENCE          *        *                *
+Agent:    __ns_swapout    SEQUENCE          *        *                *
+Agent:   __ns_timeline    TIMELINE          *        *                *
+Agent:           link0        LINK          *        *                *
+Agent:     link0-node0        LINK          *        *                *
+Agent: link0-node0-tracemon   LINKTRACE          *        *                *
+Agent:     link0-node2        LINK          *        *                *
+Agent: link0-node2-tracemon   LINKTRACE          *        *                *
+Agent:           link1        LINK          *        *                *
+Agent:     link1-node1        LINK          *        *                *
+Agent: link1-node1-tracemon   LINKTRACE          *        *                *
+Agent:     link1-node2        LINK          *        *                *
+Agent: link1-node2-tracemon   LINKTRACE          *        *                *
+Agent:          link10        LINK          *        *                *
+Agent:   link10-node10        LINK          *        *                *
+Agent: link10-node10-tracemon   LINKTRACE          *        *                *
+Agent:    link10-node3        LINK          *        *                *
+Agent: link10-node3-tracemon   LINKTRACE          *        *                *
+Agent:          link11        LINK          *        *                *
+Agent:   link11-node10        LINK          *        *                *
+Agent: link11-node10-tracemon   LINKTRACE          *        *                *
+Agent:    link11-node9        LINK          *        *                *
+Agent: link11-node9-tracemon   LINKTRACE          *        *                *
+Agent:          link12        LINK          *        *                *
+Agent:   link12-node11        LINK          *        *                *
+Agent: link12-node11-tracemon   LINKTRACE          *        *                *
+Agent:    link12-node4        LINK          *        *                *
+Agent: link12-node4-tracemon   LINKTRACE          *        *                *
+Agent:          link13        LINK          *        *                *
+Agent:   link13-node12        LINK          *        *                *
+Agent: link13-node12-tracemon   LINKTRACE          *        *                *
+Agent:    link13-node4        LINK          *        *                *
+Agent: link13-node4-tracemon   LINKTRACE          *        *                *
+Agent:          link14        LINK          *        *                *
+Agent:   link14-node11        LINK          *        *                *
+Agent: link14-node11-tracemon   LINKTRACE          *        *                *
+Agent:   link14-node12        LINK          *        *                *
+Agent: link14-node12-tracemon   LINKTRACE          *        *                *
+Agent:          link15        LINK          *        *                *
+Agent:   link15-node13        LINK          *        *                *
+Agent: link15-node13-tracemon   LINKTRACE          *        *                *
+Agent:    link15-node5        LINK          *        *                *
+Agent: link15-node5-tracemon   LINKTRACE          *        *                *
+Agent:          link16        LINK          *        *                *
+Agent:   link16-node14        LINK          *        *                *
+Agent: link16-node14-tracemon   LINKTRACE          *        *                *
+Agent:    link16-node5        LINK          *        *                *
+Agent: link16-node5-tracemon   LINKTRACE          *        *                *
+Agent:          link17        LINK          *        *                *
+Agent:   link17-node13        LINK          *        *                *
+Agent: link17-node13-tracemon   LINKTRACE          *        *                *
+Agent:   link17-node14        LINK          *        *                *
+Agent: link17-node14-tracemon   LINKTRACE          *        *                *
+Agent:          link18        LINK          *        *                *
+Agent:   link18-node15        LINK          *        *                *
+Agent: link18-node15-tracemon   LINKTRACE          *        *                *
+Agent:    link18-node6        LINK          *        *                *
+Agent: link18-node6-tracemon   LINKTRACE          *        *                *
+Agent:          link19        LINK          *        *                *
+Agent:   link19-node16        LINK          *        *                *
+Agent: link19-node16-tracemon   LINKTRACE          *        *                *
+Agent:    link19-node6        LINK          *        *                *
+Agent: link19-node6-tracemon   LINKTRACE          *        *                *
+Agent:           link2        LINK          *        *                *
+Agent:     link2-node0        LINK          *        *                *
+Agent: link2-node0-tracemon   LINKTRACE          *        *                *
+Agent:     link2-node1        LINK          *        *                *
+Agent: link2-node1-tracemon   LINKTRACE          *        *                *
+Agent:          link20        LINK          *        *                *
+Agent:   link20-node15        LINK          *        *                *
+Agent: link20-node15-tracemon   LINKTRACE          *        *                *
+Agent:   link20-node16        LINK          *        *                *
+Agent: link20-node16-tracemon   LINKTRACE          *        *                *
+Agent:          link21        LINK          *        *                *
+Agent:   link21-node17        LINK          *        *                *
+Agent: link21-node17-tracemon   LINKTRACE          *        *                *
+Agent:    link21-node8        LINK          *        *                *
+Agent: link21-node8-tracemon   LINKTRACE          *        *                *
+Agent:          link22        LINK          *        *                *
+Agent:   link22-node18        LINK          *        *                *
+Agent: link22-node18-tracemon   LINKTRACE          *        *                *
+Agent:    link22-node8        LINK          *        *                *
+Agent: link22-node8-tracemon   LINKTRACE          *        *                *
+Agent:          link23        LINK          *        *                *
+Agent:   link23-node17        LINK          *        *                *
+Agent: link23-node17-tracemon   LINKTRACE          *        *                *
+Agent:   link23-node18        LINK          *        *                *
+Agent: link23-node18-tracemon   LINKTRACE          *        *                *
+Agent:          link24        LINK          *        *                *
+Agent:   link24-node19        LINK          *        *                *
+Agent: link24-node19-tracemon   LINKTRACE          *        *                *
+Agent:   link24-node20        LINK          *        *                *
+Agent: link24-node20-tracemon   LINKTRACE          *        *                *
+Agent:          link25        LINK          *        *                *
+Agent:   link25-node19        LINK          *        *                *
+Agent: link25-node19-tracemon   LINKTRACE          *        *                *
+Agent:    link25-node7        LINK          *        *                *
+Agent: link25-node7-tracemon   LINKTRACE          *        *                *
+Agent:          link26        LINK          *        *                *
+Agent:   link26-node20        LINK          *        *                *
+Agent: link26-node20-tracemon   LINKTRACE          *        *                *
+Agent:    link26-node7        LINK          *        *                *
+Agent: link26-node7-tracemon   LINKTRACE          *        *                *
+Agent:          link27        LINK          *        *                *
+Agent:    link27-node3        LINK          *        *                *
+Agent: link27-node3-tracemon   LINKTRACE          *        *                *
+Agent:    link27-node4        LINK          *        *                *
+Agent: link27-node4-tracemon   LINKTRACE          *        *                *
+Agent:          link28        LINK          *        *                *
+Agent:    link28-node5        LINK          *        *                *
+Agent: link28-node5-tracemon   LINKTRACE          *        *                *
+Agent:    link28-node6        LINK          *        *                *
+Agent: link28-node6-tracemon   LINKTRACE          *        *                *
+Agent:          link29        LINK          *        *                *
+Agent:    link29-node7        LINK          *        *                *
+Agent: link29-node7-tracemon   LINKTRACE          *        *                *
+Agent:    link29-node8        LINK          *        *                *
+Agent: link29-node8-tracemon   LINKTRACE          *        *                *
+Agent:           link3        LINK          *        *                *
+Agent:     link3-node0        LINK          *        *                *
+Agent: link3-node0-tracemon   LINKTRACE          *        *                *
+Agent:     link3-node3        LINK          *        *                *
+Agent: link3-node3-tracemon   LINKTRACE          *        *                *
+Agent:          link30        LINK          *        *                *
+Agent:   link30-node21        LINK          *        *                *
+Agent: link30-node21-tracemon   LINKTRACE          *        *                *
+Agent:    link30-node9        LINK          *        *                *
+Agent: link30-node9-tracemon   LINKTRACE          *        *                *
+Agent:          link31        LINK          *        *                *
+Agent:   link31-node22        LINK          *        *                *
+Agent: link31-node22-tracemon   LINKTRACE          *        *                *
+Agent:    link31-node9        LINK          *        *                *
+Agent: link31-node9-tracemon   LINKTRACE          *        *                *
+Agent:          link32        LINK          *        *                *
+Agent:   link32-node10        LINK          *        *                *
+Agent: link32-node10-tracemon   LINKTRACE          *        *                *
+Agent:   link32-node23        LINK          *        *                *
+Agent: link32-node23-tracemon   LINKTRACE          *        *                *
+Agent:          link33        LINK          *        *                *
+Agent:   link33-node10        LINK          *        *                *
+Agent: link33-node10-tracemon   LINKTRACE          *        *                *
+Agent:   link33-node24        LINK          *        *                *
+Agent: link33-node24-tracemon   LINKTRACE          *        *                *
+Agent:          link34        LINK          *        *                *
+Agent:   link34-node11        LINK          *        *                *
+Agent: link34-node11-tracemon   LINKTRACE          *        *                *
+Agent:   link34-node26        LINK          *        *                *
+Agent: link34-node26-tracemon   LINKTRACE          *        *                *
+Agent:          link35        LINK          *        *                *
+Agent:   link35-node11        LINK          *        *                *
+Agent: link35-node11-tracemon   LINKTRACE          *        *                *
+Agent:   link35-node25        LINK          *        *                *
+Agent: link35-node25-tracemon   LINKTRACE          *        *                *
+Agent:          link36        LINK          *        *                *
+Agent:   link36-node12        LINK          *        *                *
+Agent: link36-node12-tracemon   LINKTRACE          *        *                *
+Agent:   link36-node28        LINK          *        *                *
+Agent: link36-node28-tracemon   LINKTRACE          *        *                *
+Agent:          link37        LINK          *        *                *
+Agent:   link37-node12        LINK          *        *                *
+Agent: link37-node12-tracemon   LINKTRACE          *        *                *
+Agent:   link37-node27        LINK          *        *                *
+Agent: link37-node27-tracemon   LINKTRACE          *        *                *
+Agent:          link38        LINK          *        *                *
+Agent:   link38-node13        LINK          *        *                *
+Agent: link38-node13-tracemon   LINKTRACE          *        *                *
+Agent:   link38-node30        LINK          *        *                *
+Agent: link38-node30-tracemon   LINKTRACE          *        *                *
+Agent:          link39        LINK          *        *                *
+Agent:   link39-node13        LINK          *        *                *
+Agent: link39-node13-tracemon   LINKTRACE          *        *                *
+Agent:   link39-node29        LINK          *        *                *
+Agent: link39-node29-tracemon   LINKTRACE          *        *                *
+Agent:           link4        LINK          *        *                *
+Agent:     link4-node0        LINK          *        *                *
+Agent: link4-node0-tracemon   LINKTRACE          *        *                *
+Agent:     link4-node4        LINK          *        *                *
+Agent: link4-node4-tracemon   LINKTRACE          *        *                *
+Agent:          link40        LINK          *        *                *
+Agent:   link40-node14        LINK          *        *                *
+Agent: link40-node14-tracemon   LINKTRACE          *        *                *
+Agent:   link40-node31        LINK          *        *                *
+Agent: link40-node31-tracemon   LINKTRACE          *        *                *
+Agent:          link41        LINK          *        *                *
+Agent:   link41-node14        LINK          *        *                *
+Agent: link41-node14-tracemon   LINKTRACE          *        *                *
+Agent:   link41-node32        LINK          *        *                *
+Agent: link41-node32-tracemon   LINKTRACE          *        *                *
+Agent:          link42        LINK          *        *                *
+Agent:   link42-node15        LINK          *        *                *
+Agent: link42-node15-tracemon   LINKTRACE          *        *                *
+Agent:   link42-node36        LINK          *        *                *
+Agent: link42-node36-tracemon   LINKTRACE          *        *                *
+Agent:          link43        LINK          *        *                *
+Agent:   link43-node15        LINK          *        *                *
+Agent: link43-node15-tracemon   LINKTRACE          *        *                *
+Agent:   link43-node34        LINK          *        *                *
+Agent: link43-node34-tracemon   LINKTRACE          *        *                *
+Agent:          link44        LINK          *        *                *
+Agent:   link44-node16        LINK          *        *                *
+Agent: link44-node16-tracemon   LINKTRACE          *        *                *
+Agent:   link44-node35        LINK          *        *                *
+Agent: link44-node35-tracemon   LINKTRACE          *        *                *
+Agent:          link45        LINK          *        *                *
+Agent:   link45-node16        LINK          *        *                *
+Agent: link45-node16-tracemon   LINKTRACE          *        *                *
+Agent:   link45-node33        LINK          *        *                *
+Agent: link45-node33-tracemon   LINKTRACE          *        *                *
+Agent:          link46        LINK          *        *                *
+Agent:   link46-node17        LINK          *        *                *
+Agent: link46-node17-tracemon   LINKTRACE          *        *                *
+Agent:   link46-node38        LINK          *        *                *
+Agent: link46-node38-tracemon   LINKTRACE          *        *                *
+Agent:          link47        LINK          *        *                *
+Agent:   link47-node17        LINK          *        *                *
+Agent: link47-node17-tracemon   LINKTRACE          *        *                *
+Agent:   link47-node37        LINK          *        *                *
+Agent: link47-node37-tracemon   LINKTRACE          *        *                *
+Agent:          link48        LINK          *        *                *
+Agent:   link48-node19        LINK          *        *                *
+Agent: link48-node19-tracemon   LINKTRACE          *        *                *
+Agent:   link48-node39        LINK          *        *                *
+Agent: link48-node39-tracemon   LINKTRACE          *        *                *
+Agent:          link49        LINK          *        *                *
+Agent:   link49-node19        LINK          *        *                *
+Agent: link49-node19-tracemon   LINKTRACE          *        *                *
+Agent:   link49-node40        LINK          *        *                *
+Agent: link49-node40-tracemon   LINKTRACE          *        *                *
+Agent:           link5        LINK          *        *                *
+Agent:     link5-node2        LINK          *        *                *
+Agent: link5-node2-tracemon   LINKTRACE          *        *                *
+Agent:     link5-node5        LINK          *        *                *
+Agent: link5-node5-tracemon   LINKTRACE          *        *                *
+Agent:          link50        LINK          *        *                *
+Agent:   link50-node20        LINK          *        *                *
+Agent: link50-node20-tracemon   LINKTRACE          *        *                *
+Agent:   link50-node41        LINK          *        *                *
+Agent: link50-node41-tracemon   LINKTRACE          *        *                *
+Agent:          link51        LINK          *        *                *
+Agent:   link51-node20        LINK          *        *                *
+Agent: link51-node20-tracemon   LINKTRACE          *        *                *
+Agent:   link51-node42        LINK          *        *                *
+Agent: link51-node42-tracemon   LINKTRACE          *        *                *
+Agent:          link52        LINK          *        *                *
+Agent:   link52-node18        LINK          *        *                *
+Agent: link52-node18-tracemon   LINKTRACE          *        *                *
+Agent:   link52-node43        LINK          *        *                *
+Agent: link52-node43-tracemon   LINKTRACE          *        *                *
+Agent:          link53        LINK          *        *                *
+Agent:   link53-node18        LINK          *        *                *
+Agent: link53-node18-tracemon   LINKTRACE          *        *                *
+Agent:   link53-node44        LINK          *        *                *
+Agent: link53-node44-tracemon   LINKTRACE          *        *                *
+Agent:           link6        LINK          *        *                *
+Agent:     link6-node2        LINK          *        *                *
+Agent: link6-node2-tracemon   LINKTRACE          *        *                *
+Agent:     link6-node6        LINK          *        *                *
+Agent: link6-node6-tracemon   LINKTRACE          *        *                *
+Agent:           link7        LINK          *        *                *
+Agent:     link7-node1        LINK          *        *                *
+Agent: link7-node1-tracemon   LINKTRACE          *        *                *
+Agent:     link7-node7        LINK          *        *                *
+Agent: link7-node7-tracemon   LINKTRACE          *        *                *
+Agent:           link8        LINK          *        *                *
+Agent:     link8-node1        LINK          *        *                *
+Agent: link8-node1-tracemon   LINKTRACE          *        *                *
+Agent:     link8-node8        LINK          *        *                *
+Agent: link8-node8-tracemon   LINKTRACE          *        *                *
+Agent:           link9        LINK          *        *                *
+Agent:     link9-node3        LINK          *        *                *
+Agent: link9-node3-tracemon   LINKTRACE          *        *                *
+Agent:     link9-node9        LINK          *        *                *
+Agent: link9-node9-tracemon   LINKTRACE          *        *                *
+Agent:        linktest    LINKTEST          *        *                *
+Agent:           node0        NODE      node0     pc72     155.98.36.72
+Agent:   node0-console     CONSOLE      node0     pc72     155.98.36.72
+Agent:           node1        NODE      node1      pc1    155.98.38.254
+Agent:   node1-console     CONSOLE      node1      pc1    155.98.38.254
+Agent:          node10        NODE     node10     pc15     155.98.36.15
+Agent:  node10-console     CONSOLE     node10     pc15     155.98.36.15
+Agent:          node11        NODE     node11     pc27     155.98.36.27
+Agent:  node11-console     CONSOLE     node11     pc27     155.98.36.27
+Agent:          node12        NODE     node12     pc62     155.98.36.62
+Agent:  node12-console     CONSOLE     node12     pc62     155.98.36.62
+Agent:          node13        NODE     node13     pc37     155.98.36.37
+Agent:  node13-console     CONSOLE     node13     pc37     155.98.36.37
+Agent:          node14        NODE     node14     pc26     155.98.36.26
+Agent:  node14-console     CONSOLE     node14     pc26     155.98.36.26
+Agent:          node15        NODE     node15      pc6      155.98.36.6
+Agent:  node15-console     CONSOLE     node15      pc6      155.98.36.6
+Agent:          node16        NODE     node16     pc59     155.98.36.59
+Agent:  node16-console     CONSOLE     node16     pc59     155.98.36.59
+Agent:          node17        NODE     node17      pc2      155.98.36.2
+Agent:  node17-console     CONSOLE     node17      pc2      155.98.36.2
+Agent:          node18        NODE     node18     pc79     155.98.36.79
+Agent:  node18-console     CONSOLE     node18     pc79     155.98.36.79
+Agent:          node19        NODE     node19     pc35     155.98.36.35
+Agent:  node19-console     CONSOLE     node19     pc35     155.98.36.35
+Agent:           node2        NODE      node2     pc54     155.98.36.54
+Agent:   node2-console     CONSOLE      node2     pc54     155.98.36.54
+Agent:          node20        NODE     node20     pc12     155.98.36.12
+Agent:  node20-console     CONSOLE     node20     pc12     155.98.36.12
+Agent:          node21        NODE     node21     pc20     155.98.36.20
+Agent:  node21-console     CONSOLE     node21     pc20     155.98.36.20
+Agent:          node22        NODE     node22     pc42     155.98.36.42
+Agent:  node22-console     CONSOLE     node22     pc42     155.98.36.42
+Agent:          node23        NODE     node23    pc341    155.98.39.141
+Agent:  node23-console     CONSOLE     node23    pc341    155.98.39.141
+Agent:          node24        NODE     node24     pc69     155.98.36.69
+Agent:  node24-console     CONSOLE     node24     pc69     155.98.36.69
+Agent:          node25        NODE     node25     pc82     155.98.36.82
+Agent:  node25-console     CONSOLE     node25     pc82     155.98.36.82
+Agent:          node26        NODE     node26     pc98     155.98.36.98
+Agent:  node26-console     CONSOLE     node26     pc98     155.98.36.98
+Agent:          node27        NODE     node27     pc13     155.98.36.13
+Agent:  node27-console     CONSOLE     node27     pc13     155.98.36.13
+Agent:          node28        NODE     node28     pc28     155.98.36.28
+Agent:  node28-console     CONSOLE     node28     pc28     155.98.36.28
+Agent:          node29        NODE     node29     pc63     155.98.36.63
+Agent:  node29-console     CONSOLE     node29     pc63     155.98.36.63
+Agent:           node3        NODE      node3     pc39     155.98.36.39
+Agent:   node3-console     CONSOLE      node3     pc39     155.98.36.39
+Agent:          node30        NODE     node30     pc61     155.98.36.61
+Agent:  node30-console     CONSOLE     node30     pc61     155.98.36.61
+Agent:          node31        NODE     node31     pc78     155.98.36.78
+Agent:  node31-console     CONSOLE     node31     pc78     155.98.36.78
+Agent:          node32        NODE     node32     pc60     155.98.36.60
+Agent:  node32-console     CONSOLE     node32     pc60     155.98.36.60
+Agent:          node33        NODE     node33    pc291     155.98.39.91
+Agent:  node33-console     CONSOLE     node33    pc291     155.98.39.91
+Agent:          node34        NODE     node34     pc32     155.98.36.32
+Agent:  node34-console     CONSOLE     node34     pc32     155.98.36.32
+Agent:          node35        NODE     node35     pc83     155.98.36.83
+Agent:  node35-console     CONSOLE     node35     pc83     155.98.36.83
+Agent:          node36        NODE     node36     pc10     155.98.36.10
+Agent:  node36-console     CONSOLE     node36     pc10     155.98.36.10
+Agent:          node37        NODE     node37     pc22     155.98.36.22
+Agent:  node37-console     CONSOLE     node37     pc22     155.98.36.22
+Agent:          node38        NODE     node38    pc271     155.98.39.71
+Agent:  node38-console     CONSOLE     node38    pc271     155.98.39.71
+Agent:          node39        NODE     node39     pc70     155.98.36.70
+Agent:  node39-console     CONSOLE     node39     pc70     155.98.36.70
+Agent:           node4        NODE      node4     pc77     155.98.36.77
+Agent:   node4-console     CONSOLE      node4     pc77     155.98.36.77
+Agent:          node40        NODE     node40     pc24     155.98.36.24
+Agent:  node40-console     CONSOLE     node40     pc24     155.98.36.24
+Agent:          node41        NODE     node41     pc18     155.98.36.18
+Agent:  node41-console     CONSOLE     node41     pc18     155.98.36.18
+Agent:          node42        NODE     node42     pc75     155.98.36.75
+Agent:  node42-console     CONSOLE     node42     pc75     155.98.36.75
+Agent:          node43        NODE     node43     pc76     155.98.36.76
+Agent:  node43-console     CONSOLE     node43     pc76     155.98.36.76
+Agent:          node44        NODE     node44     pc33     155.98.36.33
+Agent:  node44-console     CONSOLE     node44     pc33     155.98.36.33
+Agent:           node5        NODE      node5     pc17     155.98.36.17
+Agent:   node5-console     CONSOLE      node5     pc17     155.98.36.17
+Agent:           node6        NODE      node6     pc50     155.98.36.50
+Agent:   node6-console     CONSOLE      node6     pc50     155.98.36.50
+Agent:           node7        NODE      node7     pc25     155.98.36.25
+Agent:   node7-console     CONSOLE      node7     pc25     155.98.36.25
+Agent:           node8        NODE      node8      pc5      155.98.36.5
+Agent:   node8-console     CONSOLE      node8      pc5      155.98.36.5
+Agent:           node9        NODE      node9     pc21     155.98.36.21
+Agent:   node9-console     CONSOLE      node9     pc21     155.98.36.21
+Agent:              ns   SIMULATOR          *        *                *
+Agent:          slothd      SLOTHD          *        *                *
+Agent:  __all_tracemon       GROUP          *        *                *
+Agent:  link0-tracemon       GROUP          *        *                *
+Agent:  link1-tracemon       GROUP          *        *                *
+Agent: link10-tracemon       GROUP          *        *                *
+Agent: link11-tracemon       GROUP          *        *                *
+Agent: link12-tracemon       GROUP          *        *                *
+Agent: link13-tracemon       GROUP          *        *                *
+Agent: link14-tracemon       GROUP          *        *                *
+Agent: link15-tracemon       GROUP          *        *                *
+Agent: link16-tracemon       GROUP          *        *                *
+Agent: link17-tracemon       GROUP          *        *                *
+Agent: link18-tracemon       GROUP          *        *                *
+Agent: link19-tracemon       GROUP          *        *                *
+Agent:  link2-tracemon       GROUP          *        *                *
+Agent: link20-tracemon       GROUP          *        *                *
+Agent: link21-tracemon       GROUP          *        *                *
+Agent: link22-tracemon       GROUP          *        *                *
+Agent: link23-tracemon       GROUP          *        *                *
+Agent: link24-tracemon       GROUP          *        *                *
+Agent: link25-tracemon       GROUP          *        *                *
+Agent: link26-tracemon       GROUP          *        *                *
+Agent: link27-tracemon       GROUP          *        *                *
+Agent: link28-tracemon       GROUP          *        *                *
+Agent: link29-tracemon       GROUP          *        *                *
+Agent:  link3-tracemon       GROUP          *        *                *
+Agent: link30-tracemon       GROUP          *        *                *
+Agent: link31-tracemon       GROUP          *        *                *
+Agent: link32-tracemon       GROUP          *        *                *
+Agent: link33-tracemon       GROUP          *        *                *
+Agent: link34-tracemon       GROUP          *        *                *
+Agent: link35-tracemon       GROUP          *        *                *
+Agent: link36-tracemon       GROUP          *        *                *
+Agent: link37-tracemon       GROUP          *        *                *
+Agent: link38-tracemon       GROUP          *        *                *
+Agent: link39-tracemon       GROUP          *        *                *
+Agent:  link4-tracemon       GROUP          *        *                *
+Agent: link40-tracemon       GROUP          *        *                *
+Agent: link41-tracemon       GROUP          *        *                *
+Agent: link42-tracemon       GROUP          *        *                *
+Agent: link43-tracemon       GROUP          *        *                *
+Agent: link44-tracemon       GROUP          *        *                *
+Agent: link45-tracemon       GROUP          *        *                *
+Agent: link46-tracemon       GROUP          *        *                *
+Agent: link47-tracemon       GROUP          *        *                *
+Agent: link48-tracemon       GROUP          *        *                *
+Agent: link49-tracemon       GROUP          *        *                *
+Agent:  link5-tracemon       GROUP          *        *                *
+Agent: link50-tracemon       GROUP          *        *                *
+Agent: link51-tracemon       GROUP          *        *                *
+Agent: link52-tracemon       GROUP          *        *                *
+Agent: link53-tracemon       GROUP          *        *                *
+Agent:  link6-tracemon       GROUP          *        *                *
+Agent:  link7-tracemon       GROUP          *        *                *
+Agent:  link8-tracemon       GROUP          *        *                *
+Agent:  link9-tracemon       GROUP          *        *                *
+Agent:      __all_lans       GROUP          *        *                *
+ Getting event stream at: 1297441977:110163
+D: AddEvent asked to add event link14
+AddEvent called with event of triggertype TIMER
+     0.0     link14       LINK         UP          *             0x286111e8
+D: AddEvent asked to add event link13
+AddEvent called with event of triggertype TIMER
+     0.0     link13       LINK         UP          *             0x286111f0
+D: AddEvent asked to add event link4
+AddEvent called with event of triggertype TIMER
+     0.0      link4       LINK         UP          *             0x286111f8
+D: AddEvent asked to add event link2
+AddEvent called with event of triggertype TIMER
+     0.0      link2       LINK         UP          *             0x28611200
+D: AddEvent asked to add event link1
+AddEvent called with event of triggertype TIMER
+     0.0      link1       LINK         UP          *             0x28611208
+D: AddEvent asked to add event link0
+AddEvent called with event of triggertype TIMER
+     0.0      link0       LINK         UP          *             0x28611210
+D: AddEvent asked to add event link7
+AddEvent called with event of triggertype TIMER
+     0.0      link7       LINK         UP          *             0x28611218
+D: AddEvent asked to add event link8
+AddEvent called with event of triggertype TIMER
+     0.0      link8       LINK         UP          *             0x28611220
+D: AddEvent asked to add event link5
+AddEvent called with event of triggertype TIMER
+     0.0      link5       LINK         UP          *             0x28611228
+D: AddEvent asked to add event link6
+AddEvent called with event of triggertype TIMER
+     0.0      link6       LINK         UP          *             0x28611230
+D: AddEvent asked to add event link28
+AddEvent called with event of triggertype TIMER
+     0.0     link28       LINK         UP          *             0x28611238
+Automatically scheduling the beginning and end of time
+Sched: note:0x28704050 at:20110211_09:34:10.349 now:20110211_09:32:57.354 agent:__ns_sequence START
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+Fire:  note:0x28704050 at:20110211_09:34:10.349 now:20110211_09:34:13.187 agent:__ns_sequence
+Fire:  note:0x28611268 at:20110211_09:34:14.187 now:20110211_09:34:14.226 agent:ns
+Fire:  note:0x28611270 at:20110211_09:34:14.187 now:20110211_09:34:14.227 agent:*
+log: 0s - Time started
+Sched: note:0x28703058 at:20110211_09:34:14.231 now:20110211_09:34:14.232 agent:ns COMPLETE
+Beginning call to experiment.metadata
+Finished with call to experiment.metadata
+Beginning call to experiment.state
+Finished with call to experiment.state
+Beginning call to experiment.event_agentlist
+Finished with call to experiment.event_agentlist
+Beginning call to experiment.virtual_topology
+Finished with call to experiment.virtual_topology
+Beginning call to experiment.event_grouplist
+Finished with call to experiment.event_grouplist
+Beginning call to experiment.event_eventlist
+Finished with call to experiment.event_eventlist
+Beginning call to experiment.event_time_start
+Error occured: Invalid response from server
+Fire:  note:0x28611278 at:20110211_09:34:14.187 now:20110211_09:34:14.334 agent:__ns_timeline
+Sched: note:0x28703050 at:20110211_09:34:14.334 now:20110211_09:34:14.336 agent:__ns_timeline COMPLETE
+Fire:  note:0x28703058 at:20110211_09:34:14.231 now:20110211_09:34:14.453 agent:ns
+Done:  now:20110211_09:34:14.457 CTOKEN=28 ERROR=0
+Fire:  note:0x28703050 at:20110211_09:34:14.334 now:20110211_09:34:14.457 agent:__ns_timeline
+Done:  now:20110211_09:34:14.463 CTOKEN=30 ERROR=0
+Sched: note:0x28703058 at:20110211_09:34:14.463 now:20110211_09:34:14.466 agent:__ns_sequence COMPLETE
+Fire:  note:0x28611298 at:20110211_09:34:14.334 now:20110211_09:34:14.799 agent:link1
+Fire:  note:0x286112a0 at:20110211_09:34:14.334 now:20110211_09:34:14.802 agent:link0
+Fire:  note:0x28611280 at:20110211_09:34:14.334 now:20110211_09:34:14.804 agent:link13
+Fire:  note:0x286112c8 at:20110211_09:34:14.334 now:20110211_09:34:14.807 agent:link28
+Fire:  note:0x286112b0 at:20110211_09:34:14.334 now:20110211_09:34:14.809 agent:link8
+Fire:  note:0x28611288 at:20110211_09:34:14.334 now:20110211_09:34:14.811 agent:link4
+Fire:  note:0x28611290 at:20110211_09:34:14.334 now:20110211_09:34:14.812 agent:link2
+Fire:  note:0x28611270 at:20110211_09:34:14.334 now:20110211_09:34:14.814 agent:link14
+Fire:  note:0x286112c0 at:20110211_09:34:14.334 now:20110211_09:34:14.816 agent:link6
+Fire:  note:0x286112b8 at:20110211_09:34:14.334 now:20110211_09:34:14.819 agent:link5
+Fire:  note:0x286112a8 at:20110211_09:34:14.334 now:20110211_09:34:14.822 agent:link7
+Fire:  note:0x28703058 at:20110211_09:34:14.463 now:20110211_09:34:14.825 agent:__ns_sequence
+Done:  now:20110211_09:34:14.827 CTOKEN=27 ERROR=0
+Sched: note:0x28705050 at:20110211_11:35:22.538 now:20110211_11:35:22.539 agent:link4 DOWN
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20110211_11:35:22.538 now:20110211_11:35:22.561 agent:link4
+Sched: note:0x28705050 at:20110211_11:41:09.000 now:20110211_11:41:09.001 agent:link4 UP
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20110211_11:41:09.000 now:20110211_11:41:09.001 agent:link4
+Sched: note:0x28705050 at:20110211_12:16:27.902 now:20110211_12:16:27.904 agent:link4 UP
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20110211_12:16:27.902 now:20110211_12:16:27.904 agent:link4
+Sched: note:0x28705050 at:20110211_12:30:09.956 now:20110211_12:30:09.958 agent:link4 DOWN
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20110211_12:30:09.956 now:20110211_12:30:09.958 agent:link4
+Sched: note:0x28705050 at:20110211_12:37:52.523 now:20110211_12:37:52.525 agent:link4 UP
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20110211_12:37:52.523 now:20110211_12:37:52.525 agent:link4
+Sched: note:0x28705050 at:20110211_13:15:04.027 now:20110211_13:15:04.031 agent:link4 DOWN
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20110211_13:15:04.027 now:20110211_13:15:04.031 agent:link4
+Sched: note:0x28705050 at:20110211_13:58:17.291 now:20110211_13:58:17.291 agent:link4 UP
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20110211_13:58:17.291 now:20110211_13:58:17.291 agent:link4
+Sched: note:0x28705050 at:20110211_14:15:06.977 now:20110211_14:15:06.978 agent:link4 DOWN
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20110211_14:15:06.977 now:20110211_14:15:06.978 agent:link4
+Sched: note:0x28705050 at:20110211_15:38:39.174 now:20110211_15:38:39.175 agent:__ns_swapout RUN
+Fire:  note:0x28705050 at:20110211_15:38:39.174 now:20110211_15:38:39.179 agent:__ns_swapout
+Sched: note:0x28705058 at:20110211_15:38:39.180 now:20110211_15:38:39.181 agent:__ns_swapout COMPLETE
+Fire:  note:0x28611488 at:20110211_15:38:39.180 now:20110211_15:38:39.282 agent:ns
+Fire:  note:0x28705058 at:20110211_15:38:39.180 now:20110211_15:38:39.282 agent:__ns_swapout
+log: 6h4m25s - Swapout started
+Done:  now:20110211_15:38:39.286 CTOKEN=1297463919 ERROR=0
+Sched: note:0x28705060 at:20110211_15:38:39.284 now:20110211_15:38:39.287 agent:ns COMPLETE
+Sched: note:0x28705050 at:20110211_15:38:39.294 now:20110211_15:38:39.388 agent:__ns_teardown RUN
+Fire:  note:0x28705060 at:20110211_15:38:39.284 now:20110211_15:38:39.641 agent:ns
+Done:  now:20110211_15:38:39.643 CTOKEN=50 ERROR=0
+Fire:  note:0x28705050 at:20110211_15:38:39.294 now:20110211_15:38:39.644 agent:__ns_teardown
+Sched: note:0x28705058 at:20110211_15:38:39.644 now:20110211_15:38:39.645 agent:__ns_teardown COMPLETE
+Fire:  note:0x28611488 at:20110211_15:38:39.644 now:20110211_15:38:39.746 agent:ns
+Fire:  note:0x28705058 at:20110211_15:38:39.644 now:20110211_15:38:39.746 agent:__ns_teardown
+log: 6h4m25s - Time ended
+Done:  now:20110211_15:38:39.750 CTOKEN=1297463919 ERROR=0
+Sched: note:0x28705060 at:20110211_15:38:39.748 now:20110211_15:38:39.754 agent:ns COMPLETE
+Caught a TERM; killing the scheduler and agent
+event-sched[37011]: received signal 15, exiting
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start

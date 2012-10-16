@@ -1,0 +1,569 @@
+/usr/testbed/sbin/event-sched -d -s localhost -k /proj/FCT/exp/QG/tbdata/eventkey FCT QG
+D: adding agent link0
+D:		AddAgent asked to add agent link0
+D: adding agent link0-node0
+D:		AddAgent asked to add agent link0-node0
+D: adding agent link0-node2
+D:		AddAgent asked to add agent link0-node2
+D: adding agent link1
+D:		AddAgent asked to add agent link1
+D: adding agent link1-node2
+D:		AddAgent asked to add agent link1-node2
+D: adding agent link1-node6
+D:		AddAgent asked to add agent link1-node6
+D: adding agent link10
+D:		AddAgent asked to add agent link10
+D: adding agent link10-node14
+D:		AddAgent asked to add agent link10-node14
+D: adding agent link10-node7
+D:		AddAgent asked to add agent link10-node7
+D: adding agent link11
+D:		AddAgent asked to add agent link11
+Sched: note:0x28704050 at:20120127_21:53:50.961 now:20120127_21:53:50.986 agent:__ns_sequence START
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28704050
+D: adding agent link11-node15
+D:		AddAgent asked to add agent link11-node15
+D: adding agent link11-node8
+D:		AddAgent asked to add agent link11-node8
+D: adding agent link12
+D:		AddAgent asked to add agent link12
+D: adding agent link12-node16
+D:		AddAgent asked to add agent link12-node16
+D: adding agent link12-node8
+D:		AddAgent asked to add agent link12-node8
+D: adding agent link13
+D:		AddAgent asked to add agent link13
+D: adding agent link13-node7
+D:		AddAgent asked to add agent link13-node7
+D: adding agent link13-node8
+D:		AddAgent asked to add agent link13-node8
+D: adding agent link14
+D:		AddAgent asked to add agent link14
+D: adding agent link14-node11
+D:		AddAgent asked to add agent link14-node11
+D: adding agent link14-node14
+D:		AddAgent asked to add agent link14-node14
+D: adding agent link16
+D:		AddAgent asked to add agent link16
+D: adding agent link16-node11
+D:		AddAgent asked to add agent link16-node11
+D: adding agent link16-node9
+D:		AddAgent asked to add agent link16-node9
+D: adding agent link17
+D:		AddAgent asked to add agent link17
+D: adding agent link17-node10
+D:		AddAgent asked to add agent link17-node10
+D: adding agent link17-node11
+D:		AddAgent asked to add agent link17-node11
+D: adding agent link18
+D:		AddAgent asked to add agent link18
+D: adding agent link18-node12
+D:		AddAgent asked to add agent link18-node12
+D: adding agent link18-node14
+D:		AddAgent asked to add agent link18-node14
+D: adding agent link19
+D:		AddAgent asked to add agent link19
+D: adding agent link19-node13
+D:		AddAgent asked to add agent link19-node13
+D: adding agent link19-node14
+D:		AddAgent asked to add agent link19-node14
+D: adding agent link2
+D:		AddAgent asked to add agent link2
+D: adding agent link2-node1
+D:		AddAgent asked to add agent link2-node1
+D: adding agent link2-node2
+D:		AddAgent asked to add agent link2-node2
+D: adding agent link20
+D:		AddAgent asked to add agent link20
+D: adding agent link20-node15
+D:		AddAgent asked to add agent link20-node15
+D: adding agent link20-node17
+D:		AddAgent asked to add agent link20-node17
+D: adding agent link21
+D:		AddAgent asked to add agent link21
+D: adding agent link21-node15
+D:		AddAgent asked to add agent link21-node15
+D: adding agent link21-node18
+D:		AddAgent asked to add agent link21-node18
+D: adding agent link22
+D:		AddAgent asked to add agent link22
+D: adding agent link22-node16
+D:		AddAgent asked to add agent link22-node16
+D: adding agent link22-node19
+D:		AddAgent asked to add agent link22-node19
+D: adding agent link23
+D:		AddAgent asked to add agent link23
+D: adding agent link23-node19
+D:		AddAgent asked to add agent link23-node19
+D: adding agent link23-node20
+D:		AddAgent asked to add agent link23-node20
+D: adding agent link24
+D:		AddAgent asked to add agent link24
+D: adding agent link24-node16
+D:		AddAgent asked to add agent link24-node16
+D: adding agent link24-node6
+D:		AddAgent asked to add agent link24-node6
+D: adding agent link25
+D:		AddAgent asked to add agent link25
+D: adding agent link25-node21
+D:		AddAgent asked to add agent link25-node21
+D: adding agent link25-node9
+D:		AddAgent asked to add agent link25-node9
+D: adding agent link26
+D:		AddAgent asked to add agent link26
+D: adding agent link26-node21
+D:		AddAgent asked to add agent link26-node21
+D: adding agent link26-node22
+D:		AddAgent asked to add agent link26-node22
+D: adding agent link27
+D:		AddAgent asked to add agent link27
+D: adding agent link27-node22
+D:		AddAgent asked to add agent link27-node22
+D: adding agent link27-node23
+D:		AddAgent asked to add agent link27-node23
+D: adding agent link3
+D:		AddAgent asked to add agent link3
+D: adding agent link3-node2
+D:		AddAgent asked to add agent link3-node2
+D: adding agent link3-node5
+D:		AddAgent asked to add agent link3-node5
+D: adding agent link4
+D:		AddAgent asked to add agent link4
+D: adding agent link4-node3
+D:		AddAgent asked to add agent link4-node3
+D: adding agent link4-node5
+D:		AddAgent asked to add agent link4-node5
+D: adding agent link5
+D:		AddAgent asked to add agent link5
+D: adding agent link5-node4
+D:		AddAgent asked to add agent link5-node4
+D: adding agent link5-node5
+D:		AddAgent asked to add agent link5-node5
+D: adding agent link7
+D:		AddAgent asked to add agent link7
+D: adding agent link7-node6
+D:		AddAgent asked to add agent link7-node6
+D: adding agent link7-node7
+D:		AddAgent asked to add agent link7-node7
+D: adding agent link9
+D:		AddAgent asked to add agent link9
+D: adding agent link9-node11
+D:		AddAgent asked to add agent link9-node11
+D: adding agent link9-node7
+D:		AddAgent asked to add agent link9-node7
+D: adding agent linktest
+D:		AddAgent asked to add agent linktest
+D: adding agent node0
+D:		AddAgent asked to add agent node0
+D: adding agent node0-console
+D:		AddAgent asked to add agent node0-console
+D: adding agent node1
+D:		AddAgent asked to add agent node1
+D: adding agent node1-console
+D:		AddAgent asked to add agent node1-console
+D: adding agent node10
+D:		AddAgent asked to add agent node10
+D: adding agent node10-console
+D:		AddAgent asked to add agent node10-console
+D: adding agent node11
+D:		AddAgent asked to add agent node11
+D: adding agent node11-console
+D:		AddAgent asked to add agent node11-console
+D: adding agent node12
+D:		AddAgent asked to add agent node12
+D: adding agent node12-console
+D:		AddAgent asked to add agent node12-console
+D: adding agent node13
+D:		AddAgent asked to add agent node13
+D: adding agent node13-console
+D:		AddAgent asked to add agent node13-console
+D: adding agent node14
+D:		AddAgent asked to add agent node14
+D: adding agent node14-console
+D:		AddAgent asked to add agent node14-console
+D: adding agent node15
+D:		AddAgent asked to add agent node15
+D: adding agent node15-console
+D:		AddAgent asked to add agent node15-console
+D: adding agent node16
+D:		AddAgent asked to add agent node16
+D: adding agent node16-console
+D:		AddAgent asked to add agent node16-console
+D: adding agent node17
+D:		AddAgent asked to add agent node17
+D: adding agent node17-console
+D:		AddAgent asked to add agent node17-console
+D: adding agent node18
+D:		AddAgent asked to add agent node18
+D: adding agent node18-console
+D:		AddAgent asked to add agent node18-console
+D: adding agent node19
+D:		AddAgent asked to add agent node19
+D: adding agent node19-console
+D:		AddAgent asked to add agent node19-console
+D: adding agent node2
+D:		AddAgent asked to add agent node2
+D: adding agent node2-console
+D:		AddAgent asked to add agent node2-console
+D: adding agent node20
+D:		AddAgent asked to add agent node20
+D: adding agent node20-console
+D:		AddAgent asked to add agent node20-console
+D: adding agent node21
+D:		AddAgent asked to add agent node21
+D: adding agent node21-console
+D:		AddAgent asked to add agent node21-console
+D: adding agent node22
+D:		AddAgent asked to add agent node22
+D: adding agent node22-console
+D:		AddAgent asked to add agent node22-console
+D: adding agent node23
+D:		AddAgent asked to add agent node23
+D: adding agent node23-console
+D:		AddAgent asked to add agent node23-console
+D: adding agent node3
+D:		AddAgent asked to add agent node3
+D: adding agent node3-console
+D:		AddAgent asked to add agent node3-console
+D: adding agent node4
+D:		AddAgent asked to add agent node4
+D: adding agent node4-console
+D:		AddAgent asked to add agent node4-console
+D: adding agent node5
+D:		AddAgent asked to add agent node5
+D: adding agent node5-console
+D:		AddAgent asked to add agent node5-console
+D: adding agent node6
+D:		AddAgent asked to add agent node6
+D: adding agent node6-console
+D:		AddAgent asked to add agent node6-console
+D: adding agent node7
+D:		AddAgent asked to add agent node7
+D: adding agent node7-console
+D:		AddAgent asked to add agent node7-console
+D: adding agent node8
+D:		AddAgent asked to add agent node8
+D: adding agent node8-console
+D:		AddAgent asked to add agent node8-console
+D: adding agent node9
+D:		AddAgent asked to add agent node9
+D: adding agent node9-console
+D:		AddAgent asked to add agent node9-console
+D: adding agent ns
+D:		AddAgent asked to add agent ns
+D: adding agent slothd
+D:		AddAgent asked to add agent slothd
+D: adding agent tbdelay0_program
+D:		AddAgent asked to add agent tbdelay0_program
+D: adding agent tbdelay1_program
+D:		AddAgent asked to add agent tbdelay1_program
+D: adding agent tbdelay2_program
+D:		AddAgent asked to add agent tbdelay2_program
+D: adding agent tbdelay3_program
+D:		AddAgent asked to add agent tbdelay3_program
+D: adding agent __tbdelay0_program-agent
+D:		AddAgent asked to add agent __tbdelay0_program-agent
+D: adding agent __tbdelay1_program-agent
+D:		AddAgent asked to add agent __tbdelay1_program-agent
+D: adding agent __tbdelay2_program-agent
+D:		AddAgent asked to add agent __tbdelay2_program-agent
+D: adding agent __tbdelay3_program-agent
+D:		AddAgent asked to add agent __tbdelay3_program-agent
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link20
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link19
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link2
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link21
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link3
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link22
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link4
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link23
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link5
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link24
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link25
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link7
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link26
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link27
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link9
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link10
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link11
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link12
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link13
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link14
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link16
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link17
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link0
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link18
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link1
+D: 	In GroupList() parsed name __all_program-agents
+D: 	In GroupList() parsed agent __tbdelay3_program-agent
+D: 	In GroupList() parsed name __all_program-agents
+D: 	In GroupList() parsed agent __tbdelay0_program-agent
+D: 	In GroupList() parsed name __all_program-agents
+D: 	In GroupList() parsed agent __tbdelay1_program-agent
+D: 	In GroupList() parsed name __all_program-agents
+D: 	In GroupList() parsed agent __tbdelay2_program-agent
+Agent:   __ns_sequence    SEQUENCE          *        *                *
+Agent:   __ns_teardown    SEQUENCE          *        *                *
+Agent:    __ns_swapout    SEQUENCE          *        *                *
+Agent:   __ns_timeline    TIMELINE          *        *                *
+Agent:           link0        LINK          *        *                *
+Agent:     link0-node0        LINK          *        *                *
+Agent:     link0-node2        LINK          *        *                *
+Agent:           link1        LINK          *        *                *
+Agent:     link1-node2        LINK          *        *                *
+Agent:     link1-node6        LINK          *        *                *
+Agent:          link10        LINK          *        *                *
+Agent:   link10-node14        LINK          *        *                *
+Agent:    link10-node7        LINK          *        *                *
+Agent:          link11        LINK          *        *                *
+Agent:   link11-node15        LINK          *        *                *
+Agent:    link11-node8        LINK          *        *                *
+Agent:          link12        LINK          *        *                *
+Agent:   link12-node16        LINK          *        *                *
+Agent:    link12-node8        LINK          *        *                *
+Agent:          link13        LINK          *        *                *
+Agent:    link13-node7        LINK          *        *                *
+Agent:    link13-node8        LINK          *        *                *
+Agent:          link14        LINK          *        *                *
+Agent:   link14-node11        LINK          *        *                *
+Agent:   link14-node14        LINK          *        *                *
+Agent:          link16        LINK          *        *                *
+Agent:   link16-node11        LINK          *        *                *
+Agent:    link16-node9        LINK          *        *                *
+Agent:          link17        LINK          *        *                *
+Agent:   link17-node10        LINK          *        *                *
+Agent:   link17-node11        LINK          *        *                *
+Agent:          link18        LINK          *        *                *
+Agent:   link18-node12        LINK          *        *                *
+Agent:   link18-node14        LINK          *        *                *
+Agent:          link19        LINK          *        *                *
+Agent:   link19-node13        LINK          *        *                *
+Agent:   link19-node14        LINK          *        *                *
+Agent:           link2        LINK          *        *                *
+Agent:     link2-node1        LINK          *        *                *
+Agent:     link2-node2        LINK          *        *                *
+Agent:          link20        LINK          *        *                *
+Agent:   link20-node15        LINK          *        *                *
+Agent:   link20-node17        LINK          *        *                *
+Agent:          link21        LINK          *        *                *
+Agent:   link21-node15        LINK          *        *                *
+Agent:   link21-node18        LINK          *        *                *
+Agent:          link22        LINK          *        *                *
+Agent:   link22-node16        LINK          *        *                *
+Agent:   link22-node19        LINK          *        *                *
+Agent:          link23        LINK          *        *                *
+Agent:   link23-node19        LINK          *        *                *
+Agent:   link23-node20        LINK          *        *                *
+Agent:          link24        LINK          *        *                *
+Agent:   link24-node16        LINK          *        *                *
+Agent:    link24-node6        LINK          *        *                *
+Agent:          link25        LINK          *        *                *
+Agent:   link25-node21        LINK          *        *                *
+Agent:    link25-node9        LINK          *        *                *
+Agent:          link26        LINK          *        *                *
+Agent:   link26-node21        LINK          *        *                *
+Agent:   link26-node22        LINK          *        *                *
+Agent:          link27        LINK          *        *                *
+Agent:   link27-node22        LINK          *        *                *
+Agent:   link27-node23        LINK          *        *                *
+Agent:           link3        LINK          *        *                *
+Agent:     link3-node2        LINK          *        *                *
+Agent:     link3-node5        LINK          *        *                *
+Agent:           link4        LINK          *        *                *
+Agent:     link4-node3        LINK          *        *                *
+Agent:     link4-node5        LINK          *        *                *
+Agent:           link5        LINK          *        *                *
+Agent:     link5-node4        LINK          *        *                *
+Agent:     link5-node5        LINK          *        *                *
+Agent:           link7        LINK          *        *                *
+Agent:     link7-node6        LINK          *        *                *
+Agent:     link7-node7        LINK          *        *                *
+Agent:           link9        LINK          *        *                *
+Agent:    link9-node11        LINK          *        *                *
+Agent:     link9-node7        LINK          *        *                *
+Agent:        linktest    LINKTEST          *        *                *
+Agent:           node0        NODE      node0    pc484     155.98.38.84
+Agent:   node0-console     CONSOLE      node0    pc484     155.98.38.84
+Agent:           node1        NODE      node1    pc487     155.98.38.87
+Agent:   node1-console     CONSOLE      node1    pc487     155.98.38.87
+Agent:          node10        NODE     node10    pc486     155.98.38.86
+Agent:  node10-console     CONSOLE     node10    pc486     155.98.38.86
+Agent:          node11        NODE     node11    pc508    155.98.38.108
+Agent:  node11-console     CONSOLE     node11    pc508    155.98.38.108
+Agent:          node12        NODE     node12    pc531    155.98.38.131
+Agent:  node12-console     CONSOLE     node12    pc531    155.98.38.131
+Agent:          node13        NODE     node13    pc547    155.98.38.147
+Agent:  node13-console     CONSOLE     node13    pc547    155.98.38.147
+Agent:          node14        NODE     node14    pc505    155.98.38.105
+Agent:  node14-console     CONSOLE     node14    pc505    155.98.38.105
+Agent:          node15        NODE     node15    pc550    155.98.38.150
+Agent:  node15-console     CONSOLE     node15    pc550    155.98.38.150
+Agent:          node16        NODE     node16    pc423     155.98.38.23
+Agent:  node16-console     CONSOLE     node16    pc423     155.98.38.23
+Agent:          node17        NODE     node17    pc513    155.98.38.113
+Agent:  node17-console     CONSOLE     node17    pc513    155.98.38.113
+Agent:          node18        NODE     node18    pc501    155.98.38.101
+Agent:  node18-console     CONSOLE     node18    pc501    155.98.38.101
+Agent:          node19        NODE     node19    pc511    155.98.38.111
+Agent:  node19-console     CONSOLE     node19    pc511    155.98.38.111
+Agent:           node2        NODE      node2    pc440     155.98.38.40
+Agent:   node2-console     CONSOLE      node2    pc440     155.98.38.40
+Agent:          node20        NODE     node20    pc537    155.98.38.137
+Agent:  node20-console     CONSOLE     node20    pc537    155.98.38.137
+Agent:          node21        NODE     node21     pc79     155.98.36.79
+Agent:  node21-console     CONSOLE     node21     pc79     155.98.36.79
+Agent:          node22        NODE     node22     pc52     155.98.36.52
+Agent:  node22-console     CONSOLE     node22     pc52     155.98.36.52
+Agent:          node23        NODE     node23     pc55     155.98.36.55
+Agent:  node23-console     CONSOLE     node23     pc55     155.98.36.55
+Agent:           node3        NODE      node3    pc554    155.98.38.154
+Agent:   node3-console     CONSOLE      node3    pc554    155.98.38.154
+Agent:           node4        NODE      node4    pc430     155.98.38.30
+Agent:   node4-console     CONSOLE      node4    pc430     155.98.38.30
+Agent:           node5        NODE      node5    pc421     155.98.38.21
+Agent:   node5-console     CONSOLE      node5    pc421     155.98.38.21
+Agent:           node6        NODE      node6    pc429     155.98.38.29
+Agent:   node6-console     CONSOLE      node6    pc429     155.98.38.29
+Agent:           node7        NODE      node7    pc517    155.98.38.117
+Agent:   node7-console     CONSOLE      node7    pc517    155.98.38.117
+Agent:           node8        NODE      node8    pc504    155.98.38.104
+Agent:   node8-console     CONSOLE      node8    pc504    155.98.38.104
+Agent:           node9        NODE      node9    pc538    155.98.38.138
+Agent:   node9-console     CONSOLE      node9    pc538    155.98.38.138
+Agent:              ns   SIMULATOR          *        *                *
+Agent:          slothd      SLOTHD          *        *                *
+Agent: tbdelay0_program     PROGRAM   tbdelay0    pc417     155.98.38.17
+Agent: tbdelay1_program     PROGRAM   tbdelay1    pc490     155.98.38.90
+Agent: tbdelay2_program     PROGRAM   tbdelay2    pc529    155.98.38.129
+Agent: tbdelay3_program     PROGRAM   tbdelay3    pc512    155.98.38.112
+Agent: __tbdelay0_program-agent     PROGRAM   tbdelay0    pc417     155.98.38.17
+Agent: __tbdelay1_program-agent     PROGRAM   tbdelay1    pc490     155.98.38.90
+Agent: __tbdelay2_program-agent     PROGRAM   tbdelay2    pc529    155.98.38.129
+Agent: __tbdelay3_program-agent     PROGRAM   tbdelay3    pc512    155.98.38.112
+Agent:      __all_lans       GROUP          *        *                *
+Agent: __all_program-agents       GROUP          *        *                *
+ Getting event stream at: 1327726431:330560
+D: AddEvent asked to add event link0
+AddEvent called with event of triggertype TIMER
+     0.0      link0       LINK         UP          *             0x286111f0
+D: AddEvent asked to add event link1
+AddEvent called with event of triggertype TIMER
+     0.0      link1       LINK         UP          *             0x286111f8
+D: AddEvent asked to add event link24
+AddEvent called with event of triggertype TIMER
+     0.0     link24       LINK         UP          *             0x28611200
+D: AddEvent asked to add event link9
+AddEvent called with event of triggertype TIMER
+     0.0      link9       LINK         UP          *             0x28611208
+D: AddEvent asked to add event link7
+AddEvent called with event of triggertype TIMER
+     0.0      link7       LINK         UP          *             0x28611210
+D: AddEvent asked to add event link5
+AddEvent called with event of triggertype TIMER
+     0.0      link5       LINK         UP          *             0x28611218
+D: AddEvent asked to add event link12
+AddEvent called with event of triggertype TIMER
+     0.0     link12       LINK         UP          *             0x28611220
+Automatically scheduling the beginning and end of time
+Fire:  note:0x28704050 at:20120127_21:53:50.961 now:20120127_21:53:51.536 agent:__ns_sequence
+Fire:  note:0x28611250 at:20120127_21:53:52.536 now:20120127_21:53:52.553 agent:ns
+Fire:  note:0x28611258 at:20120127_21:53:52.536 now:20120127_21:53:52.553 agent:*
+log: 0s - Time started
+Sched: note:0x28703058 at:20120127_21:53:52.557 now:20120127_21:53:52.558 agent:ns COMPLETE
+Beginning call to experiment.metadata
+Finished with call to experiment.metadata
+Beginning call to experiment.state
+Finished with call to experiment.state
+Beginning call to experiment.event_agentlist
+Finished with call to experiment.event_agentlist
+Beginning call to experiment.virtual_topology
+Finished with call to experiment.virtual_topology
+Beginning call to experiment.event_grouplist
+Finished with call to experiment.event_grouplist
+Beginning call to experiment.event_eventlist
+Finished with call to experiment.event_eventlist
+Beginning call to experiment.event_time_start
+Error occured: Invalid response from server
+Fire:  note:0x28611260 at:20120127_21:53:52.536 now:20120127_21:53:52.816 agent:__ns_timeline
+Sched: note:0x28703050 at:20120127_21:53:52.817 now:20120127_21:53:52.818 agent:__ns_timeline COMPLETE
+Fire:  note:0x28703058 at:20120127_21:53:52.557 now:20120127_21:53:52.919 agent:ns
+Done:  now:20120127_21:53:52.921 CTOKEN=8 ERROR=0
+Fire:  note:0x28611280 at:20120127_21:53:52.817 now:20120127_21:53:52.921 agent:link5
+Fire:  note:0x28611278 at:20120127_21:53:52.817 now:20120127_21:53:52.922 agent:link7
+Fire:  note:0x28611270 at:20120127_21:53:52.817 now:20120127_21:53:52.923 agent:link9
+Fire:  note:0x28611250 at:20120127_21:53:52.817 now:20120127_21:53:52.925 agent:link0
+Fire:  note:0x28611258 at:20120127_21:53:52.817 now:20120127_21:53:52.926 agent:link1
+Fire:  note:0x28611268 at:20120127_21:53:52.817 now:20120127_21:53:52.927 agent:link24
+Fire:  note:0x28611288 at:20120127_21:53:52.817 now:20120127_21:53:52.929 agent:link12
+Fire:  note:0x28703050 at:20120127_21:53:52.817 now:20120127_21:53:52.930 agent:__ns_timeline
+Done:  now:20120127_21:53:52.931 CTOKEN=12 ERROR=0
+Sched: note:0x28703058 at:20120127_21:53:52.931 now:20120127_21:53:52.932 agent:__ns_sequence COMPLETE
+Fire:  note:0x28703058 at:20120127_21:53:52.931 now:20120127_21:53:53.422 agent:__ns_sequence
+Done:  now:20120127_21:53:53.424 CTOKEN=0 ERROR=0
+Sched: note:0x28705050 at:20120127_22:44:17.972 now:20120127_22:44:17.972 agent:link7 DOWN
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20120127_22:44:17.972 now:20120127_22:44:17.973 agent:link7
+Sched: note:0x28705050 at:20120127_22:49:51.066 now:20120127_22:49:51.066 agent:link7 UP
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20120127_22:49:51.066 now:20120127_22:49:51.066 agent:link7
+Sched: note:0x28705050 at:20120128_07:53:46.658 now:20120128_07:53:46.659 agent:link7 UP
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20120128_07:53:46.658 now:20120128_07:53:46.673 agent:link7
+Sched: note:0x28705050 at:20120128_08:15:51.900 now:20120128_08:15:51.895 agent:link7 DOWN
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20120128_08:15:51.900 now:20120128_08:15:51.901 agent:link7
+Sched: note:0x28705050 at:20120128_08:33:45.373 now:20120128_08:33:45.388 agent:link7 UP
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x28705050
+Fire:  note:0x28705050 at:20120128_08:33:45.373 now:20120128_08:33:45.388 agent:link7
+Sched: note:0x28705050 at:20120128_08:34:19.045 now:20120128_08:34:19.046 agent:__ns_swapout RUN
+Fire:  note:0x28705050 at:20120128_08:34:19.045 now:20120128_08:34:19.047 agent:__ns_swapout
+Sched: note:0x28705058 at:20120128_08:34:19.047 now:20120128_08:34:19.048 agent:__ns_swapout COMPLETE
+Fire:  note:0x28611470 at:20120128_08:34:19.047 now:20120128_08:34:19.148 agent:ns
+Fire:  note:0x28705058 at:20120128_08:34:19.047 now:20120128_08:34:19.149 agent:__ns_swapout
+log: 10h40m27s - Swapout started
+Sched: note:0x28705060 at:20120128_08:34:19.150 now:20120128_08:34:19.153 agent:ns COMPLETE
+Done:  now:20120128_08:34:19.153 CTOKEN=1327764859 ERROR=0
+Sched: note:0x28705050 at:20120128_08:34:19.159 now:20120128_08:34:19.254 agent:__ns_teardown RUN
+Fire:  note:0x28705060 at:20120128_08:34:19.150 now:20120128_08:34:20.137 agent:ns
+Done:  now:20120128_08:34:20.138 CTOKEN=32 ERROR=0
+Fire:  note:0x28705050 at:20120128_08:34:19.159 now:20120128_08:34:20.138 agent:__ns_teardown
+Sched: note:0x28705058 at:20120128_08:34:20.138 now:20120128_08:34:20.139 agent:__ns_teardown COMPLETE
+Fire:  note:0x28611470 at:20120128_08:34:20.138 now:20120128_08:34:20.241 agent:ns
+Fire:  note:0x28705058 at:20120128_08:34:20.138 now:20120128_08:34:20.241 agent:__ns_teardown
+log: 10h40m28s - Time ended
+Done:  now:20120128_08:34:20.243 CTOKEN=1327764859 ERROR=0
+Caught a TERM; killing the scheduler and agent
+event-sched[27525]: received signal 15, exiting
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start

@@ -1,0 +1,184 @@
+daemon starting (version 2)
+Built 14-Apr-2011 by root@b:/usr/src/obj/os/syncd
+listening on TCP port 16534
+listening on UDP port 16534
+Barrier created: linktest
+155.98.36.77: Barrier waiter: linktest -1
+155.98.36.65: Barrier waiter: linktest -2
+155.98.36.60: Barrier waiter: linktest -3
+155.98.36.50: Barrier waiter: linktest -4
+155.98.36.71: Barrier waiter: linktest -5
+155.98.36.59: Barrier initialized: linktest 6 (1)
+155.98.36.51: Barrier waiter: linktest 0
+linktest: releasing 155.98.36.77
+linktest: releasing 155.98.36.65
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.71
+linktest: releasing 155.98.36.59
+linktest: releasing 155.98.36.51
+Barrier created: linktest
+155.98.36.77: Barrier waiter: linktest -1
+155.98.36.50: Barrier waiter: linktest -2
+155.98.36.51: Barrier waiter: linktest -3
+155.98.36.65: Barrier waiter: linktest -4
+155.98.36.60: Barrier waiter: linktest -5
+155.98.36.71: Barrier waiter: linktest -6
+155.98.36.59: Barrier initialized: linktest 6 (0)
+linktest: releasing 155.98.36.77
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.65
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.71
+linktest: releasing 155.98.36.59
+Barrier created: linktest
+155.98.36.50: Barrier waiter: linktest -1
+155.98.36.60: Barrier waiter: linktest -2
+155.98.36.65: Barrier waiter: linktest -3
+155.98.36.71: Barrier waiter: linktest -4
+155.98.36.59: Barrier initialized: linktest 6 (2)
+155.98.36.51: Barrier waiter: linktest 1
+155.98.36.77: Barrier waiter: linktest 0
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.65
+linktest: releasing 155.98.36.71
+linktest: releasing 155.98.36.59
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.77
+Barrier created: linktest
+155.98.36.60: Barrier waiter: linktest -1
+155.98.36.51: Barrier waiter: linktest -2
+155.98.36.50: Barrier waiter: linktest -3
+155.98.36.77: Barrier waiter: linktest -4
+155.98.36.71: Barrier waiter: linktest -5
+155.98.36.65: Barrier waiter: linktest -6
+155.98.36.59: Barrier initialized: linktest 6 (0)
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.77
+linktest: releasing 155.98.36.71
+linktest: releasing 155.98.36.65
+linktest: releasing 155.98.36.59
+Barrier created: linktest
+155.98.36.77: Barrier waiter: linktest -1
+155.98.36.51: Barrier waiter: linktest -2
+155.98.36.50: Barrier waiter: linktest -3
+155.98.36.65: Barrier waiter: linktest -4
+155.98.36.71: Barrier waiter: linktest -5
+155.98.36.60: Barrier waiter: linktest -6
+155.98.36.59: Barrier initialized: linktest 6 (0)
+linktest: releasing 155.98.36.77
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.65
+linktest: releasing 155.98.36.71
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.59
+Barrier created: linktest
+155.98.36.77: Barrier waiter: linktest -1
+155.98.36.50: Barrier waiter: linktest -2
+155.98.36.60: Barrier waiter: linktest -3
+155.98.36.51: Barrier waiter: linktest -4
+155.98.36.65: Barrier waiter: linktest -5
+155.98.36.71: Barrier waiter: linktest -6
+155.98.36.59: Barrier initialized: linktest 6 (0)
+linktest: releasing 155.98.36.77
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.65
+linktest: releasing 155.98.36.71
+linktest: releasing 155.98.36.59
+Barrier created: linktest
+155.98.36.50: Barrier waiter: linktest -1
+155.98.36.77: Barrier waiter: linktest -2
+155.98.36.51: Barrier waiter: linktest -3
+155.98.36.60: Barrier waiter: linktest -4
+155.98.36.65: Barrier waiter: linktest -5
+155.98.36.59: Barrier initialized: linktest 6 (1)
+155.98.36.71: Barrier waiter: linktest 0
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.77
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.65
+linktest: releasing 155.98.36.59
+linktest: releasing 155.98.36.71
+Barrier created: linktest
+155.98.36.60: Barrier waiter: linktest -1
+155.98.36.50: Barrier waiter: linktest -2
+155.98.36.51: Barrier waiter: linktest -3
+155.98.36.71: Barrier waiter: linktest -4
+155.98.36.59: Barrier initialized: linktest 6 (2)
+155.98.36.65: Barrier waiter: linktest 1
+155.98.36.77: Barrier waiter: linktest 0
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.71
+linktest: releasing 155.98.36.59
+linktest: releasing 155.98.36.65
+linktest: releasing 155.98.36.77
+Barrier created: linktest
+155.98.36.50: Barrier waiter: linktest -1
+155.98.36.51: Barrier waiter: linktest -2
+155.98.36.60: Barrier waiter: linktest -3
+155.98.36.59: Barrier initialized: linktest 6 (3)
+155.98.36.71: Barrier waiter: linktest 2
+155.98.36.77: Barrier waiter: linktest 1
+155.98.36.65: Barrier waiter: linktest 0
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.59
+linktest: releasing 155.98.36.71
+linktest: releasing 155.98.36.77
+linktest: releasing 155.98.36.65
+Barrier created: linktest
+155.98.36.50: Barrier waiter: linktest -1
+155.98.36.51: Barrier waiter: linktest -2
+155.98.36.77: Barrier waiter: linktest -3
+155.98.36.59: Barrier initialized: linktest 6 (3)
+155.98.36.65: Barrier waiter: linktest 2
+155.98.36.60: Barrier waiter: linktest 1
+155.98.36.71: Barrier waiter: linktest 0
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.77
+linktest: releasing 155.98.36.59
+linktest: releasing 155.98.36.65
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.71
+Barrier created: linktest
+155.98.36.50: Barrier waiter: linktest -1
+155.98.36.51: Barrier waiter: linktest -2
+155.98.36.60: Barrier waiter: linktest -3
+155.98.36.77: Barrier waiter: linktest -4
+155.98.36.71: Barrier waiter: linktest -5
+155.98.36.59: Barrier initialized: linktest 6 (1)
+155.98.36.65: Barrier waiter: linktest 0
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.77
+linktest: releasing 155.98.36.71
+linktest: releasing 155.98.36.59
+linktest: releasing 155.98.36.65
+Barrier created: linktest
+155.98.36.77: Barrier waiter: linktest -1
+155.98.36.50: Barrier waiter: linktest -2
+155.98.36.51: Barrier waiter: linktest -3
+155.98.36.71: Barrier waiter: linktest -4
+155.98.36.65: Barrier waiter: linktest -5
+155.98.36.60: Barrier waiter: linktest -6
+155.98.36.59: Barrier initialized: linktest 6 (0)
+linktest: releasing 155.98.36.77
+linktest: releasing 155.98.36.50
+linktest: releasing 155.98.36.51
+linktest: releasing 155.98.36.71
+linktest: releasing 155.98.36.65
+linktest: releasing 155.98.36.60
+linktest: releasing 155.98.36.59

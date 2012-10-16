@@ -1,0 +1,45 @@
+Running 'tbswap out  FCT TrunkExp'
+Beginning swap-out for FCT/TrunkExp (76309). 08/12/2011 13:20:05
+TIMESTAMP: 13:20:05:157846 tbswap out started
+Checking for feature SyncVlans.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 13:20:07:307503 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+mapVlansToSwitches: procurve3 procurve5
+  Removing VLAN # 376 ... Removed VLAN 376 on switch procurve5.
+  Removing VLAN # 375 ... Removed VLAN 375 on switch procurve5.
+  Removing VLAN # 427 ... Removed VLAN 427 on switch procurve3.
+  Removing VLAN # 382 ... Removed VLAN 382 on switch procurve3.
+  Removing VLAN # 262 ... Removed VLAN 262 on switch procurve3.
+TIMESTAMP: 13:20:11:118267 snmpit finished
+Removing dynamic blobs.
+Tearing down virtual nodes.
+TIMESTAMP: 13:20:11:152384 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 13:20:12:640269 vnode_setup finished
+Removing logical wires.
+Freeing nodes.
+TIMESTAMP: 13:20:13:48150 nfree started
+Releasing all nodes from experiment [Experiment: FCT/TrunkExp].
+Moving [Node: pc517] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc487] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc508] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc548] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc531] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 13:20:16:788369 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 13:20:16:795471 exports started
+TIMESTAMP: 13:20:23:239576 exports finished
+Resetting named maps.
+TIMESTAMP: 13:20:23:242866 named started
+TIMESTAMP: 13:20:26:322305 named finished
+Resetting email lists.
+TIMESTAMP: 13:20:26:327890 genelists started
+TIMESTAMP: 13:20:30:936435 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/TrunkExp. 13:20:31:147126
+TIMESTAMP: 13:20:31:148778 tbswap out finished (succeeded)

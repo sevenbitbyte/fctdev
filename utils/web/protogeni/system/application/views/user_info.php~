@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>User info</title>
+<script src="/js/jquery.js"></script>
+<script>
+	//$(document).ready();
+</script>
+</head>
+<body>
+
+<?function upload_link() {?>
+<a href="#" onclick="$(cert_form).css('display', 'inline'); $(this).hide(); return false;">Upload</a>
+<form id="cert_form" style="display: none" method="post" action="<?=$_SERVER['PHP_SELF']?>" enctype="multipart/form-data">
+<input type="file" name="certfile" ><input type="submit">
+</form>
+<?}?>
+
+<?function clear_link() {?>
+<a href="<?=site_url('user/info/clear_cert')?>">Clear</a>
+<?}?>
+
+Username: <em><?=$user->username?></em><br>
+Certificate: <em><?=($user->certificate == NULL)?upload_link():clear_link()?></em><br>
+<a href="<?=site_url('user/logout')?>">Log out</a><br>
+<pre>
+<?=var_dump($user)?>
+</pre>
+<pre>
+<?=var_dump($data)?>
+</pre>
+</body>
+</html>

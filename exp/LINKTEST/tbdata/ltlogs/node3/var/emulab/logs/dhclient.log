@@ -1,0 +1,21 @@
+Thu Jul 28 11:54:16 MDT 2011: eth0: findcnet running dhclient on: eth18
+eth19
+eth20
+eth21
+eth22
+Resetting hostname to node3.linktest.fct.emulab.net ... Done!
+Thu Jul 28 11:54:19 MDT 2011: eth0: findcnet dhclient returned
+Thu Jul 28 11:54:19 MDT 2011: taking eth18 down
+Thu Jul 28 11:54:19 MDT 2011: taking eth19 down
+Thu Jul 28 11:54:19 MDT 2011: taking eth20 down
+Thu Jul 28 11:54:19 MDT 2011: taking eth22 down
+Thu Jul 28 11:54:20 MDT 2011: eth0: cnet is eth21
+Thu Jul 28 11:54:20 MDT 2011: eth1: cnet is eth21
+Thu Jul 28 11:54:20 MDT 2011: eth2: cnet is eth21
+Thu Jul 28 11:54:20 MDT 2011: eth3: cnet is eth21
+Thu Jul 28 11:54:20 MDT 2011: eth4: cnet is eth21
+Thu Jul 28 11:54:20 MDT 2011: eth5: cnet is eth21
+Thu Jul 28 11:54:20 MDT 2011: eth6: cnet is eth21
+Thu Jul 28 11:54:20 MDT 2011: eth7: cnet is eth21
+Thu Jul 28 11:54:20 MDT 2011: eth8: cnet is eth21
+Thu Jul 28 11:54:20 MDT 2011: eth9: cnet is eth21

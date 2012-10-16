@@ -1,0 +1,16 @@
+V 2
+H node0 pc52 pc52 pc850 2776 Linux 2.6.35.13 ping,ssh,ipod,isup,linktest
+H node1 pc55 pc55 pc850 2776 Linux 2.6.35.13 ping,ssh,ipod,isup,linktest
+H node2 pc67 pc67 pc850 2776 Linux 2.6.35.13 ping,ssh,ipod,isup,linktest
+H node3 pc74 pc74 pc850 2776 Linux 2.6.35.13 ping,ssh,ipod,isup,linktest
+H node4 pc54 pc54 pc850 2776 Linux 2.6.35.13 ping,ssh,ipod,isup,linktest
+L node0 node2 link2 00034794c82a none dnode
+L node2 node0 link2 0002b33f8277 none dnode
+L node1 node3 link1 00034794ca2a none dnode
+L node3 node1 link1 0002b33f7aff none dnode
+L node2 node4 link3 00034794c050 none dnode
+L node4 node2 link3 0002b33f7505 none dnode
+L node0 node1 link0 0002b365c18f none dnode
+L node1 node0 link0 0002b33f7449 none dnode
+L node1 node2 link4 00034773911b none dnode
+L node2 node1 link4 00034773896d none dnode

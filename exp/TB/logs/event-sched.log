@@ -1,0 +1,300 @@
+/usr/testbed/sbin/event-sched -d -s localhost -k /proj/FCT/exp/TB/tbdata/eventkey FCT TB
+D: adding agent link0
+D:		AddAgent asked to add agent link0
+D: adding agent link0-node0
+D:		AddAgent asked to add agent link0-node0
+D: adding agent link0-node0-tracemon
+D:		AddAgent asked to add agent link0-node0-tracemon
+D: adding agent link0-node6
+D:		AddAgent asked to add agent link0-node6
+D: adding agent link0-node6-tracemon
+D:		AddAgent asked to add agent link0-node6-tracemon
+D: adding agent link1
+D:		AddAgent asked to add agent link1
+D: adding agent link1-node0
+D:		AddAgent asked to add agent link1-node0
+D: adding agent link1-node0-tracemon
+D:		AddAgent asked to add agent link1-node0-tracemon
+D: adding agent link1-node1
+D:		AddAgent asked to add agent link1-node1
+D: adding agent link1-node1-tracemon
+D:		AddAgent asked to add agent link1-node1-tracemon
+D: adding agent link2
+D:		AddAgent asked to add agent link2
+D: adding agent link2-node1
+D:		AddAgent asked to add agent link2-node1
+D: adding agent link2-node1-tracemon
+D:		AddAgent asked to add agent link2-node1-tracemon
+D: adding agent link2-node2
+D:		AddAgent asked to add agent link2-node2
+D: adding agent link2-node2-tracemon
+D:		AddAgent asked to add agent link2-node2-tracemon
+D: adding agent link3
+D:		AddAgent asked to add agent link3
+D: adding agent link3-node1
+D:		AddAgent asked to add agent link3-node1
+D: adding agent link3-node1-tracemon
+D:		AddAgent asked to add agent link3-node1-tracemon
+D: adding agent link3-node3
+D:		AddAgent asked to add agent link3-node3
+D: adding agent link3-node3-tracemon
+D:		AddAgent asked to add agent link3-node3-tracemon
+D: adding agent link4
+D:		AddAgent asked to add agent link4
+D: adding agent link4-node1
+D:		AddAgent asked to add agent link4-node1
+D: adding agent link4-node1-tracemon
+D:		AddAgent asked to add agent link4-node1-tracemon
+D: adding agent link4-node4
+D:		AddAgent asked to add agent link4-node4
+D: adding agent link4-node4-tracemon
+D:		AddAgent asked to add agent link4-node4-tracemon
+D: adding agent link5
+D:		AddAgent asked to add agent link5
+D: adding agent link5-node3
+D:		AddAgent asked to add agent link5-node3
+D: adding agent link5-node3-tracemon
+D:		AddAgent asked to add agent link5-node3-tracemon
+D: adding agent link5-node5
+D:		AddAgent asked to add agent link5-node5
+D: adding agent link5-node5-tracemon
+D:		AddAgent asked to add agent link5-node5-tracemon
+D: adding agent link6
+D:		AddAgent asked to add agent link6
+D: adding agent link6-node2
+D:		AddAgent asked to add agent link6-node2
+D: adding agent link6-node2-tracemon
+D:		AddAgent asked to add agent link6-node2-tracemon
+D: adding agent link6-node6
+D:		AddAgent asked to add agent link6-node6
+D: adding agent link6-node6-tracemon
+D:		AddAgent asked to add agent link6-node6-tracemon
+D: adding agent linktest
+D:		AddAgent asked to add agent linktest
+D: adding agent node0
+D:		AddAgent asked to add agent node0
+D: adding agent node0-console
+D:		AddAgent asked to add agent node0-console
+D: adding agent node1
+D:		AddAgent asked to add agent node1
+D: adding agent node1-console
+D:		AddAgent asked to add agent node1-console
+D: adding agent node2
+D:		AddAgent asked to add agent node2
+D: adding agent node2-console
+D:		AddAgent asked to add agent node2-console
+D: adding agent node3
+D:		AddAgent asked to add agent node3
+D: adding agent node3-console
+D:		AddAgent asked to add agent node3-console
+D: adding agent node4
+D:		AddAgent asked to add agent node4
+D: adding agent node4-console
+D:		AddAgent asked to add agent node4-console
+D: adding agent node5
+D:		AddAgent asked to add agent node5
+D: adding agent node5-console
+D:		AddAgent asked to add agent node5-console
+D: adding agent node6
+D:		AddAgent asked to add agent node6
+D: adding agent node6-console
+D:		AddAgent asked to add agent node6-console
+D: adding agent ns
+D:		AddAgent asked to add agent ns
+D: adding agent slothd
+D:		AddAgent asked to add agent slothd
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link0-node0-tracemon
+D: 	In GroupList() parsed name link0-tracemon
+D: 	In GroupList() parsed agent link0-node0-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link0-node6-tracemon
+D: 	In GroupList() parsed name link0-tracemon
+D: 	In GroupList() parsed agent link0-node6-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link1-node0-tracemon
+D: 	In GroupList() parsed name link1-tracemon
+D: 	In GroupList() parsed agent link1-node0-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link1-node1-tracemon
+D: 	In GroupList() parsed name link1-tracemon
+D: 	In GroupList() parsed agent link1-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link2-node1-tracemon
+D: 	In GroupList() parsed name link2-tracemon
+D: 	In GroupList() parsed agent link2-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link2-node2-tracemon
+D: 	In GroupList() parsed name link2-tracemon
+D: 	In GroupList() parsed agent link2-node2-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link3-node1-tracemon
+D: 	In GroupList() parsed name link3-tracemon
+D: 	In GroupList() parsed agent link3-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link3-node3-tracemon
+D: 	In GroupList() parsed name link3-tracemon
+D: 	In GroupList() parsed agent link3-node3-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link4-node1-tracemon
+D: 	In GroupList() parsed name link4-tracemon
+D: 	In GroupList() parsed agent link4-node1-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link4-node4-tracemon
+D: 	In GroupList() parsed name link4-tracemon
+D: 	In GroupList() parsed agent link4-node4-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link5-node3-tracemon
+D: 	In GroupList() parsed name link5-tracemon
+D: 	In GroupList() parsed agent link5-node3-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link5-node5-tracemon
+D: 	In GroupList() parsed name link5-tracemon
+D: 	In GroupList() parsed agent link5-node5-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link6-node2-tracemon
+D: 	In GroupList() parsed name link6-tracemon
+D: 	In GroupList() parsed agent link6-node2-tracemon
+D: 	In GroupList() parsed name __all_tracemon
+D: 	In GroupList() parsed agent link6-node6-tracemon
+D: 	In GroupList() parsed name link6-tracemon
+D: 	In GroupList() parsed agent link6-node6-tracemon
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link6
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link2
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link3
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link4
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link0
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link5
+D: 	In GroupList() parsed name __all_lans
+D: 	In GroupList() parsed agent link1
+Agent:   __ns_sequence    SEQUENCE          *        *                *
+Agent:   __ns_teardown    SEQUENCE          *        *                *
+Agent:    __ns_swapout    SEQUENCE          *        *                *
+Agent:   __ns_timeline    TIMELINE          *        *                *
+Agent:           link0        LINK          *        *                *
+Agent:     link0-node0        LINK          *        *                *
+Agent: link0-node0-tracemon   LINKTRACE          *        *                *
+Agent:     link0-node6        LINK          *        *                *
+Agent: link0-node6-tracemon   LINKTRACE          *        *                *
+Agent:           link1        LINK          *        *                *
+Agent:     link1-node0        LINK          *        *                *
+Agent: link1-node0-tracemon   LINKTRACE          *        *                *
+Agent:     link1-node1        LINK          *        *                *
+Agent: link1-node1-tracemon   LINKTRACE          *        *                *
+Agent:           link2        LINK          *        *                *
+Agent:     link2-node1        LINK          *        *                *
+Agent: link2-node1-tracemon   LINKTRACE          *        *                *
+Agent:     link2-node2        LINK          *        *                *
+Agent: link2-node2-tracemon   LINKTRACE          *        *                *
+Agent:           link3        LINK          *        *                *
+Agent:     link3-node1        LINK          *        *                *
+Agent: link3-node1-tracemon   LINKTRACE          *        *                *
+Agent:     link3-node3        LINK          *        *                *
+Agent: link3-node3-tracemon   LINKTRACE          *        *                *
+Agent:           link4        LINK          *        *                *
+Agent:     link4-node1        LINK          *        *                *
+Agent: link4-node1-tracemon   LINKTRACE          *        *                *
+Agent:     link4-node4        LINK          *        *                *
+Agent: link4-node4-tracemon   LINKTRACE          *        *                *
+Agent:           link5        LINK          *        *                *
+Agent:     link5-node3        LINK          *        *                *
+Agent: link5-node3-tracemon   LINKTRACE          *        *                *
+Agent:     link5-node5        LINK          *        *                *
+Agent: link5-node5-tracemon   LINKTRACE          *        *                *
+Agent:           link6        LINK          *        *                *
+Agent:     link6-node2        LINK          *        *                *
+Agent: link6-node2-tracemon   LINKTRACE          *        *                *
+Agent:     link6-node6        LINK          *        *                *
+Agent: link6-node6-tracemon   LINKTRACE          *        *                *
+Agent:        linktest    LINKTEST          *        *                *
+Agent:           node0        NODE      node0    pc328    155.98.39.128
+Agent:   node0-console     CONSOLE      node0    pc328    155.98.39.128
+Agent:           node1        NODE      node1    pc306    155.98.39.106
+Agent:   node1-console     CONSOLE      node1    pc306    155.98.39.106
+Agent:           node2        NODE      node2    pc257     155.98.39.57
+Agent:   node2-console     CONSOLE      node2    pc257     155.98.39.57
+Agent:           node3        NODE      node3    pc323    155.98.39.123
+Agent:   node3-console     CONSOLE      node3    pc323    155.98.39.123
+Agent:           node4        NODE      node4    pc335    155.98.39.135
+Agent:   node4-console     CONSOLE      node4    pc335    155.98.39.135
+Agent:           node5        NODE      node5    pc310    155.98.39.110
+Agent:   node5-console     CONSOLE      node5    pc310    155.98.39.110
+Agent:           node6        NODE      node6    pc316    155.98.39.116
+Agent:   node6-console     CONSOLE      node6    pc316    155.98.39.116
+Agent:              ns   SIMULATOR          *        *                *
+Agent:          slothd      SLOTHD          *        *                *
+Agent:  __all_tracemon       GROUP          *        *                *
+Agent:  link0-tracemon       GROUP          *        *                *
+Agent:  link1-tracemon       GROUP          *        *                *
+Agent:  link2-tracemon       GROUP          *        *                *
+Agent:  link3-tracemon       GROUP          *        *                *
+Agent:  link4-tracemon       GROUP          *        *                *
+Agent:  link5-tracemon       GROUP          *        *                *
+Agent:  link6-tracemon       GROUP          *        *                *
+Agent:      __all_lans       GROUP          *        *                *
+ Getting event stream at: 1285780956:963686
+Sched: note:0x813b5f0 at:20100929_11:22:37.376 now:20100929_11:22:37.391 agent:__ns_sequence START
+event_notification_get_int32: could not get int32 attribute "TOKEN" from notification 0x813b5f0
+Automatically scheduling the beginning and end of time
+Fire:  note:0x813b5f0 at:20100929_11:22:37.376 now:20100929_11:22:37.904 agent:__ns_sequence
+Fire:  note:0x813b5d0 at:20100929_11:22:38.904 now:20100929_11:22:38.951 agent:ns
+Fire:  note:0x813b5e0 at:20100929_11:22:38.904 now:20100929_11:22:38.951 agent:*
+log: Wed Sep 29 11:22:38 2010 - Time started
+Sched: note:0x813b720 at:20100929_11:22:38.953 now:20100929_11:22:38.957 agent:ns COMPLETE
+Beginning call to experiment.metadata
+Finished with call to experiment.metadata
+Beginning call to experiment.state
+Finished with call to experiment.state
+Beginning call to experiment.event_agentlist
+Finished with call to experiment.event_agentlist
+Beginning call to experiment.virtual_topology
+Finished with call to experiment.virtual_topology
+Beginning call to experiment.event_grouplist
+Finished with call to experiment.event_grouplist
+Beginning call to experiment.event_eventlist
+Finished with call to experiment.event_eventlist
+Beginning call to experiment.event_time_start
+Error occured: Invalid response from server
+Fire:  note:0x813b610 at:20100929_11:22:38.904 now:20100929_11:22:39.073 agent:__ns_timeline
+Sched: note:0x813b5d0 at:20100929_11:22:39.073 now:20100929_11:22:39.075 agent:__ns_timeline COMPLETE
+Fire:  note:0x813b720 at:20100929_11:22:38.953 now:20100929_11:22:39.176 agent:ns
+Done:  now:20100929_11:22:39.179 CTOKEN=1 ERROR=0
+Fire:  note:0x813b5d0 at:20100929_11:22:39.073 now:20100929_11:22:39.179 agent:__ns_timeline
+Done:  now:20100929_11:22:39.181 CTOKEN=5 ERROR=0
+Sched: note:0x813b5e0 at:20100929_11:22:39.181 now:20100929_11:22:39.183 agent:__ns_sequence COMPLETE
+Fire:  note:0x813b5e0 at:20100929_11:22:39.181 now:20100929_11:22:39.622 agent:__ns_sequence
+Done:  now:20100929_11:22:39.624 CTOKEN=0 ERROR=0
+Sched: note:0x8148bb0 at:20100929_14:49:05.024 now:20100929_14:49:05.026 agent:__ns_swapout RUN
+Fire:  note:0x8148bb0 at:20100929_14:49:05.024 now:20100929_14:49:05.037 agent:__ns_swapout
+Sched: note:0x8148fa0 at:20100929_14:49:05.037 now:20100929_14:49:05.040 agent:__ns_swapout COMPLETE
+Fire:  note:0x8148ee0 at:20100929_14:49:05.037 now:20100929_14:49:05.139 agent:ns
+Fire:  note:0x8148fa0 at:20100929_14:49:05.037 now:20100929_14:49:05.154 agent:__ns_swapout
+log: 3h26m27s - Swapout started
+Done:  now:20100929_14:49:05.161 CTOKEN=1285793345 ERROR=0
+Sched: note:0x8172550 at:20100929_14:49:05.156 now:20100929_14:49:05.161 agent:ns COMPLETE
+Sched: note:0x8148ee0 at:20100929_14:49:05.170 now:20100929_14:49:05.260 agent:__ns_teardown RUN
+Fire:  note:0x8172550 at:20100929_14:49:05.156 now:20100929_14:49:05.432 agent:ns
+Done:  now:20100929_14:49:05.435 CTOKEN=6 ERROR=0
+Fire:  note:0x8148ee0 at:20100929_14:49:05.170 now:20100929_14:49:05.435 agent:__ns_teardown
+Sched: note:0x813b760 at:20100929_14:49:05.435 now:20100929_14:49:05.437 agent:__ns_teardown COMPLETE
+Fire:  note:0x8148fa0 at:20100929_14:49:05.435 now:20100929_14:49:05.537 agent:ns
+Fire:  note:0x813b760 at:20100929_14:49:05.435 now:20100929_14:49:05.537 agent:__ns_teardown
+log: 3h26m27s - Time ended
+Done:  now:20100929_14:49:05.542 CTOKEN=1285793345 ERROR=0
+Sched: note:0x8197b80 at:20100929_14:49:05.539 now:20100929_14:49:05.546 agent:ns COMPLETE
+Caught a TERM; killing the scheduler and agent
+event-sched[83377]: received signal 15, exiting
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start
+Finished with call to experiment.event_time_start
+Beginning call to experiment.event_time_start

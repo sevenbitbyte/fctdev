@@ -1,0 +1,288 @@
+Running 'tbprerun  -e 75473 LINKTEST.ns'
+Beginning pre run for FCT/LINKTEST. 11:01:43:906256
+Running parser ... 11:01:44:327752
+Parser done! 11:01:48:554151
+Precomputing visualization ...
+Image rendering proceeding in background mode ...
+Setting up static routes (if requested) ... 
+Generating topomap ...
+Adding DB 'FCT+LINKTEST' to mysql database on users.emulab.net.
+Adding user 'E75473' to mysql database on users.emulab.net.
+Verifying parse ...
+Doing a pre-assign: '/usr/testbed/bin/vtopgen -p FCT LINKTEST' ...
+Minimum nodes   = 7
+Maximum nodes   = 7
+Writing environment strings ...
+Setting up additional program agent support ...
+Setting up additional network agent support ...
+Writing program agent info ...
+Pre run finished. 11:02:01:204390
+Running 'tbswap in  FCT LINKTEST'
+Beginning swap-in for FCT/LINKTEST (75473). 01/11/2011 11:02:01
+TIMESTAMP: 11:02:01:741170 tbswap in started
+Checking for feature SyncVlans.
+  Feature is disabled
+Checking with Admission Control ...
+Mapping to physical reality ...
+TIMESTAMP: 11:02:02:321477 mapper wrapper started
+Checking for feature NewMapper.
+  Feature is disabled
+assign_wrapper improved started
+TIMESTAMP: 11:02:02:829189 assign_wrapper started
+TIMESTAMP: 11:02:02:833747 TOP started
+Resetting DB before updating.
+opened topfile
+Minimum nodes   = 7
+Maximum nodes   = 7
+TIMESTAMP: 11:02:03:615197 TOP finished
+TIMESTAMP: 11:02:03:616773 assign_loop started
+Assign Run 1
+TIMESTAMP: 11:02:03:619021 ptopgen started
+ptopargs -p FCT -e LINKTEST 
+TIMESTAMP: 11:02:05:904532 ptopgen finished
+TIMESTAMP: 11:02:05:907397 assign started
+assign -P FCT-LINKTEST-44484.ptop FCT-LINKTEST-44484.top
+   BEST SCORE:  4.12 in 17000 iters and 0.57449 seconds
+TIMESTAMP: 11:02:07:942262 assign finished
+TIMESTAMP: 11:02:07:945327 reserving started
+TIMESTAMP: 11:02:12:979628 reserving finished
+Successfully reserved all physical nodes we needed.
+TIMESTAMP: 11:02:13:89524 assign_loop finished
+TIMESTAMP: 11:02:13:115023 LoadPhysResources started
+TIMESTAMP: 11:02:13:154317 LoadPhysResources finished
+TIMESTAMP: 11:02:13:155903 interpreting started
+TIMESTAMP: 11:02:13:163341 interpreting finished
+TIMESTAMP: 11:02:13:164595 uploading started
+TIMESTAMP: 11:02:13:376576 uploading finished
+TIMESTAMP: 11:02:13:377893 assign_wrapper finished
+TIMESTAMP: 11:02:13:391383 mapper wrapper finished
+Mapped to physical reality!
+Fetching tarballs and RPMs (if any) ...
+TIMESTAMP: 11:02:13:397618 tarfiles_setup started
+TIMESTAMP: 11:02:14:188377 tarfiles_setup finished
+Setting up mountpoints.
+TIMESTAMP: 11:02:14:193542 mountpoints started
+WARNING: exports_setup: Skipping database row with undefined values
+         pc43
+WARNING: exports_setup: Skipping database row with undefined values
+         pc67
+WARNING: exports_setup: Skipping database row with undefined values
+         pc131
+WARNING: exports_setup: Skipping database row with undefined values
+         pc143
+WARNING: exports_setup: Skipping database row with undefined values
+         pc388
+WARNING: exports_setup: Skipping database row with undefined values
+         pc389
+WARNING: exports_setup: Skipping database row with undefined values
+         pc60
+WARNING: exports_setup: Skipping database row with undefined values
+         pc83
+TIMESTAMP: 11:02:19:210974 mountpoints finished
+TIMESTAMP: 11:02:19:221475 named started
+Setting up named maps.
+TIMESTAMP: 11:02:21:289686 named finished
+Cleaning NFS traces.
+TIMESTAMP: 11:02:21:299258 nfstrace gc started
+/usr/local/lib/python2.6/site-packages/MySQLdb/__init__.py:34: DeprecationWarning: the sets module is deprecated
+  from sets import ImmutableSet
+TIMESTAMP: 11:02:22:587364 nfstrace gc finished
+TIMESTAMP: 11:02:22:590237 gentopofile started
+Generating ltmap (again) ...
+TIMESTAMP: 11:02:22:900375 gentopofile finished
+Resetting OS and rebooting.
+TIMESTAMP: 11:02:22:903606 launching os_setup
+Setting up VLANs.
+Checking for feature NewOsSetup.
+TIMESTAMP: 11:02:22:927270 snmpit started
+  Feature is disabled
+TIMESTAMP: 11:02:24:955084 os_setup started
+TIMESTAMP: 11:02:25:19199 rebooting/reloading nodes started
+osload (pc119): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+pc119: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc119 (mode: Frisbee)
+osload (pc121): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+pc121: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc121 (mode: Frisbee)
+osload (pc155): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+pc155: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc155 (mode: Frisbee)
+Creating VLAN 1033417 as VLAN #324 on stack Experiment ... 
+  Creating VLAN 1033417 as VLAN #324 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+osload (pc166): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+pc166: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc166 (mode: Frisbee)
+Succeeded
+osload (pc88): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+pc88: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc88 (mode: Frisbee)
+Creating VLAN 1033410 as VLAN #388 on stack Experiment ... 
+  Creating VLAN 1033410 as VLAN #388 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+osload (pc90): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+pc90: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc90 (mode: Frisbee)
+Succeeded
+osload (pc99): Changing default OS to [OS 2329: emulab-ops,UBUNTU10-STD]
+pc99: Existing partition 1 inconsistent with new image partitioning,
+    invalidating existing partition 
+Setting up reload for pc99 (mode: Frisbee)
+Creating VLAN 1033413 as VLAN #483 on stack Experiment ... 
+  Creating VLAN 1033413 as VLAN #483 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+osload: Issuing reboot for pc119 pc121 pc155 pc166 pc88 pc90 pc99 and then waiting ...
+Succeeded
+reboot (pc119): Attempting to reboot ...
+reboot (pc121): Attempting to reboot ...
+reboot (pc155): Attempting to reboot ...
+reboot (pc166): Attempting to reboot ...
+reboot (pc88): Attempting to reboot ...
+reboot (pc90): Attempting to reboot ...
+reboot (pc99): Attempting to reboot ...
+reboot (pc119): Successful!
+reboot (pc121): Successful!
+reboot (pc155): Successful!
+reboot (pc166): Successful!
+reboot (pc88): Successful!
+reboot (pc90): Successful!
+reboot (pc99): Successful!
+reboot: Done. There were 0 failures.
+reboot (pc88): child returned 0 status.
+reboot (pc90): child returned 0 status.
+reboot (pc155): child returned 0 status.
+reboot (pc119): child returned 0 status.
+reboot (pc99): child returned 0 status.
+reboot (pc166): child returned 0 status.
+reboot (pc121): child returned 0 status.
+Creating VLAN 1033416 as VLAN #484 on stack Experiment ... 
+  Creating VLAN 1033416 as VLAN #484 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+Succeeded
+Creating VLAN 1033414 as VLAN #511 on stack Experiment ... 
+  Creating VLAN 1033414 as VLAN #511 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+Succeeded
+Creating VLAN 1033411 as VLAN #512 on stack Experiment ... 
+  Creating VLAN 1033411 as VLAN #512 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+Succeeded
+Creating VLAN 1033412 as VLAN #513 on stack Experiment ... 
+  Creating VLAN 1033412 as VLAN #513 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+Succeeded
+Creating VLAN 1033415 as VLAN #514 on stack Experiment ... 
+  Creating VLAN 1033415 as VLAN #514 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+Succeeded
+TIMESTAMP: 11:02:53:620371 snmpit finished
+Setting up email lists.
+TIMESTAMP: 11:02:53:628977 genelists started
+TIMESTAMP: 11:02:55:629109 genelists finished
+Clearing port counters.
+TIMESTAMP: 11:02:55:632833 portstats started
+TIMESTAMP: 11:02:57:187551 portstats finished
+osload (pc119): still waiting; it has been 1 minute(s)
+osload (pc119): still waiting; it has been 2 minute(s)
+osload (pc119): still waiting; it has been 3 minute(s)
+osload (pc119): still waiting; it has been 4 minute(s)
+osload (pc119): still waiting; it has been 5 minute(s)
+osload (pc119): still waiting; it has been 6 minute(s)
+osload (pc119): still waiting; it has been 7 minute(s)
+osload (pc119): still waiting; it has been 8 minute(s)
+osload: Done! There were 0 failures.
+reload (pc88): child returned 0 status.
+reload (pc90): child returned 0 status.
+reload (pc155): child returned 0 status.
+reload (pc119): child returned 0 status.
+reload (pc99): child returned 0 status.
+reload (pc166): child returned 0 status.
+reload (pc121): child returned 0 status.
+TIMESTAMP: 11:11:26:251916 rebooting/reloading finished
+Waiting for local testbed nodes to finish rebooting ...
+TIMESTAMP: 11:11:26:255066 Local node waiting started
+Still waiting for pc88 (BOOTING) - it's been 1 minute(s).
+pc88 is alive and well
+pc90 is alive and well
+Still waiting for pc155 (BOOTING) - it's been 1 minute(s).
+Still waiting for pc155 (BOOTING) - it's been 2 minute(s).
+Still waiting for pc155 (BOOTING) - it's been 3 minute(s).
+Still waiting for pc155 (BOOTING) - it's been 4 minute(s).
+Still waiting for pc155 (BOOTING) - it's been 5 minute(s).
+Still waiting for pc155 (BOOTING) - it's been 6 minute(s).
+Still waiting for pc155 (BOOTING) - it's been 7 minute(s).
+*** Giving up on pc155 (BOOTING) - it's been 7 minute(s).
+Tail of pc155 console:
+pc155: Error sending boot errno to Emulab Control!..
+pc155: gethostbyname(UNKNOWN) failed..
+pc155: TMCC exited with status 256!..
+pc155: Error sending TBFAILED to Emulab Control!..
+pc155: Boot Complete..
+pc155: ..[74G[ OK ]..
+pc155: ..
+pc155: Ubuntu 10.04.1 LTS localhost ttyS0.
+pc155: .
+pc155: localhost login: 
+*** os_setup: Rebooting pc155 and waiting again ...
+reboot (pc155): Attempting to reboot ...
+reboot (pc155): Successful!
+reboot: Done. There were 0 failures.
+*** Giving up on pc119 (BOOTING) - it's been 7 minute(s).
+Tail of pc119 console:
+pc119: Error sending boot errno to Emulab Control!..
+pc119: gethostbyname(UNKNOWN) failed..
+pc119: TMCC exited with status 256!..
+pc119: Error sending TBFAILED to Emulab Control!..
+pc119: Boot Complete..
+pc119: ..[74G[ OK ]..
+pc119: ..
+pc119: Ubuntu 10.04.1 LTS localhost ttyS0.
+pc119: .
+pc119: localhost login: 
+*** os_setup: Rebooting pc119 and waiting again ...
+reboot (pc119): Attempting to reboot ...
+reboot (pc119): Successful!
+reboot: Done. There were 0 failures.
+pc99 is alive and well
+pc121 is alive and well
+*** Giving up on pc166 (BOOTING) - it's been 7 minute(s).
+Tail of pc166 console:
+pc166: Error sending boot errno to Emulab Control!..
+pc166: gethostbyname(UNKNOWN) failed..
+pc166: TMCC exited with status 256!..
+pc166: Error sending TBFAILED to Emulab Control!..
+pc166: Boot Complete..
+pc166: ..[74G[ OK ]..
+pc166: ..
+pc166: Ubuntu 10.04.1 LTS localhost ttyS0.
+pc166: .
+pc166: localhost login: 
+*** os_setup: Rebooting pc166 and waiting again ...
+reboot (pc166): Attempting to reboot ...
+reboot (pc166): Successful!
+reboot: Done. There were 0 failures.
+Still waiting for pc155 (SHUTDOWN) - it's been 1 minute(s).
+pc155 is alive and well
+Still waiting for pc119 (TBSETUP) - it's been 1 minute(s).
+pc119 is alive and well
+Still waiting for pc166 (BOOTING) - it's been 1 minute(s).
+Still waiting for pc166 (TBSETUP) - it's been 2 minute(s).
+pc166 is alive and well
+TIMESTAMP: 11:21:03:785067 Local node waiting finished
+OS Setup Done. 
+TIMESTAMP: 11:21:03:871301 os_setup finished
+Starting the event system.
+TIMESTAMP: 11:21:03:891469 eventsys_control started
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 11:21:07:9191 eventsys_control finished
+TIMESTAMP: 11:21:07:12165 Starting event time
+Successfully finished swap-in for FCT/LINKTEST. 11:21:07:26383
+TIMESTAMP: 11:21:07:28687 tbswap in finished (succeeded)
+Running 'tbreport -b FCT LINKTEST'

@@ -1,0 +1,44 @@
+Running 'tbswap out  FCT VN'
+Beginning swap-out for FCT/VN (80453). 04/27/2011 12:25:43
+TIMESTAMP: 12:25:43:510119 tbswap out started
+Checking for feature SyncVlans.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 12:25:45:211018 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+snmpit: FCT/VN has no VLANs, skipping
+TIMESTAMP: 12:25:46:648957 snmpit finished
+Removing dynamic blobs.
+Tearing down virtual nodes.
+TIMESTAMP: 12:25:47:916380 vnode_setup -k started
+pcvm428-1 will teardown with local node pc428.
+pcvm428-2 will teardown with local node pc428.
+pcvm428-3 will teardown with local node pc428.
+pcvm428-4 will teardown with local node pc428.
+pcvm428-5 will teardown with local node pc428.
+pcvm428-6 will teardown with local node pc428.
+pcvm428-7 will teardown with local node pc428.
+pcvm428-8 will teardown with local node pc428.
+pcvm428-9 will teardown with local node pc428.
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 12:25:49:416620 vnode_setup finished
+Freeing nodes.
+TIMESTAMP: 12:25:49:866250 nfree started
+Releasing all nodes from experiment [Experiment: FCT/VN].
+Moving [Node: pc428] to [Experiment: emulab-ops/reloadpending]
+TIMESTAMP: 12:26:16:220138 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 12:26:16:224601 exports started
+TIMESTAMP: 12:26:21:601690 exports finished
+Resetting named maps.
+TIMESTAMP: 12:26:21:604339 named started
+TIMESTAMP: 12:26:23:491217 named finished
+Resetting email lists.
+TIMESTAMP: 12:26:23:495557 genelists started
+TIMESTAMP: 12:26:26:716196 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/VN. 12:26:28:143163
+TIMESTAMP: 12:26:28:144409 tbswap out finished (succeeded)

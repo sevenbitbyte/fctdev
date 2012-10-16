@@ -1,0 +1,7 @@
+Latency error: node4-link7 [pc51/00034794bfa1] to node6-link7 [pc50] (100 Mbps, 0ms, 0% loss, droptail) : No packets received (n=10)
+
+
+Loss error: node6-link7 [pc50/0002b3237915] to node4-link7 [pc51] (100 Mbps, 0ms, 0% loss, droptail) : No packets received from node6
+
+Loss error: node1-link5 [pc77/000347739f31] to node4-link5 [pc51] (100 Mbps, 0ms, 0% loss, droptail) : No packets received from node1
+

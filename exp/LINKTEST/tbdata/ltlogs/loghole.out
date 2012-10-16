@@ -1,0 +1,3 @@
+/usr/testbed/bin/loghole:13: DeprecationWarning: the sets module is deprecated
+  import sets
+

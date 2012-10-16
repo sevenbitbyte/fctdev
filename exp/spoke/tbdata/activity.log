@@ -1,0 +1,214 @@
+Running 'tbswap out  FCT spoke'
+Beginning swap-out for FCT/spoke (81253). 11/01/2011 09:31:16
+TIMESTAMP: 09:31:16:485323 tbswap out started
+Checking for feature SyncVlans.
+Stopping the event system
+Checking for feature NewEventScheduler.
+  Feature is disabled
+TIMESTAMP: 09:31:17:965237 snmpit started
+Removing VLANs.
+Invoking alternate snmpit from /usr/testbed/bin/snmpit_new
+mapVlansToSwitches: cisco3 cisco5 cisco8 procurve1 procurve3 procurve4 procurve5
+  Removing VLAN # 824 ... Removed VLAN 824 on switch procurve5.
+  Removing VLAN # 798 ... Removed VLAN 798 on switch procurve5.
+  Removing VLAN # 788 ... Removed VLAN 788 on switch procurve5.
+  Removing VLAN # 819 ... Removed VLAN 819 on switch procurve5.
+  Removing VLAN # 802 ... Removed VLAN 802 on switch procurve5.
+  Removing VLAN # 820 ... Removed VLAN 820 on switch procurve5.
+  Removing VLAN # 816 ... Removed VLAN 816 on switch procurve5.
+  Removing VLAN # 812 ... Removed VLAN 812 on switch procurve5.
+  Removing VLAN # 792 ... Removed VLAN 792 on switch procurve5.
+  Removing VLAN # 801 ... Removed VLAN 801 on switch procurve4.
+  Removing VLAN # 804 ... Removed VLAN 804 on switch procurve4.
+  Removing VLAN # 825 ... Removed VLAN 825 on switch procurve4.
+  Removing VLAN # 829 ... Removed VLAN 829 on switch procurve4.
+  Removing VLAN # 828 ... Removed VLAN 828 on switch procurve4.
+  Removing VLAN # 823 ... Removed VLAN 823 on switch procurve4.
+  Removing VLAN # 802 ... Removed VLAN 802 on switch procurve4.
+  Removing VLAN # 813 ... Removed VLAN 813 on switch procurve4.
+  Removing VLAN # 807 ... Removed VLAN 807 on switch procurve4.
+  Removing VLAN # 787 ... Removed VLAN 787 on switch procurve4.
+  Removing VLAN # 808 ... Removed VLAN 808 on switch procurve4.
+  Removing VLAN # 814 ... Removed VLAN 814 on switch procurve3.
+  Removing VLAN # 788 ... Removed VLAN 788 on switch procurve3.
+  Removing VLAN # 806 ... Removed VLAN 806 on switch procurve3.
+  Removing VLAN # 822 ... Removed VLAN 822 on switch procurve3.
+  Removing VLAN # 820 ... Removed VLAN 820 on switch procurve3.
+  Removing VLAN # 813 ... Removed VLAN 813 on switch procurve3.
+  Removing VLAN # 826 ... Removed VLAN 826 on switch procurve3.
+  Removing VLAN # 801 ... Removed VLAN 801 on switch procurve1.
+  Removing VLAN # 798 ... Removed VLAN 798 on switch procurve1.
+  Removing VLAN # 788 ... Removed VLAN 788 on switch procurve1.
+  Removing VLAN # 829 ... Removed VLAN 829 on switch procurve1.
+  Removing VLAN # 819 ... Removed VLAN 819 on switch procurve1.
+  Removing VLAN # 806 ... Removed VLAN 806 on switch procurve1.
+  Removing VLAN # 802 ... Removed VLAN 802 on switch procurve1.
+  Removing VLAN # 820 ... Removed VLAN 820 on switch procurve1.
+  Removing VLAN # 813 ... Removed VLAN 813 on switch procurve1.
+  Removing VLAN # 807 ... Removed VLAN 807 on switch procurve1.
+  Removing VLAN # 826 ... Removed VLAN 826 on switch procurve1.
+  Removing VLAN #801 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #798 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #811 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #796 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #786 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #829 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #819 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #806 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #800 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #827 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #795 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #807 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #817 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #830 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #826 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #803 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #831 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #794 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #793 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #810 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #785 on cisco8 ... Succeeded.
+    Applying VLAN changes on cisco8 ... Succeeded
+  Removing VLAN #801 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #796 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #786 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #829 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #806 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #827 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #791 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #805 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #818 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #815 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #810 on cisco5 ... Succeeded.
+    Applying VLAN changes on cisco5 ... Succeeded
+  Removing VLAN #809 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #819 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #800 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #827 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #492 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #799 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #807 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #830 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #797 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #789 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #803 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #831 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #793 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #810 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+  Removing VLAN #785 on cisco3 ... Succeeded.
+    Applying VLAN changes on cisco3 ... Succeeded
+TIMESTAMP: 09:32:45:697285 snmpit finished
+Removing dynamic blobs.
+Tearing down virtual nodes.
+TIMESTAMP: 09:32:45:871625 vnode_setup -k started
+vnode_setup running at parallelization: 10 wait_time: 3000
+Vnode teardown finished.
+TIMESTAMP: 09:32:47:428992 vnode_setup finished
+Removing logical wires.
+Freeing nodes.
+TIMESTAMP: 09:32:48:520014 nfree started
+Releasing all nodes from experiment [Experiment: FCT/spoke].
+Moving [Node: pc87] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc100] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc285] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc207] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc523] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc255] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc543] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc541] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc278] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc491] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc552] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc554] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc499] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc542] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc206] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc303] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc353] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc537] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc494] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc421] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc122] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc302] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc220] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc104] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc256] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc496] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc547] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc517] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc492] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc493] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc544] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc559] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc115] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc209] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc91] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc283] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc205] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc498] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc340] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc500] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc210] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc93] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc277] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc301] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc503] to [Experiment: emulab-ops/reloadpending]
+Moving [Node: pc546] to [Experiment: emulab-ops/reloadpending]
+*** Console log for pc122 does not exist! Skipping ...
+TIMESTAMP: 09:33:17:175356 nfree finished
+Resetting mountpoints.
+TIMESTAMP: 09:33:17:179975 exports started
+TIMESTAMP: 09:33:22:274180 exports finished
+Resetting named maps.
+TIMESTAMP: 09:33:22:277726 named started
+TIMESTAMP: 09:33:24:996221 named finished
+Resetting email lists.
+TIMESTAMP: 09:33:25:1327 genelists started
+TIMESTAMP: 09:33:26:227925 genelists finished
+Resetting DB.
+Successfully finished swap-out for FCT/spoke. 09:33:26:863303
+TIMESTAMP: 09:33:26:864524 tbswap out finished (succeeded)

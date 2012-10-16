@@ -1,0 +1,68 @@
+seed = 1285418400
+Physical Graph: 70
+Calculating shortest paths on switch fabric.
+Virtual Graph: 12
+Generating physical equivalence classes:44
+Type precheck:
+Type precheck passed.
+Node mapping precheck:
+Node mapping precheck succeeded
+Pruning pclasses.
+pclass pruning complete: removed 36 pclasses, 8 remain.
+Type precheck:
+Type precheck passed.
+Policy precheck:
+Policy precheck succeeded
+Annealing.
+Doing melting run
+Reverting: forced
+Reverting to best solution
+Done
+   BEST SCORE:  17.02 in 17000 iters and 1.13397 seconds
+With 0 violations
+Iters to find best score:  11009
+Violations: 0
+  unassigned:  0
+  pnode_load:  0
+  no_connect:  0
+  link_users:  0
+  bandwidth:   0
+  desires:     0
+  vclass:      0
+  delay:       0
+  trivial mix: 0
+  subnodes:    0
+  max_types:   0
+  endpoints:   0
+Nodes:
+node0 pc303
+node1 pc170
+node10 pc294
+node11 pc287
+node2 pc3
+node3 pc62
+node4 pc284
+node5 pc283
+node6 pc176
+node7 pc171
+node8 pc23
+node9 pc51
+End Nodes
+Edges:
+linksimple/link0/node0:0,node1:0 interswitch  link-pc303:eth5-cisco8:(null) (pc303/eth5,(null)) link-cisco3:cisco8 ((null),(null)) link-cisco4:cisco3 ((null),(null)) link-pc170:eth1-cisco4:(null) (pc170/eth1,(null))
+linksimple/link1/node1:1,node7:0 intraswitch link-pc170:eth2-cisco4:(null) (pc170/eth2,(null)) link-pc171:eth1-cisco4:(null) (pc171/eth1,(null))
+linksimple/link10/node3:1,node9:0 intraswitch link-pc62:eth3-cisco1:(null) (pc62/eth3,(null)) link-pc51:eth3-cisco1:(null) (pc51/eth3,(null))
+linksimple/link11/node8:1,node9:1 intraswitch link-pc23:eth0-cisco1:(null) (pc23/eth0,(null)) link-pc51:eth4-cisco1:(null) (pc51/eth4,(null))
+linksimple/link12/node10:0,node4:2 intraswitch link-pc294:eth2-cisco5:(null) (pc294/eth2,(null)) link-pc284:eth2-cisco5:(null) (pc284/eth2,(null))
+linksimple/link13/node11:0,node5:2 intraswitch link-pc287:eth2-cisco5:(null) (pc287/eth2,(null)) link-pc283:eth2-cisco5:(null) (pc283/eth2,(null))
+linksimple/link14/node10:1,node11:1 intraswitch link-pc294:eth3-cisco5:(null) (pc294/eth3,(null)) link-pc287:eth3-cisco5:(null) (pc287/eth3,(null))
+linksimple/link2/node0:1,node6:0 interswitch  link-pc303:eth4-cisco8:(null) (pc303/eth4,(null)) link-cisco3:cisco8 ((null),(null)) link-cisco4:cisco3 ((null),(null)) link-pc176:eth1-cisco4:(null) (pc176/eth1,(null))
+linksimple/link3/node1:2,node5:0 interswitch  link-pc170:eth3-cisco4:(null) (pc170/eth3,(null)) link-cisco3:cisco8 ((null),(null)) link-cisco4:cisco3 ((null),(null)) link-pc283:eth5-cisco8:(null) (pc283/eth5,(null))
+linksimple/link4/node0:2,node4:0 intraswitch link-pc303:eth2-cisco5:(null) (pc303/eth2,(null)) link-pc284:eth3-cisco5:(null) (pc284/eth3,(null))
+linksimple/link5/node1:3,node2:0 interswitch  link-pc170:eth4-cisco4:(null) (pc170/eth4,(null)) link-cisco1:cisco3 ((null),(null)) link-cisco4:cisco3 ((null),(null)) link-pc3:eth0-cisco1:(null) (pc3/eth0,(null))
+linksimple/link6/node6:1,node7:1 intraswitch link-pc176:eth2-cisco4:(null) (pc176/eth2,(null)) link-pc171:eth2-cisco4:(null) (pc171/eth2,(null))
+linksimple/link7/node4:1,node5:1 intraswitch link-pc284:eth4-cisco8:(null) (pc284/eth4,(null)) link-pc283:eth4-cisco8:(null) (pc283/eth4,(null))
+linksimple/link8/node2:1,node3:0 intraswitch link-pc3:eth1-cisco1:(null) (pc3/eth1,(null)) link-pc62:eth4-cisco1:(null) (pc62/eth4,(null))
+linksimple/link9/node2:2,node8:0 intraswitch link-pc3:eth2-cisco1:(null) (pc3/eth2,(null)) link-pc23:eth1-cisco1:(null) (pc23/eth1,(null))
+End Edges
+End solution

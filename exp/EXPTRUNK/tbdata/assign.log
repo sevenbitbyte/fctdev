@@ -1,0 +1,168 @@
+seed = 1304373963
+Physical Graph: 188
+Calculating shortest paths on switch fabric.
+Virtual Graph: 13
+Generating physical equivalence classes:183
+Type precheck:
+Type precheck passed.
+Node mapping precheck:
+Node mapping precheck succeeded
+Pruning pclasses.
+pclass pruning complete: removed 53 pclasses, 130 remain.
+Type precheck:
+Type precheck passed.
+Policy precheck:
+Policy precheck succeeded
+Annealing.
+Adjusting dificulty estimate for fixed nodes, 1 remain.
+Doing melting run
+Reverting: forced
+Reverting to best solution
+Done
+   BEST SCORE:  11.24 in 17000 iters and 0.606863 seconds
+With 0 violations
+Iters to find best score:  3
+Violations: 0
+  unassigned:  0
+  pnode_load:  0
+  no_connect:  0
+  link_users:  0
+  bandwidth:   0
+  desires:     0
+  vclass:      0
+  delay:       0
+  trivial mix: 0
+  subnodes:    0
+  max_types:   0
+  endpoints:   0
+Nodes:
+node0 pc299
+node1 pc321
+node10 pc60
+node11 pc313
+node12 pc315
+node2 pc357
+node3 pc279
+node4 pc341
+node5 pc278
+node6 pc284
+node7 pc307
+node8 pc242
+node9 pc335
+End Nodes
+Edges:
+linksimple/link0/node0:0,node1:0 interswitch  link-pc299:eth2-cisco5:(null) (pc299/eth2,(null)) link-cisco8:cisco5 ((null),(null)) link-pc321:eth4-cisco8:(null) (pc321/eth4,(null))
+linksimple/link1/node1:1,node3:0 intraswitch link-pc321:eth5-cisco5:(null) (pc321/eth5,(null)) link-pc279:eth2-cisco5:(null) (pc279/eth2,(null))
+linksimple/link11/node2:2,node11:0 intraswitch link-pc357:eth4-cisco8:(null) (pc357/eth4,(null)) link-pc313:eth4-cisco8:(null) (pc313/eth4,(null))
+linksimple/link12/node2:3,node12:0 interswitch  link-pc357:eth2-cisco5:(null) (pc357/eth2,(null)) link-cisco8:cisco5 ((null),(null)) link-pc315:eth5-cisco8:(null) (pc315/eth5,(null))
+linksimple/link13/node1:3,node12:1 interswitch  link-pc321:eth2-cisco5:(null) (pc321/eth2,(null)) link-cisco8:cisco5 ((null),(null)) link-pc315:eth4-cisco8:(null) (pc315/eth4,(null))
+linksimple/link2/node2:0,node4:0 intraswitch link-pc357:eth5-cisco5:(null) (pc357/eth5,(null)) link-pc341:eth2-cisco5:(null) (pc341/eth2,(null))
+linksimple/link3/node1:2,node2:1 intraswitch link-pc321:eth3-cisco5:(null) (pc321/eth3,(null)) link-pc357:eth3-cisco5:(null) (pc357/eth3,(null))
+linksimple/link4/node0:1,node3:1 intraswitch link-pc299:eth4-cisco8:(null) (pc299/eth4,(null)) link-pc279:eth4-cisco8:(null) (pc279/eth4,(null))
+linksimple/link6/node3:2,node6:0 intraswitch link-pc279:eth3-cisco5:(null) (pc279/eth3,(null)) link-pc284:eth2-cisco5:(null) (pc284/eth2,(null))
+linksimple/link7/node3:3,node7:0 intraswitch link-pc279:eth5-cisco5:(null) (pc279/eth5,(null)) link-pc307:eth2-cisco5:(null) (pc307/eth2,(null))
+End Edges
+End solution
+Summary:
+cisco5 0 vnodes, 1600000 nontrivial BW, 0 trivial BW, type=(null)
+cisco8 0 vnodes, 1000000 nontrivial BW, 0 trivial BW, type=(null)
+pc279 1 vnodes, 400000 nontrivial BW, 0 trivial BW, type=pcvm
+    100000 link-pc279:eth2-cisco5:(null)
+    100000 link-pc279:eth3-cisco5:(null)
+    100000 link-pc279:eth4-cisco8:(null)
+    100000 link-pc279:eth5-cisco5:(null)
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc341 1 vnodes, 100000 nontrivial BW, 0 trivial BW, type=pc
+    100000 link-pc341:eth2-cisco5:(null)
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc307 1 vnodes, 100000 nontrivial BW, 0 trivial BW, type=pc
+    100000 link-pc307:eth2-cisco5:(null)
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc357 1 vnodes, 400000 nontrivial BW, 0 trivial BW, type=pcvm
+    100000 link-pc357:eth2-cisco5:(null)
+    100000 link-pc357:eth3-cisco5:(null)
+    100000 link-pc357:eth4-cisco8:(null)
+    100000 link-pc357:eth5-cisco5:(null)
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc335 1 vnodes, 0 nontrivial BW, 0 trivial BW, type=pc
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc284 1 vnodes, 100000 nontrivial BW, 0 trivial BW, type=pc
+    100000 link-pc284:eth2-cisco5:(null)
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc313 1 vnodes, 100000 nontrivial BW, 0 trivial BW, type=pc
+    100000 link-pc313:eth4-cisco8:(null)
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc321 1 vnodes, 400000 nontrivial BW, 0 trivial BW, type=pc
+    100000 link-pc321:eth2-cisco5:(null)
+    100000 link-pc321:eth3-cisco5:(null)
+    100000 link-pc321:eth4-cisco8:(null)
+    100000 link-pc321:eth5-cisco5:(null)
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc242 1 vnodes, 0 nontrivial BW, 0 trivial BW, type=pc
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc278 1 vnodes, 0 nontrivial BW, 0 trivial BW, type=pc
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc315 1 vnodes, 200000 nontrivial BW, 0 trivial BW, type=pc
+    100000 link-pc315:eth4-cisco8:(null)
+    100000 link-pc315:eth5-cisco8:(null)
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc299 1 vnodes, 200000 nontrivial BW, 0 trivial BW, type=pc
+    100000 link-pc299:eth2-cisco5:(null)
+    100000 link-pc299:eth4-cisco8:(null)
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=3000
+    ?+ram: used=0 total=2048
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+pc60 1 vnodes, 0 nontrivial BW, 0 trivial BW, type=pc
+    ?+virtpercent: used=0 total=100
+    ?+cpu: used=0 total=850
+    ?+ram: used=0 total=256
+    ?+cpupercent: used=0 total=92
+    ?+rampercent: used=0 total=80
+Total physical nodes used: 13
+End summary
